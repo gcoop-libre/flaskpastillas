@@ -1,0 +1,9 @@
+div#footer {
+    color: gray;
+    text-align: right;
+}
+
+div.container {
+    margin-top: 1em;
+}
+

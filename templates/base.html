@@ -4,59 +4,34 @@
     <title>Test site</title>
     <link rel="stylesheet" href="/static/yaml/core/base.css" type="text/css"/>
     <link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <link href="/static/custom.css" rel="stylesheet" type="text/css" >
 </head>
 
 <body>
 
-  <div class="page_margins">
 
-    <div id="border-top">
-      <div id="edge-tl"></div>
-      <div id="edge-tr"></div>
-    </div>
-    <div class="page">
+<div class='container'>
 
-      <div id="topnav">
-        <!-- start: skip link navigation -->
-        <a class="skip" title="skip link" href="#navigation">Skip to the navigation</a><span class="hideme">.</span>
-        <a class="skip" title="skip link" href="#content">Skip to the content</a><span class="hideme">.</span>
-        <!-- end: skip link navigation --><a href="#">Login</a> | <a href="#">Contact</a> | <a href="#">Imprint</a>
-      </div>
+{% block menu %}
+    <ul class="tabs">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Profile</a></li>
+    <li><a href="#">Messages</a></li>
+    <li><a href="#">Settings</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+{% endblock %}
 
-      <div id="main">
-
+<div class='row'>
         <h2>{% block content_title %}{% endblock %}</h2>
         {% block content %}{% endblock %}
+</div>
 
-        <table class="full">
-          <caption>Table Heading</caption>
-          <tbody>
-            <tr>
-              <th>Col 1</th>
-              <th>Col 2</th>
-              <th>Col 3</th>
-            </tr>
-            <tr>
-              <th>Row 1</th>
-              <td>content 1.1</td>
-              <td>content 1.2</td>
-            </tr>
-            <tr>
-              <th>Row 2 </th>
-              <td>content 2.1</td>
-              <td>content 2.3</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+<div class='row'>
+    <div id="footer">Desarrollado por gcoop</div>
+</div>
 
-      <div id="footer">Desarrollado por gcoop</div>
-    </div>
-    <div id="border-bottom">
-      <div id="edge-bl"></div>
-      <div id="edge-br"></div>
-    </div>
-  </div>
+</div> <!-- cierra container -->
 </body>
 
 
