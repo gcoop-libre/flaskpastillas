@@ -1,8 +1,17 @@
 {% extends 'base.html' %}
+
+{% block header %}
+<script src="/static/js/highcharts.js" type="text/javascript"></script>
+<script src="/static/js/estadisticas.js" type="text/javascript"></script>
+{% endblock %}
+
 {% block content %}
+
 
 <h1>Estadísticas</h1>
 
+<div id='container'></div>
+<div id='container_data'>[ ['hola', 10], ['chau', 20]]</div>
 
 <ul class="media-grid">
     <li>
