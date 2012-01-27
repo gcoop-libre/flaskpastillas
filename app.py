@@ -29,6 +29,11 @@ def homepage():
 def estadisticas_listar():
     return render_template('estadisticas_listar.html')
 
+@app.route("/llamada")
+def llamada_listar():
+    llamadas = Llamada.select()
+    return render_template('llamada_listar.html', llamadas=llamadas)
+
 @app.route("/llamada/crear", methods=['post', 'get'])
 def llamada_crear():
     LlamadaForm = model_form(Llamada)

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Llamadas</h1>
+
+<table class="bordered-table">
+<tr>
+    <th>Persona</th>
+    <th>Fecha</th>
+</tr>
+
+{% for llamada in llamadas %}
+<tr>
+    <td>{{ llamada.nombre_persona }}</td>
+    <td>{{ llamada.fecha }}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
