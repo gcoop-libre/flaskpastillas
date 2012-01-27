@@ -1,18 +1,23 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>Llamadas</h1>
+<h1>Llamada</h1>
 
+<a href='/llamada/crear' class='btn primary'>Cargar una llamada</a>
+
+<p>
 <table class="bordered-table">
 <tr>
     <th>Persona</th>
     <th>Fecha</th>
+    <th>Rellamada</th>
 </tr>
 
 {% for llamada in llamadas %}
 <tr>
     <td>{{ llamada.nombre_persona }}</td>
     <td>{{ llamada.fecha }}</td>
+    <td>{{ llamada.rellamada }}</td>
 </tr>
 {% endfor %}
 </table>
