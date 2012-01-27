@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Cargar una llamada</h1>
+
+<form method="POST" action='/llamada/crear'>
+{{ form.errors }}
+
+<fieldset>
+
+ {% for campo in form %}
+     <div class="clearfix">
+        <label>{{ campo.label }}</label>
+        <div class="input">
+            {{ campo }} 
+        </div>
+    </div>
+ {% endfor %}
+
+        <div class="input">
+ <button type='submimt' class='btn success'>Guardar</button>
+</div>
+
+</fieldset>
+</form>
+
+
+{% endblock %}

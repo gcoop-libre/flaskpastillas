@@ -4,9 +4,11 @@ from peewee import *
 
 from app import db
 
-class Note(db.Model):
-    message = TextField()
-    created = DateTimeField(default=datetime.datetime.now)
+class Llamada(db.Model):
+    nombre_persona = CharField()
+    rellamada = BooleanField()
+    observacion = TextField()
+    fecha = DateTimeField(default=datetime.datetime.now)
 
     def __unicode__(self):
-        return self.message
+        return self.nombre_persona

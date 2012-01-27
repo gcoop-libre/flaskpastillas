@@ -21,6 +21,14 @@
 {% endblock %}
 
 <div class='row'>
+
+      {% for category, message in get_flashed_messages(with_categories=true) %}
+        <div class="alert-message {{ category }}">
+          <a class="close" href="#">×</a>
+          <p>{{ message }}</p>
+        </div>
+      {% endfor %}
+
         <h2>{% block content_title %}{% endblock %}</h2>
         {% block content %}{% endblock %}
 </div>
