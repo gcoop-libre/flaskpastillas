@@ -4,17 +4,22 @@
 <h1>Cargar una llamada</h1>
 
 <form method="POST" action='/llamada/crear'>
-{{ form.errors }}
 
 <fieldset>
 
  {% for campo in form %}
-     <div class="clearfix">
-        <label>{{ campo.label }}</label>
-        <div class="input">
-            {{ campo }} 
+     {% if campo.name in form.errors %}
+         <div class="clearfix error">
+    {% else %}
+         <div class="clearfix">
+    {% endif %}
+            <label>{{ campo.label }}</label>
+            <div class="input">
+                {{ campo }}
+                {# Si no tiene error el help-line queda vacío y no es visible #}
+                <span class="help-inline"> {{ '<br>'.join(form.errors[campo.name]) }} </span>
+            </div>
         </div>
-    </div>
  {% endfor %}
 
         <div class="input">
