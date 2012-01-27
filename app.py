@@ -24,7 +24,7 @@ def admin_setup():
 def homepage():
     return render_template('homepage.html')
 
-@app.route("/estadisticas/listar")
+@app.route("/estadisticas")
 def estadisticas_listar():
     return render_template('estadisticas_listar.html')
 
