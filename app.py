@@ -24,6 +24,14 @@ def admin_setup():
 def homepage():
     return render_template('homepage.html')
 
+@app.route("/estadisticas/listar")
+def estadisticas_listar():
+    return render_template('estadisticas_listar.html')
+
+@app.route("/llamada/crear")
+def llamada_crear():
+    return render_template('llamada_crear.html')
+
 if __name__ == "__main__":
     admin_setup()
     app.run()

@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Test site</title>
-    <link rel="stylesheet" href="/static/yaml/core/base.css" type="text/css"/>
     <link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css" >
     <link href="/static/custom.css" rel="stylesheet" type="text/css" >
 </head>
@@ -14,11 +13,8 @@
 
 {% block menu %}
     <ul class="tabs">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Profile</a></li>
-    <li><a href="#">Messages</a></li>
-    <li><a href="#">Settings</a></li>
-    <li><a href="#">Contact</a></li>
+        <li class="active"><a href="/">Principal</a></li>
+        <li><a href="/estadisticas/listar">Estadísticas</a></li>
     </ul>
 {% endblock %}
 
