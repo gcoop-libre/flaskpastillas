@@ -1,10 +1,8 @@
 var chart;
 
 $(document).ready(function() {
-   var datos= [
-                ['asdasd', 10],
-                ['123asdasd', 10],
-            ];
+   var datos = eval($("#container_data").text());
+
    chart = new Highcharts.Chart({
       chart: {
          renderTo: 'container',

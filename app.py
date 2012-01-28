@@ -2,7 +2,7 @@ from flask import Flask
 from flask_peewee.auth import Auth
 from flask_peewee.db import Database
 from flask_peewee.admin import Admin
-from flask import render_template, flash, redirect, request, url_for
+from flask import render_template, flash, redirect, request, url_for, jsonify
 from wtfpeewee.orm import model_form
 
 
@@ -27,7 +27,11 @@ def homepage():
 
 @app.route("/estadisticas")
 def estadisticas_listar():
-    return render_template('estadisticas_listar.html')
+    llamadas_y_rellamadas = "[['Llamadas por primera vez', %d], ['Re-llamadas', %d]]" %(
+        Llamada.select().where(rellamada=False).count(),
+        Llamada.select().where(rellamada=True).count())
+
+    return render_template('estadisticas_listar.html', llamadas_y_rellamadas=llamadas_y_rellamadas)
 
 @app.route("/llamada")
 def llamada_listar():
