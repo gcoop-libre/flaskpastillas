@@ -35,7 +35,7 @@ def estadisticas_listar():
 
 @app.route("/llamada")
 def llamada_listar():
-    llamadas = Llamada.select().limit(5)
+    llamadas = Llamada.select().order_by(('fecha', 'desc')).limit(5)
     return render_template('llamada_listar.html', llamadas=llamadas)
 
 @app.route("/llamada/crear", methods=['post', 'get'])
@@ -49,8 +49,7 @@ def llamada_crear():
             llamada = Llamada()
             form.populate_obj(llamada)
             llamada.save()
-            flash("Se ha creado la llamada con identificador: %s" %(llamada.id))
-            return redirect(url_for('homepage'))
+            return redirect("/llamada?resaltar")
     else:
         form = LlamadaForm()
 

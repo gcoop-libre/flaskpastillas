@@ -1,5 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
+<script>
+$(document).ready(function() {
+    /* Muestra una animación para indicar cual es la ultima llamada ingresada. */
+    if (/resaltar/.test(window.location.href)) {
+        $("tr").eq(1).css('background-color', 'yellow')
+        $("tr").eq(1).animate({ backgroundColor: "#FFF"}, 1000);
+    }
+});
+</script>
 
 <h1>Llamada</h1>
 
@@ -7,7 +16,7 @@
 
 <p>
 <p>
-Listando las últimas 5 llamadas.
+Listando las llamadas mas recientes:
 
 <p>
 <table class="bordered-table">
