@@ -35,7 +35,7 @@ def estadisticas_listar():
 
 @app.route("/llamada")
 def llamada_listar():
-    llamadas = Llamada.select()
+    llamadas = Llamada.select().limit(5)
     return render_template('llamada_listar.html', llamadas=llamadas)
 
 @app.route("/llamada/crear", methods=['post', 'get'])
