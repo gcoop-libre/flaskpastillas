@@ -16,17 +16,19 @@
 
 <div class='container'>
 
-<div style='float: right'><a class='btn' href='/salir'>Salir</a></div>
-{% block menu %}
-    <ul class="tabs">
-        <li><a href="/">Principal</a></li>
-        <li><a href="/llamada">Llamada</a></li>
-        <li><a href="/estadisticas">Estadísticas</a></li>
-    </ul>
-{% endblock %}
+
+    <div style='float: right'><a class='btn' href='/salir'>Salir</a></div>
+    {% block menu %}
+        <ul class="tabs">
+            <li><a href="/">Principal</a></li>
+            <li><a href="/llamada">Llamada</a></li>
+            <li><a href="/estadisticas">Estadísticas</a></li>
+        </ul>
+    {% endblock %}
 
 <div class='row'>
 
+<div class='span16'>
       {% for category, message in get_flashed_messages(with_categories=true) %}
         <div class="alert-message {{ category }}">
           <a class="close" href="#">×</a>
@@ -34,7 +36,6 @@
         </div>
       {% endfor %}
 
-<div class='span16'>
         <h2>{% block content_title %}{% endblock %}</h2>
         {% block content %}{% endblock %}
 </div>
