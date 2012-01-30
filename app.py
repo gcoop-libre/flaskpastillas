@@ -25,6 +25,11 @@ def admin_setup():
 def homepage():
     return render_template('homepage.html')
 
+@app.route("/salir")
+def salir():
+    flash("Hasta luego!")
+    return redirect(url_for('homepage'))
+
 @app.route("/estadisticas")
 def estadisticas_listar():
     llamadas_y_rellamadas = "[['Llamadas por primera vez', %d], ['Re-llamadas', %d]]" %(
