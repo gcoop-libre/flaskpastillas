@@ -14,13 +14,32 @@ todas las bibliotecas para flask.
 Es una *muy* buena idea usar ipython adentro del virtualenv. Este link explica
 cómo hacerlo:
 
-    http://www.ahmedsoliman.com/2011/09/27/use-virtualenv-with-ipython-0-11/
+- http://www.ahmedsoliman.com/2011/09/27/use-virtualenv-with-ipython-0-11/
 
-Ejecutar la aplicación
-----------------------
+Ejecutar la aplicación en modo desarrollo
+-----------------------------------------
 
 Primero hay que entrar en el entorno, y luego
 lanzar del servidor de prueba::
 
     workon flaskpastillas
     python app.py
+
+
+Ejecutar la aplicación en modo producción
+-----------------------------------------
+
+Hay que ingresar en el entorno y luego abrir
+greenunicorn::
+
+    workon flaskpastillas
+    ~/.virtualenvs/flaskpastillas/bin/gunicorn app:app -b 0.0.0.0:8000
+
+Ten en cuenta que existe un parámetro ``-D`` para correr este
+comando como ``daemon``, y luego hay otro comando llamado
+``gunicorn-console`` para monitorizar los procesos.
+
+Por ejemplo::
+    
+    ~/.virtualenvs/flaskpastillas/bin/gunicorn app:app -b 0.0.0.0:8000
+    ~/.virtualenvs/flaskpastillas/bin/gunicorn-console
