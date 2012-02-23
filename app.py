@@ -3,7 +3,9 @@ from flask_peewee.auth import Auth
 from flask_peewee.db import Database
 from flask_peewee.admin import Admin
 from flask import render_template, flash, redirect, request, url_for, jsonify
-from wtfpeewee.orm import model_form
+from wtfpeewee.orm import model_form, Form
+
+from wtfpeewee.orm import f
 
 
 app = Flask(__name__)
@@ -43,6 +45,15 @@ def llamada_listar():
     llamadas = Llamada.select().order_by(('fecha', 'desc')).limit(5)
     return render_template('llamada_listar.html', llamadas=llamadas)
 
+class IMForm(Form):
+    protocol = f.SelectField(choices=[('aim', 'AIM'), ('msn', 'MSN')])
+    username = f.TextField()
+
+class ContactForm(Form):
+    first_name  = f.TextField()
+    last_name   = f.TextField()
+    im_accounts = f.FieldList(f.FormField(IMForm))
+
 @app.route("/llamada/crear", methods=['post', 'get'])
 def llamada_crear():
     LlamadaForm = model_form(Llamada)
@@ -58,7 +69,10 @@ def llamada_crear():
     else:
         form = LlamadaForm()
 
-    return render_template('llamada_crear.html', form=form)
+    #return render_template('llamada_crear.html', form=form)
+    form = ContactForm()
+    form.im_accounts.append_entry()
+    return render_template('llamada_crear.html', form=ContactForm())
 
 if __name__ == "__main__":
     admin_setup()
