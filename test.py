@@ -34,9 +34,10 @@ class TestModelo(unittest.TestCase):
     def test_guardar_datos_base(self):
         from models import DatosBase
 
-        datos = DatosBase()
+        datos = DatosBase(nombre='ejemplo')
         datos.save()
         assert datos.id
+        assert DatosBase.select().where(nombre="ejemplo").count()
 
 if __name__ == '__main__':
     deploy.crear_tablas()
