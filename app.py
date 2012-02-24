@@ -17,11 +17,6 @@ auth = Auth(app, db)
 
 from models import *
 
-def admin_setup():
-    admin = Admin(app, auth)
-    #admin.register(Note)
-
-    admin.setup()
 
 @app.route("/")
 def homepage():
@@ -75,5 +70,4 @@ def llamada_crear():
     return render_template('llamada_crear.html', form=ContactForm())
 
 if __name__ == "__main__":
-    admin_setup()
     app.run()
