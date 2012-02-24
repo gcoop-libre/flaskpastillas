@@ -20,8 +20,16 @@ class TestAcceso(unittest.TestCase):
         rv = self.app.get('/')
         d = pq(rv.data)
         assert 'Principal' in d(".tabs li:first").html()
-        
 
+
+class TestModelo(unittest.TestCase):
+
+    def test_guardar_datos_base(self):
+        from models import DatosBase
+
+        datos = DatosBase()
+        datos.save()
+        assert datos.id
 
 if __name__ == '__main__':
     unittest.main()

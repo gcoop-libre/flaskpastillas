@@ -11,3 +11,10 @@ class Llamada(db.Model):
 
     def __unicode__(self):
         return self.nombre_persona
+
+class DatosBase(db.Model):
+    pass
+
+class AbortoAntrior(db.Model):
+    tipo = CharField()
+    observaciones = TextField()

@@ -1,9 +1,10 @@
 import os
+import inspect
 from colorama import init
 from colorama import Fore, Back, Style
 
 import app
-from models import Llamada
+import models
 from config import DATABASE
 
 init(autoreset=True)
@@ -15,7 +16,13 @@ if os.path.exists(DATABASE['name']):
 
 #Crear tablas
 auth.User.create_table(fail_silently=True)
-Llamada.create_table(fail_silently=True)
+
+def es_un_modelo(clase):
+    return inspect.isclass(c) and issubclass(c, models.db.Model)
+
+for nombre, clase in [(n, c) for n, c in inspect.getmembers(models) if es_un_modelo(c)]:
+    clase.create_table(fail_silently=True)
+    print Fore.GREEN  + 'Creando tabla para ' + nombre
 
 #Crear usuario admin
 admin = auth.User(username='admin', admin=True, active=True)
