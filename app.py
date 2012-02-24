@@ -15,7 +15,7 @@ db = Database(app)
 
 auth = Auth(app, db)
 
-from models import *
+import models
 
 
 @app.route("/")
@@ -51,7 +51,7 @@ class ContactForm(Form):
 
 @app.route("/llamada/crear", methods=['post', 'get'])
 def llamada_crear():
-    LlamadaForm = model_form(Llamada)
+    LlamadaForm = model_form(models.DatosBase)
 
     if request.method == 'POST':
         form = LlamadaForm(request.form)

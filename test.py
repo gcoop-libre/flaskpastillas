@@ -26,6 +26,11 @@ class TestAcceso(unittest.TestCase):
         rv = self.app.get('/llamada/crear')
         d = pq(rv.data)
         assert 'Cargar una llamada' in rv.data
+
+    def test_puede_listar_llamadas(self):
+        rv = self.app.get('/llamada')
+        assert 'Llamada' in rv.data
+
        
 
 
