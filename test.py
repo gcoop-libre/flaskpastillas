@@ -21,6 +21,12 @@ class TestAcceso(unittest.TestCase):
         d = pq(rv.data)
         assert 'Principal' in d(".tabs li:first").html()
 
+    def test_puede_crear_llamada(self):
+        rv = self.app.get('/llamada/crear')
+        d = pq(rv.data)
+        assert 'Cargar una llamada' in rv.data
+       
+
 
 class TestModelo(unittest.TestCase):
 
