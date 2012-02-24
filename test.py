@@ -4,6 +4,7 @@ import app
 import unittest
 import tempfile
 import config
+import deploy
 
 from pyquery import PyQuery as pq
 
@@ -38,4 +39,5 @@ class TestModelo(unittest.TestCase):
         assert datos.id
 
 if __name__ == '__main__':
+    deploy.crear_tablas()
     unittest.main()

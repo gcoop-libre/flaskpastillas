@@ -13,7 +13,8 @@ class Llamada(db.Model):
         return self.nombre_persona
 
 class DatosBase(db.Model):
-    pass
+    nombre = CharField()
+    fecha = DateTimeField(default=datetime.datetime.now)
 
 class AbortoAntrior(db.Model):
     tipo = CharField()
