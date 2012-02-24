@@ -3,15 +3,6 @@ from peewee import *
 
 from app import db
 
-class Llamada(db.Model):
-    nombre_persona = CharField()
-    rellamada = BooleanField()
-    observacion = TextField()
-    fecha = DateTimeField(default=datetime.datetime.now)
-
-    def __unicode__(self):
-        return self.nombre_persona
-
 class DatosBase(db.Model):
     fecha = DateTimeField(default=datetime.datetime.now)
     telefono = CharField()
@@ -20,6 +11,12 @@ class DatosBase(db.Model):
 
     def __unicode__(self):
         return self.nombre
+
+    def cargar(self, form):
+        datos = form.data
+        self.nombre = datos['nombre']
+        self.edad = datos['edad']
+        self.save()
 
 class AbortoAnterior(db.Model):
     tipo = CharField()

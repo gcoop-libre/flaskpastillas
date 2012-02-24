@@ -12,6 +12,8 @@ $(document).ready(function(){
 
 <fieldset>
 
+{{ form.hidden_tag() }}
+
  {% for campo in form %}
     {% if campo.name in form.errors %}
          <div class="clearfix error">

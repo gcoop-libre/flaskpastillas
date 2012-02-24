@@ -21,16 +21,16 @@ Listando las llamadas mas recientes:
 <p>
 <table class="bordered-table">
 <tr>
-    <th>Persona</th>
+    <th>Nombre</th>
+    <th>Edad</th>
     <th>Fecha</th>
-    <th>Rellamada</th>
 </tr>
 
 {% for llamada in llamadas %}
 <tr>
-    <td>{{ llamada.nombre_persona }}</td>
+    <td>{{ llamada.nombre }}</td>
+    <td>{{ llamada.edad }}</td>
     <td>{{ llamada.fecha }}</td>
-    <td>{{ llamada.rellamada }}</td>
 </tr>
 {% endfor %}
 </table>

@@ -2,11 +2,8 @@ from flask import Flask
 from flask_peewee.auth import Auth
 from flask_peewee.db import Database
 from flask_peewee.admin import Admin
-from flask import render_template, flash, redirect, request, url_for, jsonify
-from wtfpeewee.orm import model_form, Form
-
-from wtfpeewee.orm import f
-
+from flask import render_template, flash, redirect
+from flask import request, url_for, jsonify
 
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
@@ -16,7 +13,7 @@ db = Database(app)
 auth = Auth(app, db)
 
 import models
-
+import forms
 
 @app.route("/")
 def homepage():
@@ -37,37 +34,24 @@ def estadisticas_listar():
 
 @app.route("/llamada")
 def llamada_listar():
-    llamadas = Llamada.select().order_by(('fecha', 'desc')).limit(5)
+    llamadas = models.DatosBase.select().order_by(('fecha', 'desc')).limit(5)
     return render_template('llamada_listar.html', llamadas=llamadas)
-
-class IMForm(Form):
-    protocol = f.SelectField(choices=[('aim', 'AIM'), ('msn', 'MSN')])
-    username = f.TextField()
-
-class ContactForm(Form):
-    first_name  = f.TextField()
-    last_name   = f.TextField()
-    im_accounts = f.FieldList(f.FormField(IMForm))
 
 @app.route("/llamada/crear", methods=['post', 'get'])
 def llamada_crear():
-    LlamadaForm = model_form(models.DatosBase)
 
     if request.method == 'POST':
-        form = LlamadaForm(request.form)
+        form = forms.DatosBaseForm(request.form, csrf_enabled=True)
+        print form
 
         if form.validate():
-            llamada = Llamada()
-            form.populate_obj(llamada)
-            llamada.save()
-            return redirect("/llamada?resaltar")
+            datos = models.DatosBase()
+            datos.cargar(form)
+            return redirect(url_for('llamada_listar'))
     else:
-        form = LlamadaForm()
+        form = forms.DatosBaseForm(csrf_enabled=True)
 
-    #return render_template('llamada_crear.html', form=form)
-    form = ContactForm()
-    form.im_accounts.append_entry()
-    return render_template('llamada_crear.html', form=ContactForm())
+    return render_template('llamada_crear.html', form=form)
 
 if __name__ == "__main__":
     app.run()
