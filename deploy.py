@@ -31,6 +31,16 @@ def crear_tablas():
     admin.save()
     print Fore.GREEN + "Creando usuario admin"
 
+    cargar_provincias()
+
+
+def cargar_provincias():
+    from data import PROVINCIAS
+
+    print Fore.GREEN + "Cargando la informacion de provincias"
+    for provincia, codigo in PROVINCIAS:
+        p = models.Provincia(nombre=provincia, codigo=codigo)
+        p.save()
 
 if __name__ == '__main__':
     crear_tablas()

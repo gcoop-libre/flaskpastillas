@@ -31,9 +31,6 @@ class TestAcceso(unittest.TestCase):
         rv = self.app.get('/llamada')
         assert 'Llamada' in rv.data
 
-       
-
-
 class TestModelo(unittest.TestCase):
 
     def test_guardar_datos_base(self):
@@ -43,6 +40,11 @@ class TestModelo(unittest.TestCase):
         datos.save()
         assert datos.id
         assert DatosBase.select().where(nombre="ejemplo").count()
+
+    def test_estan_las_provincias(self):
+        from models import Provincia
+
+        assert Provincia.select().where(nombre='BUENOS AIRES').count()
 
 if __name__ == '__main__':
     deploy.crear_tablas()

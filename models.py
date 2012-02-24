@@ -47,6 +47,13 @@ class DatosBase(Modelo):
         return self.nombre
 
 
+class Provincia(db.Model):
+    codigo = IntegerField()
+    nombre = CharField()
+
+    def __unicode__(self):
+        return "%s (%s)" % self.nombre, self.codigo
+
 """
 class AbortoAnterior(db.Model):
     tipo = CharField()
