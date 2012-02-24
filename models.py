@@ -2,7 +2,6 @@ import datetime
 from peewee import *
 
 from app import db
-from utils import consola
 
 class Modelo(db.Model):
     """Representa un modelo que se puede cargar desde un formulario.
