@@ -13,9 +13,14 @@ class Llamada(db.Model):
         return self.nombre_persona
 
 class DatosBase(db.Model):
-    nombre = CharField()
     fecha = DateTimeField(default=datetime.datetime.now)
+    telefono = CharField()
+    nombre = CharField()
+    edad = IntegerField()
 
-class AbortoAntrior(db.Model):
+    def __unicode__(self):
+        return self.nombre
+
+class AbortoAnterior(db.Model):
     tipo = CharField()
     observaciones = TextField()
