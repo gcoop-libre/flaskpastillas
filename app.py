@@ -26,9 +26,9 @@ def salir():
 
 @app.route("/estadisticas")
 def estadisticas_listar():
-    llamadas_y_rellamadas = "[['Llamadas por primera vez', %d], ['Re-llamadas', %d]]" %(
-        Llamada.select().where(rellamada=False).count(),
-        Llamada.select().where(rellamada=True).count())
+    llamadas_y_rellamadas = "[['Con nombre asd', %d], ['Con otro nombre', %d]]" %(
+        models.DatosBase.select().where(nombre="asd").count(),
+        models.DatosBase.select().where(nombre__ne="asd").count())
 
     return render_template('estadisticas_listar.html', llamadas_y_rellamadas=llamadas_y_rellamadas)
 
