@@ -12,25 +12,29 @@ $(document).ready(function() {
 
 <h1>Llamada</h1>
 
-<a href='/llamada/crear' class='btn primary'>Cargar una llamada</a>
+<a href='{{ url_for('llamada_crear') }}' class='btn primary'>Cargar una llamada</a>
 
 <p>
 <p>
-Listando las llamadas mas recientes:
+Listando los datos de base.
 
 <p>
 <table class="bordered-table">
 <tr>
     <th>Nombre</th>
     <th>Edad</th>
+    <th>Teléfono</th>
     <th>Fecha</th>
+    <th>Acciones</th>
 </tr>
 
 {% for llamada in llamadas %}
 <tr>
     <td>{{ llamada.nombre }}</td>
     <td>{{ llamada.edad }}</td>
-    <td>{{ llamada.fecha }}</td>
+    <td>{{ llamada.telefono }}</td>
+    <td>{{ llamada.fecha|dateformat('%d/%m/%Y') }}</td>
+    <td><a href='{{ url_for('agregar_llamada', id=llamada.id) }}'>Agregar</a></td>
 </tr>
 {% endfor %}
 </table>

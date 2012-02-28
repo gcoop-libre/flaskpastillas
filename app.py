@@ -32,7 +32,7 @@ def estadisticas_listar():
 
 @app.route("/llamada")
 def llamada_listar():
-    llamadas = models.DatosBase.select().order_by(('fecha', 'desc')).limit(5)
+    llamadas = models.DatosBase.select().order_by(('fecha', 'desc')).limit(10)
     return render_template('llamada_listar.html', llamadas=llamadas)
 
 @app.route("/llamada/crear", methods=['post', 'get'])
@@ -44,13 +44,21 @@ def llamada_crear():
 
         if form.validate():
             datos = models.DatosBase()
-            print form.data
             datos.cargar(form)
             return redirect(url_for('llamada_listar'))
     else:
         form = forms.DatosBaseForm(csrf_enabled=False)
 
     return render_template('llamada_crear.html', form=form)
+
+@app.route("/llamada/crear/<int:id>")
+def agregar_llamada(id):
+    return "HOla" + str(id)
+    pass
+
+@app.template_filter('dateformat')
+def dateformat(value, format):
+    return value.strftime(format)
 
 if __name__ == "__main__":
     app.run()
