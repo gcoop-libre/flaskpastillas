@@ -56,8 +56,18 @@ def llamada_crear():
 def agregar_llamada(id):
     import forms
 
-    form = forms.LlamadaForm(csrf_enabled=False)
-    form.datosbase_id.data = id
+    if request.method == 'POST':
+        form = forms.LlamadaForm(request.form, csrf_enabled=False)
+
+        if form.validate():
+            datos = models.Llamada()
+            datos.cargar(form)
+            flash("Se han guardado la llamada correctamente", 'success')
+            return redirect(url_for('llamada_listar'))
+    else:
+        form = forms.LlamadaForm(csrf_enabled=False)
+        form.datosbase_id.data = id
+
     return render_template('llamada_agregar.html', form=form)
 
 @app.template_filter('dateformat')

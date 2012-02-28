@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 <h1>Cargar una llamada</h1>
 
-<form method="POST" action='/llamada/agregar'>
+<form method="POST" action='/llamada/crear/{{ form.datosbase_id.data }}'>
 
 <fieldset>
  {% for campo in form %}
