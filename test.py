@@ -33,10 +33,16 @@ class TestAcceso(unittest.TestCase):
 
 class TestModelo(unittest.TestCase):
 
+    def setUp(self):
+        from models import DatosBase, Provincia
+        DatosBase.drop_table()
+        DatosBase.create_table()
+
     def test_guardar_datos_base(self):
-        from models import DatosBase
+        from models import DatosBase, Provincia
 
         datos = DatosBase(nombre='ejemplo')
+        datos.provincia = Provincia.get(id=10)
         datos.save()
         assert datos.id
         assert DatosBase.select().where(nombre="ejemplo").count()
@@ -45,6 +51,23 @@ class TestModelo(unittest.TestCase):
         from models import Provincia
 
         assert Provincia.select().where(nombre='BUENOS AIRES').count()
+
+    def test_contar_llamadas_por_provincias(self):
+        from models import Provincia, DatosBase
+
+        for p in Provincia.select():
+            assert p.llamadas.count() == 0
+
+        datos = DatosBase(nombre='ejemplo')
+        datos.provincia = Provincia.get(id=10)
+        datos.save()
+
+        p1 = Provincia.get(id=10)
+        assert p1.llamadas.count() == 1
+
+
+
+
 
 if __name__ == '__main__':
     deploy.crear_tablas()

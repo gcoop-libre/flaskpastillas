@@ -37,22 +37,24 @@ class Modelo(db.Model):
 
         self.save()
 
-class DatosBase(Modelo):
-    fecha = DateTimeField(default=datetime.datetime.now)
-    telefono = CharField()
-    nombre = CharField()
-    edad = IntegerField()
-
-    def __unicode__(self):
-        return self.nombre
-
-
 class Provincia(db.Model):
     codigo = IntegerField()
     nombre = CharField()
 
     def __unicode__(self):
-        return "%s (%s)" % self.nombre, self.codigo
+        return "%s (%s)" %(self.nombre, self.codigo)
+
+class DatosBase(Modelo):
+    fecha = DateTimeField(default=datetime.datetime.now)
+    telefono = CharField()
+    nombre = CharField()
+    edad = IntegerField()
+    provincia = ForeignKeyField(Provincia, related_name='llamadas')
+
+    def __unicode__(self):
+        return self.nombre
+
+
 
 """
 class AbortoAnterior(db.Model):

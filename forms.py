@@ -1,5 +1,6 @@
-from flaskext.wtf import Form, TextField, DecimalField, TextField
-from flaskext.wtf import FormField, FieldList, SubmitField
+from flaskext.wtf import *
+import models
+from wtfpeewee.fields import ModelSelectField
 
 
 if __name__ == "__main__":
@@ -8,5 +9,9 @@ if __name__ == "__main__":
 class DatosBaseForm(Form):
     nombre = TextField("Nombre")
     edad = DecimalField("Edad")
+    #provincia = SelectField("Provincia", choices=[(1, 'asd'), (2, 'dasd')])
+    provincia = ModelSelectField("Provincia", model=models.Provincia)
+
     #canciones = FieldList(FormField(CancionForm))
     #submit = SubmitField("Agregar")
+

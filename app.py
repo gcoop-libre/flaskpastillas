@@ -9,11 +9,9 @@ app = Flask(__name__)
 app.config.from_pyfile('config.py')
 
 db = Database(app)
-
 auth = Auth(app, db)
 
 import models
-import forms
 
 @app.route("/")
 def homepage():
@@ -39,12 +37,14 @@ def llamada_listar():
 
 @app.route("/llamada/crear", methods=['post', 'get'])
 def llamada_crear():
+    import forms
 
     if request.method == 'POST':
         form = forms.DatosBaseForm(request.form, csrf_enabled=False)
 
         if form.validate():
             datos = models.DatosBase()
+            print form.data
             datos.cargar(form)
             return redirect(url_for('llamada_listar'))
     else:
