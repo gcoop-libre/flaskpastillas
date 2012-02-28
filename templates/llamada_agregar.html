@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<script>
+$(document).ready(function(){
+    $("#nombre_persona").focus();
+});
+</script>
+
+<h1>Cargar una llamada</h1>
+
+<form method="POST" action='/llamada/agregar'>
+
+<fieldset>
+ {% for campo in form %}
+    {% if campo.name != 'csrf' %} 
+        {% if campo.name in form.errors %}
+             <div class="clearfix error">
+        {% else %}
+             <div class="clearfix">
+        {% endif %}
+                <label>{{ campo.label }}</label>
+                <div class="input">
+                    {{ campo }}
+                    {# Si no tiene error el help-line queda vacío y no es visible #}
+                    <span class="help-inline"> {{ "<br/>".join(form.errors[campo.name]) }} </span>
+                </div>
+            </div>      <!-- end clearfix div -->
+    {% endif %}
+ {% endfor %}
+
+
+ {% for im in form.im_accounts %}
+    {{ im.protocol.label }}: {{ im.protocol }}
+ {% endfor %}
+
+        <div class="input">
+ <button type='submit' class='btn success'>Guardar</button>
+</div>
+
+</fieldset>
+</form>
+
+
+{% endblock %}

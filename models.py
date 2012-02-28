@@ -57,10 +57,13 @@ class DatosBase(Modelo):
     def __unicode__(self):
         return self.nombre
 
-
-
-"""
-class AbortoAnterior(db.Model):
-    tipo = CharField()
-    observaciones = TextField()
-"""
+class Llamada(Modelo):
+    fecha = DateTimeField(default=datetime.datetime.now)
+    motivo = IntegerField()
+    reconfirmo_embarazo = IntegerField()
+    metodo_comprobacion = IntegerField()
+    fum = DateTimeField()
+    edad_gestacional = IntegerField()
+    semana_entero = IntegerField()
+    motivo_mas_de_10_semanas = IntegerField()
+    cantidad_de_hijos = IntegerField()

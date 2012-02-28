@@ -45,16 +45,20 @@ def llamada_crear():
         if form.validate():
             datos = models.DatosBase()
             datos.cargar(form)
-            return redirect(url_for('llamada_listar'))
+            flash("Se han creado los datos base para '%s'" %(datos.nombre), 'success')
+            return redirect(url_for('agregar_llamada', id=datos.id))
     else:
         form = forms.DatosBaseForm(csrf_enabled=False)
 
     return render_template('llamada_crear.html', form=form)
 
-@app.route("/llamada/crear/<int:id>")
+@app.route("/llamada/crear/<int:id>", methods=['post', 'get'])
 def agregar_llamada(id):
-    return "HOla" + str(id)
-    pass
+    import forms
+
+    form = forms.LlamadaForm(csrf_enabled=False)
+    form.datosbase_id.data = id
+    return render_template('llamada_agregar.html', form=form)
 
 @app.template_filter('dateformat')
 def dateformat(value, format):

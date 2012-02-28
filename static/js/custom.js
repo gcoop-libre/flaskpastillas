@@ -6,5 +6,6 @@ $(document).ready(function (){
     $('ul.tabs li').has('a[href="'+seccion+'"]').addClass('active');
 
     $("#fum").datepicker();
+    $("a.close").click(function(){$("a.close").closest("div").fadeOut()});
 
 })
