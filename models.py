@@ -37,6 +37,9 @@ class Modelo(db.Model):
 
         self.save()
 
+    def cantidad_llamadas(self):
+        return self.llamadas.count()
+
 class Provincia(db.Model):
     codigo = IntegerField()
     nombre = CharField()
@@ -58,6 +61,7 @@ class DatosBase(Modelo):
         return self.nombre
 
 class Llamada(Modelo):
+    datosbase = ForeignKeyField(DatosBase, related_name='llamadas')
     fecha = DateTimeField(default=datetime.datetime.now)
     motivo = IntegerField()
     reconfirmo_embarazo = IntegerField()

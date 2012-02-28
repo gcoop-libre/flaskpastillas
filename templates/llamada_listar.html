@@ -2,7 +2,7 @@
 {% block content %}
 <script>
 $(document).ready(function() {
-    /* Muestra una animación para indicar cual es la ultima llamada ingresada. */
+    /* Muestra una animación para indicar cual es la ultima datosbase ingresada. */
     if (/resaltar/.test(window.location.href)) {
         $("tr").eq(1).css('background-color', 'yellow')
         $("tr").eq(1).animate({ backgroundColor: "#FFF"}, 2000);
@@ -10,9 +10,9 @@ $(document).ready(function() {
 });
 </script>
 
-<h1>Llamada</h1>
+<h1>Llamadas</h1>
 
-<a href='{{ url_for('llamada_crear') }}' class='btn primary'>Cargar una llamada</a>
+<a href='{{ url_for('llamada_crear') }}' class='btn primary'>Cargar una datosbase nueva</a>
 
 <p>
 <p>
@@ -22,19 +22,21 @@ Listando los datos de base.
 <table class="bordered-table">
 <tr>
     <th>Nombre</th>
+    <th>Llamadas</th>
     <th>Edad</th>
     <th>Teléfono</th>
     <th>Fecha</th>
     <th>Acciones</th>
 </tr>
 
-{% for llamada in llamadas %}
+{% for datosbase in lista_datosbase %}
 <tr>
-    <td>{{ llamada.nombre }}</td>
-    <td>{{ llamada.edad }}</td>
-    <td>{{ llamada.telefono }}</td>
-    <td>{{ llamada.fecha|dateformat('%d/%m/%Y') }}</td>
-    <td><a href='{{ url_for('agregar_llamada', id=llamada.id) }}'>Agregar</a></td>
+    <td>{{ datosbase.nombre }}</td>
+    <td>{{ datosbase.cantidad_llamadas() }}</td>
+    <td>{{ datosbase.edad }}</td>
+    <td>{{ datosbase.telefono }}</td>
+    <td>{{ datosbase.fecha|dateformat('%d/%m/%Y') }}</td>
+    <td><a href='{{ url_for('agregar_llamada', id=datosbase.id) }}'>Agregar</a></td>
 </tr>
 {% endfor %}
 </table>

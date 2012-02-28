@@ -32,8 +32,8 @@ def estadisticas_listar():
 
 @app.route("/llamada")
 def llamada_listar():
-    llamadas = models.DatosBase.select().order_by(('fecha', 'desc')).limit(10)
-    return render_template('llamada_listar.html', llamadas=llamadas)
+    datosbase = models.DatosBase.select().order_by(('fecha', 'desc')).limit(10)
+    return render_template('llamada_listar.html', lista_datosbase=datosbase)
 
 @app.route("/llamada/crear", methods=['post', 'get'])
 def llamada_crear():
