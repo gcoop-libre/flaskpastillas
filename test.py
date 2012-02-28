@@ -31,6 +31,18 @@ class TestAcceso(unittest.TestCase):
         rv = self.app.get('/llamada')
         assert 'Llamada' in rv.data
 
+    def test_crear_datos_base_permite_elegir_provincia(self):
+        rv = self.app.get('/llamada/crear')
+        d = pq(rv.data)
+
+        assert 'BUENOS AIRES' in d('#provincia').html()
+
+    def test_crear_datos_base_permite_elegir_barrio(self):
+        rv = self.app.get('/llamada/crear')
+        d = pq(rv.data)
+
+        assert 'Retiro' in d('#barrio').html()
+
 class TestModelo(unittest.TestCase):
 
     def setUp(self):

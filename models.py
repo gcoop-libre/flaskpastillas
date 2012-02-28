@@ -50,6 +50,7 @@ class DatosBase(Modelo):
     nombre = CharField()
     edad = IntegerField()
     provincia = ForeignKeyField(Provincia, related_name='llamadas')
+    barrio = IntegerField()
 
     def __unicode__(self):
         return self.nombre
