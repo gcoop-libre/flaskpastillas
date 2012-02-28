@@ -26,7 +26,7 @@ Listando los datos de base.
     <th>Edad</th>
     <th>Teléfono</th>
     <th>Fecha</th>
-    <th>Acciones</th>
+    <th class='centrar'>Acciones</th>
 </tr>
 
 {% for datosbase in lista_datosbase %}
@@ -36,7 +36,7 @@ Listando los datos de base.
     <td>{{ datosbase.edad }}</td>
     <td>{{ datosbase.telefono }}</td>
     <td>{{ datosbase.fecha|dateformat('%d/%m/%Y') }}</td>
-    <td><a href='{{ url_for('agregar_llamada', id=datosbase.id) }}'>Agregar</a></td>
+    <td class='centrar'><a href='{{ url_for('agregar_llamada', id=datosbase.id) }}'>Agregar</a></td>
 </tr>
 {% endfor %}
 </table>
