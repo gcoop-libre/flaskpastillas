@@ -5,4 +5,6 @@ $(document).ready(function (){
     seccion = '/' +  window.location.pathname.split('/')[1];
     $('ul.tabs li').has('a[href="'+seccion+'"]').addClass('active');
 
+    $("#fum").datepicker();
+
 })

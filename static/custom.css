@@ -11,3 +11,10 @@ div.container {
 select {
 background-color: white;
 }
+
+
+.datepicker table th, table td
+{
+    padding: 6px;
+    border: 0;
+}
