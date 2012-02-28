@@ -34,12 +34,13 @@ class DatosBaseForm(Form):
 class LlamadaForm(Form):
     s = Separador("", titulo="Semanas Gestacionales")
     
-    motivo = SelectField("Motivo", choices=[])
-    reconfirmo_embarazo = SelectField(u"Reconfirmó embarazo", choices=[])
+    motivo = SelectField("Motivo", choices=data.MOTIVO, coerce=int)
+    reconfirmo_embarazo = SelectField(u"Reconfirmó embarazo", choices=data.RECONFIRMO, coerce=int)
     fum = DateField("FUM", format='%d/%m/%Y')
-    edad_gestacional = SelectField("Edad gestacional", choices=[])
-    semana_entero = SelectField(u"En qué semana se enteró", choices=[])
-    motivo_mas_de_10_semanas = SelectField(u"Más de 10 semanas", choices=[])
+    edad_gestacional = IntegerField("Edad gestacional")
+    semana_entero = IntegerField(u"En qué semana se enteró")
+    motivo_mas_de_10_semanas = SelectField(u"Más de 10 semanas",
+                                           choices=data.MOTIVO_MAS_DE_10_SEMANAS, coerce=int)
     cantidad_de_hijos = IntegerField()
 
     datosbase_id = HiddenField("")
