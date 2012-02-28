@@ -51,6 +51,8 @@ class DatosBase(Modelo):
     edad = IntegerField()
     provincia = ForeignKeyField(Provincia, related_name='llamadas')
     barrio = IntegerField()
+    nacionalidad = CharField()
+    localidad = CharField()
 
     def __unicode__(self):
         return self.nombre
