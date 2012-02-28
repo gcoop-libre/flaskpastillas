@@ -41,15 +41,14 @@ def llamada_listar():
 def llamada_crear():
 
     if request.method == 'POST':
-        form = forms.DatosBaseForm(request.form, csrf_enabled=True)
-        print form
+        form = forms.DatosBaseForm(request.form, csrf_enabled=False)
 
         if form.validate():
             datos = models.DatosBase()
             datos.cargar(form)
             return redirect(url_for('llamada_listar'))
     else:
-        form = forms.DatosBaseForm(csrf_enabled=True)
+        form = forms.DatosBaseForm(csrf_enabled=False)
 
     return render_template('llamada_crear.html', form=form)
 

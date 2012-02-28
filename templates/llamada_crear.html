@@ -11,22 +11,21 @@ $(document).ready(function(){
 <form method="POST" action='/llamada/crear'>
 
 <fieldset>
-
-{{ form.hidden_tag() }}
-
  {% for campo in form %}
-    {% if campo.name in form.errors %}
-         <div class="clearfix error">
-    {% else %}
-         <div class="clearfix">
+    {% if campo.name != 'csrf' %} 
+        {% if campo.name in form.errors %}
+             <div class="clearfix error">
+        {% else %}
+             <div class="clearfix">
+        {% endif %}
+                <label>{{ campo.label }}</label>
+                <div class="input">
+                    {{ campo }}
+                    {# Si no tiene error el help-line queda vacío y no es visible #}
+                    <span class="help-inline"> {{ "<br/>".join(form.errors[campo.name]) }} </span>
+                </div>
+            </div>      <!-- end clearfix div -->
     {% endif %}
-            <label>{{ campo.label }}</label>
-            <div class="input">
-                {{ campo }}
-                {# Si no tiene error el help-line queda vacío y no es visible #}
-                <span class="help-inline"> {{ '<br>'.join(form.errors[campo.name]) }} </span>
-            </div>
-        </div>
  {% endfor %}
 
 
