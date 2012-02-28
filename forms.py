@@ -14,9 +14,10 @@ class DatosBaseForm(Form):
     provincia = ModelSelectField("Provincia", model=models.Provincia)
     localidad = TextField("Localidad")
 
-    barrio = SelectField("Barrio", choices=data.BARRIOS)
+    barrio = SelectField("Barrio", choices=data.BARRIOS, coerce=int)
     nacionalidad = TextField("Nacionalidad")
 
+    fum = DateField("FUM")
 
     #canciones = FieldList(FormField(CancionForm))
     #submit = SubmitField("Agregar")

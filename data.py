@@ -25,7 +25,8 @@ PROVINCIAS = [('BUENOS AIRES', 6),
               ('TIERRA DEL FUEGO', 94),
               ('TUCUMAN', 90)]
 
-BARRIOS = [(2, u'Agronomía'),
+BARRIOS = [(99, u'N/A'),
+           (2, u'Agronomía'),
            (3, u'Almagro'),
            (4, u'Balvanera'),
            (5, u'Barracas'),
