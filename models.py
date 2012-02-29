@@ -71,3 +71,8 @@ class Llamada(Modelo):
     semana_entero = IntegerField()
     motivo_mas_de_10_semanas = IntegerField()
     cantidad_de_hijos = IntegerField()
+
+    def set_datosbase_id(self, valor):
+        self.datosbase = DatosBase.get(id=valor)
+
+    datosbase_id = property(fset=set_datosbase_id)
