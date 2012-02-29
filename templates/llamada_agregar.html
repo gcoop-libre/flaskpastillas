@@ -6,6 +6,12 @@ $(document).ready(function(){
 });
 </script>
 
+<ul class="breadcrumb">
+    <li>{{ link_to("Listado", 'llamada_listar')|safe }} / </li>
+    <li>{{ link_to("Datos basicos", 'ver_datosbase', id=form.datosbase_id.data)|safe }} / </li>
+    <li class="active"><a href="#">Llamada</a></li>
+</ul>
+
 <h1>Cargar una llamada</h1>
 
 <form method="POST" action='/llamada/crear/{{ form.datosbase_id.data }}'>
