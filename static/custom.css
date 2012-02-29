@@ -23,3 +23,8 @@ background-color: white;
 td.centrar, th.centrar {
     text-align: center;
 }
+
+dl dt {
+    float: left;
+    width: 100px;
+}

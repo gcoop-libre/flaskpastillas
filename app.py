@@ -52,6 +52,11 @@ def llamada_crear():
 
     return render_template('llamada_crear.html', form=form)
 
+@app.route("/llamada/ver/<int:id>")
+def ver_datosbase(id):
+    datosbase = models.DatosBase.get(id=id)
+    return render_template('ver_datosbase.html', datosbase=datosbase)
+
 @app.route("/llamada/crear/<int:id>", methods=['post', 'get'])
 def agregar_llamada(id):
     import forms
@@ -73,6 +78,15 @@ def agregar_llamada(id):
 @app.template_filter('dateformat')
 def dateformat(value, format):
     return value.strftime(format)
+
+@app.context_processor
+def helpers_personalizados():
+    import flask
+
+    def link_to(body, url, *k, **kv):
+        return "<a href='%s'>%s</a>" %(url_for(url, *k, **kv), body)
+
+    return {'link_to': link_to}
 
 if __name__ == "__main__":
     app.run()

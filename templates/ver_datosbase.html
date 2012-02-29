@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+<ul class="breadcrumb">
+    <li>{{ link_to("Listado", 'llamada_listar')|safe }} / </li>
+    <li class="active"><a href="#">Detalle</a></li>
+</ul>
+
+
+<h1>Detalles de datos basicos</h1>
+
+
+<p>
+<dl>
+    <dt>Nombre</td>
+    <dd>{{datosbase.nombre}}</dd>
+
+    <dt>Fecha</td>
+    <dd>{{datosbase.fecha}}</dd>
+
+    <dt>Teléfono</td>
+    <dd>{{datosbase.telefono}}</dd>
+
+    <dt>Edad</td>
+    <dd>{{datosbase.edad}}</dd>
+
+    <dt>Provincia</td>
+    <dd>{{datosbase.provincia.nombre}}</dd>
+
+    <dt>Barrio</dt>
+    <dd>{{datosbase.barrio}}</dd>
+
+    <dt>Nacionalidad</dt>
+    <dd>{{datosbase.nacionalidad}}</dd>
+
+    <dt>Localidad</dt>
+    <dd>{{datosbase.localidad}}</dd>
+
+    <dt>Llamadas</dt>
+    <dd>{{datosbase.llamadas.count()}}</dd>
+
+
+</dl>
+
+
+{% endblock %}
