@@ -1,0 +1,38 @@
+<div id='{{ id }}' style="margin: auto; height: {{size}}px"></div>
+
+<script>
+var chart = new Highcharts.Chart({
+    chart: {
+        renderTo: '{{ id }}',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+    },
+    title: {
+        text: '{{ title }}',
+    },
+
+      tooltip: {
+         formatter: function() {
+            return '<b>'+ this.point.name +'</b>: '+ Math.round(this.percentage) +' %';
+         }
+      },
+      plotOptions: {
+         pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+               enabled: true,
+               formatter: function() {
+                  return '<b>'+ this.point.name +'</b>: '+ Math.round(this.percentage * 100) / 100 +' %';
+               }
+            }
+         }
+      },
+    
+       series: [{
+         type: 'pie',
+         data: {{ values|safe }},
+      }]
+});
+</script>

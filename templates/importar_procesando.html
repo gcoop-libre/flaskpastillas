@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block header %}
+    <script src="/static/js/importador.js"></script>
+
+    <script>
+    $(document).ready(function () {
+        monitorizar_tarea('{{id_tarea}}');
+    });
+    </script>
+{% endblock %}
+
+
+{% block content %}
+
+
+<h1>Procesando el archivo {{nombre}}</h1>
+
+<div class='box'>
+    <img style='float: left; margin-right: 2em;' src='/static/procesando.gif'>
+
+    <div class="progress">
+      <div class="bar" style="width: 0%;"></div>
+    </div>
+
+    <div class='plegable'>
+        <div class='titulo' style='clear: both'>
+            <strong style='clear: both'>Detalle</strong>
+        </div>
+
+        <div class='cuerpo' id='status'>
+            <table>
+                <tr>
+                    <td>Estado</td>  <td id='mensaje'></td>
+                </tr>
+                <tr>
+                    <td>Total</td>   <td id='total'></td>
+                </tr>
+                <tr>
+                    <td>Procesados</td>   <td id='procesados'></td>
+                </tr>
+                <tr>
+                    <td>Correctos</td>   <td id='correctos'></td>
+                </tr>
+                <tr>
+                    <td>Con errores</td>   <td id='incorrectos'></td>
+                </tr>
+            </table>
+        </div>
+
+        <div style='display: none' id='mensaje_de_error'>
+            Hay <span id='cantidad_errores'>#</span> error(es) en el archivo procesado.
+        </div>
+    </div>
+</div>
+
+<a id='cancelar' class='btn error' href='/importar/cancelar'>Cancelar</a>
+<a id='boton_error' style='display: none' class='btn info' href='/importar/descargar/{{ruta_al_archivo_errores}}'>Descargar registros erroneos</a>
+<a id='procesar' style='display: none' class='btn success' href='/importar/confirmar'>Procesar registros</a>
+
+{% endblock %}

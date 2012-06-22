@@ -10,37 +10,105 @@
 <h1>Detalles de datos basicos</h1>
 
 
-<p>
-<dl>
-    <dt>Nombre</td>
-    <dd>{{datosbase.nombre}}</dd>
+<table style='width: 50%'>
+  <tr>
+    <th>Nombre</th>
+    <td>{{datosbase.nombre}}</td>
+  </tr>
 
-    <dt>Fecha</td>
-    <dd>{{datosbase.fecha}}</dd>
+  <tr>
+    <th>Número de ficha</th>
+    <td>{{datosbase.numero_de_ficha}}</td>
+  </tr>
 
-    <dt>Teléfono</td>
-    <dd>{{datosbase.telefono}}</dd>
+  <tr>
+    <th>Fecha</th>
+    <td>{{datosbase.fecha}}</td>
+  </tr>
 
-    <dt>Edad</td>
-    <dd>{{datosbase.edad}}</dd>
+  <tr>
+    <th>Teléfono</th>
+    <td>{{datosbase.telefono}}</td>
+  </tr>
 
-    <dt>Provincia</td>
-    <dd>{{datosbase.provincia.nombre}}</dd>
+  <tr>
+    <th>Edad</th>
+    <td>{{datosbase.edad}}</td>
+  </tr>
 
-    <dt>Barrio</dt>
-    <dd>{{datosbase.barrio}}</dd>
+  <tr>
+    <th>Provincia</th>
+    <td>{{datosbase.provincia.nombre}}</td>
+  </tr>
 
-    <dt>Nacionalidad</dt>
-    <dd>{{datosbase.nacionalidad}}</dd>
+  <tr>
+    <th>Barrio</th>
+    <td>{{datosbase.barrio}}</td>
+  </tr>
 
-    <dt>Localidad</dt>
-    <dd>{{datosbase.localidad}}</dd>
+  <tr>
+    <th>Nacionalidad</th>
+    <td>{{datosbase.nacionalidad}}</td>
+  </tr>
 
-    <dt>Llamadas</dt>
-    <dd>{{datosbase.llamadas.count()}}</dd>
+  <tr>
+    <th>Localidad</th>
+    <td>{{datosbase.localidad | safe}}</td>
+  </tr>
+</table>
 
+<h2>Llamadas:</h2>
 
-</dl>
+{% for (indice, llamada) in llamadas %}
+    <h3>Llamada: {{indice+1}} </h3>
+
+<table style='width: 50%'>
+    <tr>
+        <th>Fecha</th>
+        <td>{{llamada.fecha}}</td>
+    <tr>
+
+    <tr>
+        <th>Motivo</th>
+        <td>{{llamada.motivo}}</td>
+    <tr>
+
+    <tr>
+        <th>Reconfirmó embarazo</th>
+        <td>{{llamada.reconfirmo_embarazo}}</td>
+    <tr>
+
+    <tr>
+        <th>Método de comprobación</th>
+        <td>{{llamada.metodo_comprobacion}}</td>
+    <tr>
+
+    <tr>
+        <th>FUM</th>
+        <td>{{llamada.fum}}</td>
+    <tr>
+
+    <tr>
+        <th>Edad gestacional</th>
+        <td>{{llamada.edad_gestacional}}</td>
+    <tr>
+
+    <tr>
+        <th>Semana en la que se enteró</th>
+        <td>{{llamada.semana_entero}}</td>
+    <tr>
+
+    <tr>
+        <th>Motivo mas de 10 semanas</th>
+        <td>{{llamada.motivo_mas_de_10_semanas}}</td>
+    <tr>
+
+    <tr>
+        <th>Cantidad de hijos</th>
+        <td>{{llamada.cantidad_de_hijos}}</td>
+    <tr>
+</table>
+{% endfor %}
 
 
 {% endblock %}

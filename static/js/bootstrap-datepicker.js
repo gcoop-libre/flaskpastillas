@@ -102,6 +102,7 @@
 			} else {
 				this.element.prop('value', formated);
 			}
+
 		},
 		
 		place: function(){
@@ -253,6 +254,7 @@
 								type: 'changeDate',
 								date: this.date
 							});
+                            this.hide();
 						}
 						break;
 				}

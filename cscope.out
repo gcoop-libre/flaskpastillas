@@ -1,0 +1,10617 @@
+cscope 15 $HOME/proyectos/flaskpastillas               0000093720
+	@README.rst
+
+1 
+	gIn¡®aci
+Ã³
+	gn
+
+
+4 
+P¬a
+ 
+»®iz¬
+ 
+Ï
+ 
+	gš¡®aci
+Ã³
+n
+ 
+Ãûs™amos
+ 
+ü—r
+ 
+un
+ 
+’tÜno
+ 
+e
+ 
+š¡®¬
+
+
+5 
+todas
+ 
+Ïs
+ 
+bibliÙeÿs
+ 
+·¿
+ 
+	gæask
+.
+
+9 
+mkdœ
+ 
+æask·¡Ïs
+
+
+10 
+cd
+ 
+æask·¡Ïs
+
+
+11 
+mkvœtu®’v
+ 
+æask·¡Ïs
+
+
+12 
+wÜkÚ
+ 
+æask·¡Ïs
+
+
+13 
+p
+ 
+š¡®l
+ -
+r
+ 
+»quœem’ts
+.
+txt
+
+
+16 
+Es
+ 
+uÇ
+ *
+muy
+* 
+bu’a
+ 
+id—
+ 
+u§r
+ 
+ythÚ
+ 
+ad’Œo
+ 
+d–
+ 
+vœtu®’v
+. 
+Sob»todo
+
+
+17 
+si
+ 
+e¡
+Ã¡
+s
+ 
+d•u¿ndo
+ 
+co§s
+ 
+o
+ 
+šve¡igªdo
+.
+
+19 
+E¡e
+ 
+lšk
+ 
+ex¶iÿ
+ 
+c
+Ã³
+mo
+ 
+haû¾o
+:
+
+21 - 
+h‰p
+:
+
+23 
+Ejecur
+ 
+Ï
+ 
+­liÿci
+Ã³
+n
+ 
+’
+ 
+modo
+ 
+de§¼Şlo
+
+
+26 
+Prim”o
+ 
+hay
+ 
+que
+ 
+’Œ¬
+ 
+’
+ 
+–
+ 
+’tÜno
+, 
+y
+ 
+luego
+
+
+27 
+Ïnz¬
+ 
+d–
+ 
+£rvidÜ
+ 
+de
+ 
+	g´ueba
+::
+
+29 
+wÜkÚ
+ 
+æask·¡Ïs
+
+
+30 
+pythÚ
+ 
+­p
+.
+py
+
+
+33 
+InicŸr
+ 
+Redis
+ 
+y
+ 
+C–”y
+
+
+36 
+El
+ 
+si¡ema
+ 
+de
+ 
+impÜci
+Ã³
+n
+ d
+»gi¡ros
+ 
+’
+ 
+–
+ si¡em¨
+£
+ 
+»®iz
+Ã³
+
+37 
+u§ndo
+ 
+C–”y
+, 
+	gas
+Ã­ 
+que
+ 
+si
+ 
+qu›»s
+ 
+u§r
+ 
+e§
+ 
+funciÚ®idad
+ 
+hay
+
+
+38 
+unos
+ 
+·sos
+ 
+	gmas
+...
+
+40 
+Prim”o
+ 
+es
+ 
+cÚv’›Áe
+ 
+šicŸr
+ 
+Redis
+ (
+back’d
+ 
+de
+ 
+d©os
+/
+comuniÿci
+Ã³
+n
+), 
+y
+
+
+41 
+luego
+ 
+šicŸr
+ 
+C–”y
+ 
+desde
+ 
+–
+ 
+’tÜno
+ 
+vœtu®
+ 
+de
+ 
+	gpythÚ
+.
+
+43 
+Ab»
+ 
+un
+ 
+‹rmš®
+ 
+y
+ 
+ejecu
+ 
+–
+ 
+£rvidÜ
+ 
+de
+ 
+	g»dis
+::
+
+45 
+»dis
+-
+£rv”
+
+
+47 
+Luego
+, 
+desde
+ 
+Ùro
+ 
+‹rmš®
+ 
+	gpodr
+Ã­
+as
+ 
+šg»§r
+ 
+’
+ 
+–
+ 
+’tÜno
+
+
+48 
+vœtu®
+ 
+y
+ 
+Ïnz¬
+ 
+	gC–”y
+::
+
+50 
+wÜkÚ
+ 
+æask·¡Ïs
+
+
+51 
+pythÚ
+ 
+mªage
+.
+py
+ 
+ûËryd
+
+
+54 
+Ejecur
+ 
+Ï
+ 
+­liÿci
+Ã³
+n
+ 
+’
+ 
+modo
+ 
+´oducci
+Ã³n
+
+57 
+Hay
+ 
+que
+ 
+šg»§r
+ 
+’
+ 
+–
+ 
+’tÜno
+ 
+y
+ 
+luego
+ 
+abrœ
+
+
+58 
+g»’unicÜn
+::
+
+60 
+wÜkÚ
+ 
+æask·¡Ïs
+
+
+61 ~/.
+vœtu®’vs
+/
+æask·¡Ïs
+/
+bš
+/
+gunicÜn
+ 
+­p
+:­°-
+b
+ 0.0.0.0:8000
+
+63 
+T’
+ 
+’
+ 
+cu’
+ 
+que
+ 
+exi¡e
+ 
+un
+ 
+·r
+Ã¡
+m‘ro
+ ``-
+D
+`` 
+·¿
+ 
+cÜ»r
+ 
+e¡e
+
+
+64 
+comªdo
+ 
+como
+ ``
+d«mÚ
+``, 
+y
+ 
+luego
+ 
+hay
+ 
+Ùro
+ comªdØ
+	gÎamado
+
+
+65 ``
+	ggunicÜn
+-
+	gcÚsŞe
+`` 
+·¿
+ 
+mÚ™Üiz¬
+ 
+los
+ 
+	g´oûsos
+.
+
+67 
+PÜ
+ 
+	gejem¶o
+::
+
+69 ~/.
+vœtu®’vs
+/
+æask·¡Ïs
+/
+bš
+/
+gunicÜn
+ 
+­p
+:­°-
+b
+ 0.0.0.0:8000
+
+70 ~/.
+vœtu®’vs
+/
+æask·¡Ïs
+/
+bš
+/
+gunicÜn
+-
+cÚsŞe
+
+
+	@app.py
+
+1 #-*- 
+’codšg
+: 
+utf
+-8 -*-
+
+2 
+impÜt
+ 
+os
+
+
+3 
+impÜt
+ 
+¿ndom
+
+
+4 
+impÜt
+ 
+»dis
+
+
+6 
+äom
+ 
+æask
+ 
+impÜt
+ 
+FÏsk
+
+
+7 
+äom
+ 
+	gæask_³ew“
+.
+auth
+ 
+impÜt
+ 
+Auth
+
+
+8 
+äom
+ 
+	gæask_³ew“
+.
+db
+ 
+impÜt
+ 
+D©aba£
+
+
+9 
+äom
+ 
+³ew“
+ 
+impÜt
+ 
+Q
+
+
+10 
+äom
+ 
+	gæask_³ew“
+.
+admš
+ 
+impÜt
+ 
+Admš
+
+
+11 
+äom
+ 
+æask
+ 
+impÜt
+ 
+	g»nd”_‹m¶©e
+, 
+	gæash
+, 
+»dœeù
+
+
+12 
+äom
+ 
+æask
+ 
+impÜt
+ 
+	g»que¡
+, 
+	gu¾_fÜ
+, 
+	gjsÚify
+, 
+g
+
+
+13 
+äom
+ 
+funùoŞs
+ 
+impÜt
+ 
+w¿ps
+
+
+14 
+äom
+ 
+w”kzeug
+ 
+impÜt
+ 
+£cu»_f’ame
+
+
+15 
+äom
+ 
+	gæask
+.
+	gext
+.
+ûËry
+ 
+impÜt
+ 
+C–”y
+
+
+16 
+äom
+ 
+æask_debugtoŞb¬
+ 
+impÜt
+ 
+DebugToŞb¬Ex‹nsiÚ
+
+
+17 
+äom
+ 
+ûËry
+ 
+impÜt
+ 
+exû±iÚs
+
+
+19 
+äom
+ 
+uts
+ 
+impÜt
+ 
+Prog»so
+
+
+22 
+	g­p
+ = 
+	$FÏsk
+(
+__Çme__
+)
+
+23 
+­p
+.
+cÚfig
+.
+	`äom_pyfe
+('config.py')
+
+26 
+db
+ = 
+	$D©aba£
+(
+­p
+)
+
+27 
+auth
+ = 
+	$Auth
+(
+­p
+, 
+db
+)
+
+28 
+adm
+ = 
+	$Admš
+(
+­p
+, 
+auth
+)
+
+29 
+ûËry
+ = 
+	$C–”y
+(
+­p
+)
+
+30 #toŞb¬ = 
+	`DebugToŞb¬Ex‹nsiÚ
+(
+­p
+)
+
+33 
+impÜt
+ 
+mod–s
+
+
+36 @
+­p
+.
+	`rou‹
+("/")
+
+37 @
+auth
+.
+logš_»quœed
+
+
+38 
+def
+ 
+	$hom•age
+():
+
+39  
+	`»dœeù
+(
+	`u¾_fÜ
+('llamada_listar'))
+
+41 @
+­p
+.
+	`rou‹
+("/llamada")
+
+42 @
+auth
+.
+logš_»quœed
+
+
+43 
+def
+ 
+	$Îamada_li¡¬
+():
+
+44  
+	`»nd”_‹m¶©e
+('llamada_listar.html')
+
+46 @
+­p
+.
+	`rou‹
+("/obtener_llamadas")
+
+47 
+def
+ 
+	$ob‹Ãr_Îamadas
+():
+
+48 
+qu”y
+ = 
+mod–s
+.
+D©osBa£
+.
+	$£Ëù
+()
+
+49 
+tÙ®
+ = 
+mod–s
+.
+D©osBa£
+.
+	`£Ëù
+().
+	$couÁ
+()
+
+51 
+£¬ch
+ = 
+»que¡
+.
+¬gs
+.
+	`g‘
+('sSearch')
+
+52 
+lim™e
+ = (
+»que¡
+.
+¬gs
+.
+	`g‘
+('iDisplayLength'))
+
+53 
+desde
+ = (
+»que¡
+.
+¬gs
+.
+	`g‘
+('iDisplayStart'))
+
+55 
+d©osba£
+ = 
+qu”y
+.
+	`Üd”_by
+(('ãcha', 'desc')).
+	`·gš©e
+(
+desde
+/
+lim™e
+,†imite)
+
+56 
+d©osba£
+ = d©osba£.
+	`wh”e
+(
+	$Q
+(
+nomb»__icÚšs
+=
+£¬ch
+))
+
+58 #ExŒ« 
+los
+ 
+d©os
+ 
+’
+ 
+fÜm©o
+ 
+de
+ 
+bÏ
+ 
+y
+†o 
+»tÜÇ
+ 
+cÚv”tidos
+ƒÀ
+jsÚ
+.
+
+59 
+d©os
+ = [
+	$cÚv”tœ_’_fÜm©o_de_bÏ
+(
+d
+èd 
+š
+ 
+d©osba£
+]
+
+61  
+	`jsÚify
+({'¯D©a': 
+d©os
+, 'iTÙ®Di¥ÏyRecÜds': 
+d©osba£
+.
+	`couÁ
+(), 'iTÙ®RecÜds': 
+tÙ®
+})
+
+63 
+def
+ 
+	$cÚv”tœ_’_fÜm©o_de_bÏ
+(
+d©osba£
+):
+
+65 
+Çme
+ = 
+	`lšk_to
+(
+d©osba£
+.
+nomb»
+, 'v”_d©osba£', 
+id
+=datosbase.id)
+
+66 
+ÿÁidad
+ = 
+d©osba£
+.
+	$ÿÁidad_Îamadas
+()
+
+67 
+edad
+ = 
+d©osba£
+.edad
+
+68 
+‹l
+ = 
+d©osba£
+.
+‹ËfÚo
+
+
+69 
+ãcha
+ = 
+d©osba£
+.ãcha.
+	`¡ráime
+('%d/%m/%Y')
+
+70 
+acciÚes
+ = "<¨h»f='%s'>Ag»g¬</a>" %(
+	`u¾_fÜ
+('ag»g¬_Îamada', 
+id
+=
+d©osba£
+.id))
+
+71  [
+Çme
+, 
+ÿÁidad
+, 
+edad
+, 
+‹l
+, 
+ãcha
+, 
+acciÚes
+]
+
+73 @
+­p
+.
+	`rou‹
+("/salir")
+
+74 
+def
+ 
+	$§lœ
+():
+
+75 
+auth
+.
+	$logout
+()
+
+76  
+	`»dœeù
+("/")
+
+78 @
+­p
+.
+	`rou‹
+("/estadisticas")
+
+79 @
+auth
+.
+logš_»quœed
+
+
+80 
+def
+ 
+	$e¡adi¡iÿs_li¡¬
+():
+
+81 #Obt›Ã 
+ÿÁidad
+ 
+de
+ 
+³rsÚas
+ d
+dos
+ 
+grupos
+: 
+los
+ 
+que
+ 
+t›Ãn
+ 
+mªu®
+ 
+y
+†o qu
+no
+.
+
+82 
+t›Ãn_mªu®
+ = "[['Tiene manual', %d], ['Noiene manual', %d]]" %(
+
+83 
+mod–s
+.
+LÏmada
+.
+	`£Ëù
+().
+	`wh”e
+(
+t›Ã_mªu®
+=
+True
+).
+	`couÁ
+(),
+
+84 
+mod–s
+.
+LÏmada
+.
+	`£Ëù
+().
+	`wh”e
+(
+t›Ã_mªu®
+=
+F®£
+).
+	$couÁ
+())
+
+86 #Obt›Ã 
+uÇ
+ 
+li¡a
+ 
+de
+ 
+´ovšcŸs
+ 
+y
+ 
+Ï
+ 
+ÿÁidad
+ d
+³rsÚas
+ 
+que
+ 
+hª
+ 
+Îamado
+
+
+87 #d
+ÿda
+ 
+	`uÇ
+ (
+£
+ 
+su´im’
+ 
+Ïs
+ 
+´ovšcŸs
+ 
+de
+†a 
+que
+ 
+no
+ s
+ha
+ 
+Îamado
+
+
+89 
+´ovšcŸs
+ = [[
+	`¡r
+(
+x
+.
+nomb»
+), x.
+d©os_ba£
+.
+	`couÁ
+()] x 
+š
+ 
+mod–s
+.
+ProvšcŸ
+.
+	$£Ëù
+()
+
+90 
+x
+.
+d©os_ba£
+.
+	`couÁ
+() > 0]
+
+92  
+	`»nd”_‹m¶©e
+('e¡adi¡iÿs_li¡¬.html', 
+t›Ãn_mªu®
+ñ›Ãn_mªu®, 
+´ovšcŸs
+=
+	`¡r
+(provincias))
+
+95 @
+­p
+.
+	`rou‹
+("/Îamada/ü—r", 
+m‘hods
+=['post', 'get'])
+
+96 @
+auth
+.
+logš_»quœed
+
+
+97 
+def
+ 
+	$Îamada_ü—r
+():
+
+98 
+impÜt
+ 
+fÜms
+
+
+100 
+»que¡
+.
+m‘hod
+ == 'POST':
+
+101 
+fÜm
+ = 
+fÜms
+.
+	$D©osBa£FÜm
+(
+»que¡
+.
+fÜm
+, 
+c¤f_’abËd
+=
+F®£
+)
+
+103 
+fÜm
+.
+	$v®id©e
+():
+
+104 
+d©os
+ = 
+mod–s
+.
+	$D©osBa£
+()
+
+105 
+d©os
+.
+	$ÿrg¬
+(
+fÜm
+)
+
+106 
+	`æash
+("Shª c»adØlo d©o ba£…¬¨'%s'" %(
+d©os
+.
+nomb»
+), 'success')
+
+107  
+	`»dœeù
+(
+	`u¾_fÜ
+('ag»g¬_Îamada', 
+id
+=
+d©os
+.id))
+
+109 
+fÜm
+ = 
+fÜms
+.
+	$D©osBa£FÜm
+(
+c¤f_’abËd
+=
+F®£
+)
+
+111  
+	`»nd”_‹m¶©e
+('Îamada_ü—r.html', 
+fÜm
+=form)
+
+113 @
+­p
+.
+	`rou‹
+("/llamada/ver/<int:id>")
+
+114 @
+auth
+.
+logš_»quœed
+
+
+115 
+def
+ 
+	$v”_d©osba£
+(
+id
+):
+
+116 
+d©osba£
+ = 
+mod–s
+.
+D©osBa£
+.
+	$g‘
+(
+id
+=id)
+
+117 
+Îamadas
+ = 
+	$’um”©e
+(
+d©osba£
+.
+Îamadas
+)
+
+118  
+	`»nd”_‹m¶©e
+('v”_d©osba£.html', 
+d©osba£
+=d©osba£, 
+Îamadas
+=llamadas)
+
+120 @
+­p
+.
+	`rou‹
+("/Îamada/ü—r/<št:id>", 
+m‘hods
+=['post', 'get'])
+
+121 @
+auth
+.
+logš_»quœed
+
+
+122 
+def
+ 
+	$ag»g¬_Îamada
+(
+id
+):
+
+123 
+impÜt
+ 
+fÜms
+
+
+125 
+»que¡
+.
+m‘hod
+ == 'POST':
+
+126 
+fÜm
+ = 
+fÜms
+.
+	$LÏmadaFÜm
+(
+»que¡
+.
+fÜm
+, 
+c¤f_’abËd
+=
+F®£
+)
+
+128 
+fÜm
+.
+	$v®id©e
+():
+
+129 
+d©os
+ = 
+mod–s
+.
+	$LÏmada
+()
+
+130 
+d©os
+.
+	$ÿrg¬
+(
+fÜm
+)
+
+131 
+	`æash
+("Se han guardado†a†lamada correctamente", 'success')
+
+132  
+	`»dœeù
+(
+	`u¾_fÜ
+('llamada_listar'))
+
+134 
+fÜm
+ = 
+fÜms
+.
+	$LÏmadaFÜm
+(
+c¤f_’abËd
+=
+F®£
+)
+
+135 
+fÜm
+.
+d©osba£_id
+.
+d©a
+ = 
+id
+
+
+137  
+	`»nd”_‹m¶©e
+('Îamada_ag»g¬.html', 
+fÜm
+=form)
+
+139 @
+­p
+.
+	`‹m¶©e_f‹r
+('dateformat')
+
+140 
+def
+ 
+	$d©efÜm©
+(
+v®ue
+, 
+fÜm©
+):
+
+141  
+v®ue
+.
+	$¡ráime
+(
+fÜm©
+)
+
+143 
+def
+ 
+	$lšk_to
+(
+body
+, 
+u¾
+, *
+k
+, **
+kv
+):
+
+144  "<¨h»f='%s'>%s</a>" %(
+	`u¾_fÜ
+(
+u¾
+, *
+k
+, **
+kv
+), 
+body
+)
+
+146 
+def
+ 
+	`h–³r_javasüt
+(
+u¾
+, 
+ba£·th
+='/¡©ic/js/', *
+k
+, **
+kv
+):
+
+147  "<süˆ¤c='{ba£·th}{u¾}'y³='‹xt/javasüt'></süt>".
+	$fÜm©
+(
+u¾
+=u¾, 
+ba£·th
+=basepath)
+
+149 
+def
+ 
+	$ü—‹_¿ndom_id
+(
+´efix
+):
+
+151 
+®—tÜio
+ = 
+¿ndom
+.
+	$¿ndšt
+(1000, 2000)
+
+152  "%s_%d" %(
+´efix
+, 
+®—tÜio
+)
+
+154 
+def
+ 
+	`h–³r_p›
+(
+v®ues
+, 
+t™Ë
+="uÁ™Ëd", 
+size
+=100):
+
+155 
+id
+ = 
+	`ü—‹_¿ndom_id
+("pie")
+
+156 
+size
+ = ((400 / 100.0) * size)
+
+157  
+	`»nd”_‹m¶©e
+('p›.html', 
+id
+=id, 
+size
+=size, 
+t™Ë
+ñ™Ë, 
+v®ues
+=values)
+
+159 
+def
+ 
+	`h–³r_ch¬t
+(
+v®ues
+, 
+t™Ë
+="uÁ™Ëd", 
+size
+=100):
+
+160 
+id
+ = 
+	`ü—‹_¿ndom_id
+("chart")
+
+161 
+size
+ = ((400 / 100.0) * size)
+
+162  
+	`»nd”_‹m¶©e
+('ch¬t.html', 
+id
+=id, 
+size
+=size, 
+t™Ë
+ñ™Ë, 
+v®ues
+=values)
+
+164 @
+­p
+.
+cÚ‹xt_´oûssÜ
+
+
+165 
+def
+ 
+	$h–³rs_³rsÚ®izados
+():
+
+166 
+impÜt
+ 
+æask
+
+
+167  {'lšk_to': 
+lšk_to
+, 'javasüt': 
+h–³r_javasüt
+, 'p›': 
+h–³r_p›
+, 'ch¬t': 
+h–³r_ch¬t
+}
+
+169 @
+­p
+.
+rou‹
+('/logš', 
+m‘hods
+=['post', 'get'])
+
+170 
+def
+ 
+	$logš
+():
+
+171 
+»que¡
+.
+m‘hod
+ == 'POST':
+
+172 
+	`es_usu¬io_v®ido
+(
+»que¡
+.
+fÜm
+['nombre'],„equest.form['password']):
+
+173 
+g
+.
+u£r
+ = 
+»que¡
+.
+fÜm
+['nombre']
+
+174  
+	`»dœeù
+('/')
+
+176 
+	`æash
+("El‚ombre de usuario o†a clave son incorrectas", 'warning')
+
+177  
+	`»dœeù
+(
+	`u¾_fÜ
+('login'))
+
+179  
+	`»nd”_‹m¶©e
+('login.html')
+
+181 @
+­p
+.
+	`rou‹
+("/importar")
+
+182 @
+auth
+.
+logš_»quœed
+
+
+183 
+def
+ 
+	$com’z¬_a_impÜr
+():
+
+184  
+	`»nd”_‹m¶©e
+('importar.html')
+
+186 
+def
+ 
+	$es_¬chivo_³rm™ido
+(
+¬chivo
+):
+
+188  '.' 
+š
+ 
+¬chivo
+ 
+ªd
+‡rchivo.
+	`’dsw™h
+('xls')
+
+190 @
+­p
+.
+	`rou‹
+("/impÜr/subœ", 
+m‘hods
+=['POST'])
+
+191 @
+auth
+.
+logš_»quœed
+
+
+192 
+def
+ 
+	$impÜr_subœ_¬chivo
+():
+
+193 
+»que¡
+.
+m‘hod
+ == 'POST':
+
+194 
+fe
+ = 
+»que¡
+.
+fes
+['archivo']
+
+195 
+fe
+ 
+ªd
+ 
+	$es_¬chivo_³rm™ido
+(
+fe
+.
+f’ame
+):
+
+196 
+f’ame
+ = 
+	$£cu»_f’ame
+(
+fe
+.
+f’ame
+)
+
+197 
+fe
+.
+	`§ve
+(
+os
+.
+·th
+.
+	`još
+(
+­p
+.
+cÚfig
+['UPLOAD_FOLDER'], 
+f’ame
+))
+
+198  
+	`»dœeù
+(
+	`u¾_fÜ
+('impÜciÚ_´oû§ndo', 
+f’ame
+=filename))
+
+200 
+	`æash
+("EÈ¬chivØ% nØe uÀ¬chivØexûÈ2003/XP/2000 v®ido" %(
+fe
+.
+f’ame
+), "error")
+
+201  
+	`»dœeù
+(
+	`u¾_fÜ
+('importar'))
+
+203  
+	`»nd”_‹m¶©e
+('importar.html')
+
+205 @
+­p
+.
+	`rou‹
+("/importar/procesando/<filename>")
+
+206 @
+auth
+.
+logš_»quœed
+
+
+207 
+def
+ 
+	$impÜciÚ_´oû§ndo
+(
+f’ame
+):
+
+208 
+ru_®_¬chivo
+ = 
+os
+.
+·th
+.
+	`još
+(
+­p
+.
+cÚfig
+['UPLOAD_FOLDER'], 
+f’ame
+)
+
+210 
+Œy
+:
+
+211 
+»s
+ = 
+impÜr
+.
+	`­¶y_async
+((
+ru_®_¬chivo
+, ))
+
+212 
+id_»a
+ = 
+»s
+.
+sk_id
+
+
+213 
+exû±
+ 
+»dis
+.
+exû±iÚs
+.
+CÚÃùiÚE¼Ü
+ 
+as
+ 
+e
+:
+
+214 
+	`æash
+("E¼Ü dcÚexiÚ cÚ„edis: %s" %(
+e
+), 'error')
+
+215  
+	`»dœeù
+(
+	`u¾_fÜ
+('comenzar_a_importar'))
+
+217  
+	`»nd”_‹m¶©e
+("impÜr_´oû§ndo.html", 
+nomb»
+=
+f’ame
+, 
+ru_®_¬chivo
+ôu_®_¬chivo, 
+id_»a
+=id_tarea)
+
+221 @
+ûËry
+.
+	`sk
+(
+Çme
+="app.importar")
+
+222 
+def
+ 
+	$impÜr
+(
+ru
+):
+
+224 
+äom
+ 
+impÜdÜ
+ 
+impÜt
+ 
+ImpÜdÜ
+
+
+226 
+impÜdÜ
+ = 
+	$ImpÜdÜ
+(
+ru
+, 0.20)
+
+227 
+´og»so
+ = 
+	$Prog»so
+(
+impÜdÜ
+.
+tÙ®
+)
+
+229 
+fa
+ 
+š
+ 
+	$¿nge
+(
+impÜdÜ
+.
+tÙ®
+):
+
+230 
+impÜdÜ
+.
+	$´oû§r_»gi¡ro
+(
+´og»so
+)
+
+231 
+impÜr
+.
+	`upd©e_¡©e
+(
+¡©e
+="PROGRESS", 
+m‘a
+=
+´og»so
+.
+	`como_dicciÚ¬io
+())
+
+233 @
+­p
+.
+	`rou‹
+("/importar/obtener_estado/<tarea_id>")
+
+234 @
+auth
+.
+logš_»quœed
+
+
+235 
+def
+ 
+	$ob‹Ãr_e¡ado
+(
+»a_id
+):
+
+237 
+»suÉado
+ = 
+impÜr
+.
+	$AsyncResuÉ
+(
+»a_id
+)
+
+239 
+»suÉado
+.
+	$»ady
+():
+
+240  
+	`jsÚify
+({'»suÉado': 
+»suÉado
+.
+»suÉ
+})
+
+242 
+»suÉado
+.
+¡©us
+ == 'PROGRESS':
+
+243  
+	$jsÚify
+(
+»suÉado
+.
+šfo
+)
+
+245  
+	`jsÚify
+({'¡©us': 
+»suÉado
+.
+¡©us
+})
+
+247 @
+­p
+.
+rou‹
+("/importar/cancelar")
+
+248 @
+auth
+.
+logš_»quœed
+
+
+249 
+def
+ 
+	$ÿnûÏr
+():
+
+250 
+	`æash
+("Se ha cancelado†a importacion de„egistros", 'warning')
+
+251  
+	`»dœeù
+(
+	`u¾_fÜ
+('llamada_listar'))
+
+253 @
+­p
+.
+	`rou‹
+("/importar/confirmar")
+
+254 @
+auth
+.
+logš_»quœed
+
+
+255 
+def
+ 
+	$cÚfœm¬
+():
+
+256 
+	`æash
+("Se han incorporado‚uevos„egistros‡l sistema", 'info')
+
+257  
+	`»dœeù
+(
+	`u¾_fÜ
+('llamada_listar'))
+
+259 
+def
+ 
+	$g’”¬_admši¡¿dÜ
+(
+adm
+):
+
+260 
+adm
+.(
+mod–s
+.
+ProvšcŸ
+)
+
+261 
+adm
+.(
+mod–s
+.
+D©osBa£
+)
+
+262 
+adm
+.(
+mod–s
+.
+LÏmada
+)
+
+263 
+adm
+.(
+mod–s
+.
+AbÜtoAÁ”iÜ
+)
+
+264 
+adm
+.(
+mod–s
+.
+InfÜmaciÚIncÜ»ùa
+)
+
+265 
+adm
+.(
+mod–s
+.
+IÁ’toDeAbÜto
+)
+
+266 
+adm
+.(
+auth
+.
+U£r
+)
+
+267 
+adm
+.
+	$£tup
+()
+
+269 
+__Çme__
+ == "__main__":
+
+270 
+	$g’”¬_admši¡¿dÜ
+(
+adm
+)
+
+271 
+­p
+.
+	`run
+()
+
+	@app.pyc
+
+3  
+
+4                                            
+
+5                                   ƒ ! ! " #  ƒ  ! ƒ $  ! $ ƒ %  ! % ƒ &  ! ƒ     ' ' ! (  ƒ % )  „  ƒ ƒ * ! (  ƒ % )  „  ƒ ƒ + ! (  ƒ  „  ƒ ,  „  - ! (  ƒ  „  ƒ . ! (  ƒ % )  „  ƒ ƒ / ! (      ƒ% )  „  ƒ ƒ 0 ! (   ƒ % ) ! „  ƒ ƒ 1 ! ( "     ƒ% ) # „  ƒ ƒ 2 ! 3 $ ƒ % „  ƒ 4 & „  5 ' ( „ 6 ) „  7 * + , „ 8 * + - „ 9 ! : . „  ƒ ; ! ( /     ƒ0 „  ƒ < ! ( 1 ƒ % ) 2 „  ƒ ƒ = 3 „  > ! ( 4  5  ƒ% ) 6 „  ƒ ƒ ? ! ( 7 ƒ % ) 8 „  ƒ ƒ @   9 : ƒ ; „  ƒ  ! ( < ƒ % ) = „  ƒ ƒ  ! ( > ƒ % ) ? „  ƒ ƒ  ! ( @ ƒ % )  „  ƒ ƒ   „       0 & ƒ !  ƒ     (D   ÿÿÿÿN(      (      (      (      (      (      _‹m¶©‘      (         _fÜt      (      (      _f’ame(      (      (   
+
+6    (          .pyt   /c                     ƒ ƒ (      _li¡¬(          (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   $          /Îamadac              
+
+7       ƒ (      _li¡¬.html(      (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyR   )          /ob‹Ãr_Îamadasc             á       ƒ  }      ƒ   ƒ  }     ƒ }      ƒ ƒ }      ƒ ƒ } |   
+
+8  ƒ   | | | ƒ } | 
+
+9     | ƒ ƒ }   | ] }   | ƒ ^ ¤ }    |  6|  ƒ   6|   6ƒ Ğ                      __icÚš¡          (         (                               _byt            _’_fÜm©o_de_bÏR
+
+10    (                            (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _Îamadas.                        |     |   ƒ} |   ƒ  } |   } |   } |     ƒ }     |   ƒ} | | | | | |  (       uÀ»gi¡rØdd©o ba£ƒÀuÇ†i¡¨dûlda ·¿ uÇabÏ.ˆ   _d©osba£t      %d/%m/%Ys   <¨h»f='%s'>Ag»g¬</a>t   _ÎamadaĞ      _tÙ   3      _Îamada¡                (   .         8            (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyR(   ?          /§lœc                    ƒ    ƒ (      (            (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt          
+
+11    /e¡adi¡iÿsc             ±        ƒ     ƒ  ƒ      ƒ     ƒ  ƒ   }        ƒ  ]9 } |   ƒ       | 
+
+12  ƒ |   ƒ   ^  }     |     | ƒ ƒ(   /   [['T›Ã mªu®', %d], ['NØt›Ã mªu®', %d]]ˆ   _mªu®i       _li¡¬.htmÉ    _mªu®t
+
+13    Ğ             '      !          
+
+14    _ba£t   6      (            (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _li¡¬N        %9   /Îamada/ü—¹      #                ª        }      ˆ |       ƒ} |  ƒ  š   ƒ  } |   | ƒ 
+
+15   |    ƒ      |  ƒƒ  |     ƒ }     | ƒ(
+
+16    ÿÿÿÿt       _’abËds&    hª c»adØlo d©o ba£…¬¨'%s't   4   3      _ü—r.htmÉ   (                                     6          3      (         0   (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyˆ   _ü—r_          /Îamada/v”/<:id>c            :        |  ƒ }  |  ƒ }    |  | ƒ(   3      _d©osba£.htmlR.      (         #             (   3   .      (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyR2             /Îamada/ü—r/<:id>c            ¦        }      |      ƒ} |  ƒ  –   ƒ  } |   | ƒ 
+
+17    ƒ     ƒ ƒ  |    ƒ } |  |   _    | ƒĞ   ÿÿÿÿRO      (    hª gu¬dadØÏ†Ïmad¨cÜ»ùam’‹RQ         _ag»g¬.htmlRR   (                                                _idt      (   3         0   (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyR4          
+
+18                    |    | ƒ (   (   :   (         (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyR^   ‹                         | | |  |   (      <¨h»f='%s'>%s</a>(       (               (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyR5             //js/c                   |   | ƒ (   >   <süˆ¤c='{ba£·th}{u¾}'y³='‹xt/javasüt'></süt>Rb      (   `   (               (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _javasüt’                            ƒ }  |  |  (   '    uÀnomb»‡Ë©ÜiØcÚ…»fijo.iè  Ğ     %s_%d(         (          (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _¿ndom_id•                   
+
+19             ƒ }    | ƒ }    |  |  |  |  ƒĞ              @s   .htmlR3            (      $      (            3   (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt
+
+20    _p›š             
+
+21             ƒ }    | ƒ }    |  |  |  |  ƒĞ              @s
+
+22    .htmlR3            (      $      (            3   (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyˆ   _ch¬tŸ                    ,        }     6t  6t  6t  6S(   ÿÿÿÿR5   
+
+23          (      5            (      (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _³rsÚ®izados¤          /logšc                                ƒ       _   ƒ    ƒ    ƒ ƒ      ƒ Ğ      6         /   ‚omb» dusu¬iØØÏ cÏvsÚ incÜ»ùa¡      
+
+24    .html(
+
+25             _usu¬io_v®idoRR                       (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyRy   ©       
+
+26    /impÜrc              
+
+27       ƒ (       .html(      (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _a_impÜrµ                       |    |     ƒ (   ?    Trus˜–‡rchivØšdiÿdØ£…uedsubœ‡È£rvidÜ.t   .t   (      (      (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _¬chivo_³rm™idoº          /impÜr/subœRO                ª              }  |    |   ƒ   |   ƒ } |       
+
+28     | ƒ ƒ      | ƒƒ   |    ƒ     ƒ ƒ      ƒ (
+
+29       €       _FOLDERt   _´oû§ndÙ   8   ‡rchivØ% nØe uÀ¬chivØexûÈ2003/XP/2000 v®idÙ          .html(               „                                      (      „   (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _subœ_¬chivo¾       #   /impÜr/´oû§ndo/<f’ame>c            ‘          |  ƒ }    |  ƒ } |  } 7    
+
+30  
+
+31   }   |  ƒ     ƒ ƒ    |   |  | ƒĞ   ‚       dcÚexiÚ cÚ„edis: %sR…   |      _´oû§ndo.htmlR6      _®_¬chivÙ   _»a(   ‰   Š   ‹   Œ      †       _asynù   _idt                      (   „         ‘      (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyRƒ   Í       ;       .impÜrc                    } | |   ƒ }  |  ƒ } @  |  ƒ ]/ } |  | ƒ      |  ƒ  ƒ >  (   =   †¨»¨dimpÜ¸»gi¡ro desd¬chivo .xlsiÿÿÿÿ(   
+
+32    š™™™™™É?t         Ğ   
+
+33    ˜      *         _»gi¡roR†       _¡©‘   _dicciÚ¬io(      ˜   œ         (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyR†   İ        #   /impÜr/ob‹Ãr_e¡ado/<»a_id>c                  |  ƒ } |  ƒ  /   |   6ƒ |      |  ƒ   |   6ƒ  (   /   ƒÈe¡adØduÇ¬—ƒÀfÜm©ØjsÚ.ˆ   š      (   †          
+
+34       ¥      (      _idR¤   (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _e¡adoé           /impÜr/ÿnûÏrc                     ƒ    ƒ ƒ (   +    h¨ÿnûÏdØÏ impÜciÚ d»gi¡rosRx      (             (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   ÷          /impÜr/cÚfœm¬c                     ƒ    ƒ ƒ (   .    hª incÜpÜadØnuevo »gi¡ro ® si¡emaR©      (             (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyˆ   ı                   ~   |      ƒ |      ƒ |      ƒ |      ƒ |      ƒ |      ƒ |       ƒ |  
+
+35  ƒ    (   Ğ                           ?         (      (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   _admši¡¿dÜ         __maš__(H   ‰      ”             _³ew“.authR      _³ew“.dbR            _³ew“.admšR                   
+
+36                          .ext.ûËryR      _debugtoŞb¬R                  __Çme__RŒ          _pyf‘   ?   ´            _»quœedR      1   (            2   4      _f‹rR^   5                  _´oûssÜRv      |         ƒ      †   «   ¬   ­   µ      (    (    (    3   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/­p.pyt   <moduË>   ~   "
+
+37 
+$
+ 
+
+	@config.py
+
+1 
+	gDEBUG
+ = 
+True
+
+
+2 
+SECRET_KEY
+ = 'zaraSeando1'
+
+4 
+DATABASE
+ = {
+
+9 
+CELERY_RESULT_BACKEND
+ = "redis"
+
+10 
+CELERY_REDIS_HOST
+ = "localhost"
+
+11 
+CELERY_REDIS_PORT
+ = 6379
+
+12 
+CELERY_REDIS_DB
+ = 0
+
+14 
+DEBUG_TB_INTERCEPT_REDIRECTS
+=
+F®£
+
+
+16 
+BROKER_URL
+ = 'redis://localhost:6379/0'
+
+17 
+UPLOAD_FOLDER
+ = '/tmp'
+
+	@config.pyc
+
+2 
+	gS
+¹Â
+	gOc
+           @               6d  6Z              
+
+3  
+
+4      Ğ       1s   /·¡Ïs.dbt      .Sql™eD©aba£t          ë         :
+
+5    _KEYt      _RESULT_BACKENDt   _REDIS_HOSTt   _REDIS_PORTt   _REDIS_DBt      _TB_INTERCEPT_REDIRECTSt
+
+6    _URLˆ   _FOLDER(    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/cÚfig.pyt   <moduË>      
+
+	@data.py
+
+1 #-*- 
+’codšg
+: 
+utf
+-8 -*-
+
+3 #$g»°'[0-9])$' 
+Libro
+\ 
+de
+\ 
+»sid’cŸs
+.
+txt
+ | 
+uniq
+
+
+4 
+	gPROVINCIAS
+ = [('BUENOS AIRES', 6),
+
+30 
+	gBARRIOS
+ = [(99, 
+u
+'N/A'),
+
+31 (2, 
+u
+'AgronomÃ­a'),
+
+32 (3, 
+u
+'Almagro'),
+
+33 (4, 
+u
+'Balvanera'),
+
+34 (5, 
+u
+'Barracas'),
+
+35 (6, 
+u
+'Belgrano'),
+
+36 (7, 
+u
+'Boedo'),
+
+37 (8, 
+u
+'Caballito'),
+
+38 (9, 
+u
+'Chacarita'),
+
+39 (10, 
+u
+'Coghlan'),
+
+40 (11, 
+u
+'Colegiales'),
+
+41 (12, 
+u
+'Flores'),
+
+42 (13, 
+u
+'Floresta'),
+
+43 (14, 
+u
+'La Boca'),
+
+44 (15, 
+u
+'Liniers'),
+
+45 (16, 
+u
+'Mataderos'),
+
+46 (17, 
+u
+'Monserrat'),
+
+47 (18, 
+u
+'Monte Castro'),
+
+48 (19, 
+u
+'Nueva Pompeya'),
+
+49 (20, 
+u
+'NuÃ±ez'),
+
+50 (21, 
+u
+'Palermo'),
+
+51 (22, 
+u
+'Parque Avellaneda'),
+
+52 (23, 
+u
+'Parque Chacabuco'),
+
+53 (24, 
+u
+'Parque Chas'),
+
+54 (25, 
+u
+'Parque Patricios'),
+
+55 (26, 
+u
+'Paternal'),
+
+56 (27, 
+u
+'Puerto Madero'),
+
+57 (28, 
+u
+'Recoleta'),
+
+58 (29, 
+u
+'Retiro'),
+
+59 (30, 
+u
+'Saavedra'),
+
+60 (31, 
+u
+'San Cristobal'),
+
+61 (32, 
+u
+'San NicolÃ¡s'),
+
+62 (33, 
+u
+'San Telmo'),
+
+63 (34, 
+u
+'Velez Sarsfield'),
+
+64 (35, 
+u
+'Versalles'),
+
+65 (36, 
+u
+'Villa Crespo'),
+
+66 (37, 
+u
+'Villa del Parque'),
+
+67 (38, 
+u
+'Villa Devoto'),
+
+68 (39, 
+u
+'Villa General Mitre'),
+
+69 (40, 
+u
+'Villa Lugano'),
+
+70 (41, 
+u
+'Villa Luro'),
+
+71 (42, 
+u
+'Villa Ortuzar'),
+
+72 (43, 
+u
+'Villa PueyrredÃ³n'),
+
+73 (44, 
+u
+'Villa Real'),
+
+74 (45, 
+u
+'Villa Riachuelo'),
+
+75 (46, 
+u
+'Villa Santa Rita'),
+
+76 (47, 
+u
+'Villa Soldati'),
+
+77 (48, 
+u
+'Villa Urquiza')]
+
+79 
+	gMOTIVO
+ = [(99, 
+u
+"99: No corresponde"),
+
+80 (2, 
+u
+"02: Abortoƒxitoso conƒcografÃ­a"),
+
+81 (3, 
+u
+"03: Abortoƒxitoso…orque vioƒl saco gestacional (para 9 o mÃ¡s semanas)"),
+
+82 (4, 
+u
+"04: Abortoƒxitoso conacto"),
+
+83 (5, 
+u
+"05: SangrÃ³ y quiere confirmarƒl‡borto"),
+
+84 (6, 
+u
+"06: Dudas…re‡borto…untuales"),
+
+85 (7, 
+u
+"07: Dudas…osaborto…untuales (cuÃ¡ntasoallitas, me†as sigo…oniendo,ƒtc.)"),
+
+86 (8, 
+u
+"08: No venden misoprostolƒn†a farmacia…orque â€œno†orabajanâ€"),
+
+87 (9, 
+u
+"09: No†e venden misoprostolƒn†a farmacia sin doble oriple„eceta"),
+
+88 (10, 
+u
+"10: No consiguiÃ³…ero buscÃ³ƒn menos de 10 farmacias (sÃ³lo…ara sin„eceta)"),
+
+89 (11, 
+u
+"11: Aborto incompleto conƒcografÃ­a (para 15 dÃ­as o mÃ¡s)"),
+
+90 (12, 
+u
+"12: Signos de‡larma"),
+
+91 (13, 
+u
+"13: No‡bortÃ³ (la que†o confirmÃ³ conƒco,acto o‚o sangrÃ³)"),
+
+92 (14, 
+u
+"14: Busca„eceta (no buscÃ³ misoprostol)"),
+
+93 (15, 
+u
+"15: No consiguiÃ³ dosis completa (sÃ³lo…ara†as que†lamanƒspecÃ­ficamente…orƒsto)"),
+
+94 (16, 
+u
+"16: busca informaciÃ³n ya intentÃ³‡bortar "),
+
+95 (17, 
+u
+"17: busca informaciÃ³n‚o intentÃ³‡bortar")]
+
+98 
+	gRECONFIRMO
+ = [(0, 
+u
+"0: SÃ­, sinƒspecificar (la que‚o sangrÃ³ oƒstÃ¡ de 9 o mÃ¡s semanas y‚o vioƒl saco)"),
+
+99 (1, 
+u
+"1: No "),
+
+100 (2, 
+u
+"2: SÃ­, conƒcografÃ­a"),
+
+101 (3, 
+u
+"3: SÃ­, conacto")]
+
+103 
+	gMETODO_COMPROBACION
+ = [(99, 
+u
+"99: Dato…erdido"),
+
+104 (2, 
+u
+"02: Orina"),
+
+105 (3, 
+u
+"03: Sangre"),
+
+106 (4, 
+u
+"04: EcografÃ­a"),
+
+107 (5, 
+u
+"05: Tacto")]
+
+109 
+	gMOTIVO_MAS_DE_10_SEMANAS
+ = [(99, 
+u
+"99: Dato…erdido"),
+
+110 (2, 
+u
+"02: Intentos fallidos"),
+
+111 (3, 
+u
+"03: No conseguÃ­a misoprostol…or falta de disponibilidad (no se†o venden)"),
+
+112 (4, 
+u
+"04: No conseguÃ­a misoprostol…or motivosƒconÃ³micos"),
+
+113 (5, 
+u
+"05: ConfirmÃ³ despuÃ©s de†a semana 13"),
+
+114 (6, 
+u
+"06: CambiÃ³ de idea"),
+
+115 (7, 
+u
+"07: Malformaciones fetales"),
+
+116 (8, 
+u
+"08: No…udo‡cceder‡ informaciÃ³n segura"),
+
+117 (9, 
+u
+"09: CreyÃ³ que‚o…odÃ­a quedarƒmbarazada")]
+
+120 
+	gATENCION_MEDICA
+ = [(99,"99: Dato…erdido"),
+
+121 (1, 
+u
+"01: No fue"),
+
+122 (2, 
+u
+"02: Fue y se sintiÃ³ intimidada…ara hablar de‡borto"),
+
+123 (3, 
+u
+"03: Se‚egÃ³‡ dar informaciÃ³n"),
+
+124 (4, 
+u
+"04: Le dio informaciÃ³n incorrecta"),
+
+125 (5, 
+u
+"05: Le dio informaciÃ³n correcta (ej: Htal Argerich)"),
+
+126 (6, 
+u
+"06: Le dio informaciÃ³n incorrecta +„eceta (+ NÂº de†a†Ã­nea o‚o= indistinto)"),
+
+127 (7, 
+u
+"07: Le dio informaciÃ³n correcta +„eceta (+ NÂº de†a†Ã­nea o‚o= indistinto)"),
+
+128 (8, 
+u
+"08: DerivÃ³‡ un quirÃºrgico"),
+
+129 (9, 
+u
+"09: DerivÃ³‡ consejerÃ­a"),
+
+135 
+	gTIPO_DE_SERVICIO
+ = [(99,"99: Dato…erdido"),
+
+136 (2, 
+u
+"02: AtenciÃ³n…rimaria…Ãºblica"),
+
+137 (3, 
+u
+"03: AtenciÃ³n hospital…Ãºblico"),
+
+138 (4, 
+u
+"04: AtenciÃ³n…rimaria…rivada"),
+
+139 (5, 
+u
+"05: AtenciÃ³n clÃ­nica…rivada"),
+
+140 (6, 
+u
+"06: AtenciÃ³n…rimaria obra social"),
+
+141 (7, 
+u
+"07: ClÃ­nica obra social")]
+
+143 
+	gOBRA_SOCIAL
+ = [(0, 
+u
+"SÃ­"),
+
+144 (1, 
+u
+"No")]
+
+146 
+	gCOMPANIA
+ = [(99, 
+u
+"99: Dato…erdido"),
+
+147 (1, 
+u
+"01: Noiene compaÃ±Ã­a"),
+
+148 (2, 
+u
+"02: Amigx"),
+
+149 (3, 
+u
+"03: Pareja"),
+
+150 (4, 
+u
+"04: MÃ©dicx/FarmacÃ©uticx"),
+
+151 (5, 
+u
+"05: Sinƒspecificar"),
+
+152 (6, 
+u
+"06: Familia"),
+
+153 (8, 
+u
+"08: Otrx")]
+
+155 
+	gABORTO_ANTERIOR
+ = [(99,"99: Dato…erdido"),
+
+156 (1, 
+u
+"01: No hay‡borto‡nterior"),
+
+157 (2, 
+u
+"02: Misoprostol"),
+
+158 (3, 
+u
+"03: Otros medicamentos (metrotexato â€“ inyecciÃ³n â€“ oxitocina â€“ƒtc)"),
+
+159 (4, 
+u
+"04: QuirÃºrgico"),
+
+160 (5, 
+u
+"05: TÃ©, yuyos o…erejil"),
+
+161 (6, 
+u
+"06: Sonda"),
+
+162 (7, 
+u
+"07: Sinƒspecificar"),
+
+163 (8, 
+u
+"08: AbortoƒspontÃ¡neo")]
+
+165 
+	gMETODO_ANTICONCEPTIVO
+ = [(99,"99: Dato…erdido"),
+
+166 (1, 
+u
+"1: No usa"),
+
+167 (2, 
+u
+"2: SÃ­, sinƒspecificar"),
+
+168 (3, 
+u
+"3: Hormonales"),
+
+169 (4, 
+u
+"4: QuirÃºrgicos"),
+
+170 (5, 
+u
+"5: DIU"),
+
+171 (6, 
+u
+"6: Preservativo"),
+
+172 (7, 
+u
+"7: Abstinencia…eriÃ³dica"),
+
+173 (8, 
+u
+"8: Coitus interruptus")]
+
+175 
+	gAHE
+ = [(99,
+u
+"Dato…erdido"),
+
+176 (1, 
+u
+"No "),
+
+177 (0, 
+u
+"SÃ­")]
+
+179 
+	gCOMO_SE_ENTERO
+ = [(99,
+u
+"99: Dato…erdido"),
+
+180 (2, 
+u
+"02: Tv"),
+
+181 (3, 
+u
+"03: Diario"),
+
+182 (4, 
+u
+"04: Radio"),
+
+183 (5, 
+u
+"05: Sticker / Volante / Cartel"),
+
+184 (6, 
+u
+"06: Internet"),
+
+185 (7, 
+u
+"07: Boca‡ boca"),
+
+186 (8, 
+u
+"08: OrganizaciÃ³n"),
+
+187 (9, 
+u
+"09: Hospital / MÃ©dicx / Equipo de Salud"),
+
+188 (10,
+u
+"10: Revista"),
+
+189 (11,
+u
+"11: FarmacÃ©uticx"),
+
+190 (12,
+u
+"12: Otrx"),
+
+191 (13,
+u
+"13: Alguien que ya‡bortÃ³ con†a†Ã­nea†e…asÃ³ƒl‚Ãºmero"),
+
+192 (14,
+u
+"14: Sectorƒducativo")]
+
+194 
+	gFUE_AL_MEDICO
+ = [
+
+195 (99, 
+u
+"99: Dato…erdido"),
+
+196 (1, 
+u
+"1: No fue"),
+
+197 (2, 
+u
+"2: Fue y se sintiÃ³ intimidada…ara hablar de‡borto"),
+
+198 (3, 
+u
+"3: Se‚egÃ³‡ dar informaciÃ³n"),
+
+199 (4, 
+u
+"4: Le dio informaciÃ³n incorrecta"),
+
+200 (5, 
+u
+"5: Le dio informaciÃ³n correcta (ej: Htal Argerich)"),
+
+201 (6, 
+u
+"6: Le dio informaciÃ³n incorrecta +„eceta (+ NÂº de†a†Ã­nea o‚o= indistinto)"),
+
+202 (7, 
+u
+"7: Le dio informaciÃ³n correcta +„eceta (+ NÂº de†a†Ã­nea o‚o= indistinto)"),
+
+203 (8, 
+u
+"8: DerivÃ³‡ un quirÃºrgico"),
+
+204 (9, 
+u
+"9: DerivÃ³‡ consejerÃ­a"),
+
+205 (10, 
+u
+"10: Le dio solo†a„eceta"),
+
+206 (11, 
+u
+"11: Se‚egÃ³‡ hacerle†a„eceta (cuando†a mujer fue‡l mÃ©dicoƒxplÃ­citamente…araƒso)"),
+
+207 (12, 
+u
+"12: Propaganda…rÃ³vida"),
+
+208 (13, 
+u
+"13: SÃ³lo seguimiento…osaborto"),
+
+211 
+	gTIPO_DE_SERVICIO
+ = [
+
+212 (99, 
+u
+"99: Dato…erdido"),
+
+213 (2, 
+u
+"2: AtenciÃ³n…rimaria…Ãºblica"),
+
+214 (3, 
+u
+"3: AtenciÃ³n hospital…Ãºblico"),
+
+215 (4, 
+u
+"4: AtenciÃ³n…rimaria…rivada"),
+
+216 (5, 
+u
+"5: AtenciÃ³n clÃ­nica…rivada"),
+
+217 (6, 
+u
+"6: AtenciÃ³n…rimaria obra social"),
+
+218 (7, 
+u
+"7: ClÃ­nica obra social"),
+
+221 
+	gOBRA_SOCIAL
+ = [
+
+226 
+	gCOMPANIA
+ = [
+
+227 (99, 
+u
+"99: Dato…erdido"),
+
+228 (1, 
+u
+"1: Noiene compaÃ±Ã­a"),
+
+229 (2, 
+u
+"2: Amigx"),
+
+230 (3, 
+u
+"3: Pareja"),
+
+231 (4, 
+u
+"4: MÃ©dicx/FarmacÃ©uticx"),
+
+232 (5, 
+u
+"5: Sinƒspecificar"),
+
+233 (6, 
+u
+"6: Familia"),
+
+234 (8, 
+u
+"8: Otrx"),
+
+237 
+	gABORTO_ANTERIOR
+ = [
+
+238 (99, 
+u
+'99: Dato…erdido'),
+
+239 (1, 
+u
+'1: No hay‡borto‡nterior'),
+
+240 (2, 
+u
+'2: Misoprostol'),
+
+241 (3, 
+u
+'3: Otros medicamentos (metrotexato â€“ inyecciÃ³n â€“ oxitocina â€“ƒtc)'),
+
+242 (4, 
+u
+'4: QuirÃºrgico'),
+
+243 (5, 
+u
+'5: TÃ©, yuyos o…erejil'),
+
+244 (6, 
+u
+'6: Sonda'),
+
+245 (7, 
+u
+'7: Sinƒspecificar'),
+
+246 (8, 
+u
+'8: AbortoƒspontÃ¡neo'),
+
+249 
+	gMEDIO_COMO_SE_ENTERO
+ = [
+
+250 (99, 
+u
+'99: Dato…erdido'),
+
+251 (2, 
+u
+'2: Tv'),
+
+252 (3, 
+u
+'3: Diario'),
+
+253 (4, 
+u
+'4: Radio'),
+
+254 (5, 
+u
+'5: Sticker / Volante / Cartel'),
+
+255 (6, 
+u
+'6: Internet'),
+
+256 (7, 
+u
+'7: Boca‡ boca'),
+
+257 (8, 
+u
+'8: OrganizaciÃ³n'),
+
+258 (9, 
+u
+'9: Hospital / MÃ©dicx / Equipo de Salud'),
+
+259 (10, 
+u
+'10: Revista'),
+
+260 (11, 
+u
+'11: FarmacÃ©uticx'),
+
+261 (12, 
+u
+'12: Otrx'),
+
+262 (13, 
+u
+'13: Alguien que ya‡bortÃ³ con†a†Ã­nea†e…asÃ³ƒl‚Ãºmero'),
+
+263 (14, 
+u
+'14: Sectorƒducativo'),
+
+266 
+	gMEDIO_INFORMACION_INCORRECTA
+ = [
+
+267 (99, 
+u
+'99: Dato…erdido'),
+
+268 (1, 
+u
+'1: NoenÃ­a informaciÃ³nƒrrÃ³nea'),
+
+269 (2, 
+u
+'2: MÃ©dicx'),
+
+270 (3, 
+u
+'3: Folleto'),
+
+271 (4, 
+u
+'4: Boca‡ boca'),
+
+272 (5, 
+u
+'5: Internet '),
+
+273 (6, 
+u
+'6: FarmacÃ©uticxs '),
+
+274 (7, 
+u
+'7: Sinƒspecificar'),
+
+275 (8, 
+u
+'8: Organizaciones'),
+
+276 (9, 
+u
+'9: Otros delƒquipos de salud (enfermerx,s,ƒtc)'),
+
+277 (10, 
+u
+'10: Sectorƒducativo'),
+
+280 
+	gMETODO_INTENTO_DE_ABORTO
+ = [
+
+281 (2, 
+u
+'2: Misoprostol dosis correcta vaginal'),
+
+282 (3, 
+u
+'3: Misoprostol dosis correcta sublingual'),
+
+283 (4, 
+u
+'4: Misoprostol cantidad incorrecta'),
+
+284 (5, 
+u
+'5: Misoprostol intervalo incorrecto'),
+
+285 (6, 
+u
+'6: Misoprostol vÃ­as mezcladas/incorrectas (se usa sÃ³lo…ara cuando cambia†a vÃ­aƒn†a mitad de un…roceso correcto)'),
+
+286 (7, 
+u
+'7: Misoprostol dosis incorrecta (este se usa…ara 2vaginal+2sublingual)'),
+
+287 (8, 
+u
+'8: InyecciÃ³n'),
+
+288 (9, 
+u
+'9: MÃ©todos caseros'),
+
+289 (10, 
+u
+'10: Sonda'),
+
+290 (11, 
+u
+'11: Otros'),
+
+293 
+	gMISO_INTENTO_ABORTO
+ = [
+
+294 (99, 
+u
+'99: Dato…erdido'),
+
+295 (2, 
+u
+'2: Farmacia con„eceta con descuento de obra social'),
+
+296 (3, 
+u
+'3: Farmacia con„eceta sin descuento de obra social'),
+
+297 (4, 
+u
+'4: Farmacia sin„eceta'),
+
+298 (5, 
+u
+'5: Fuera de†a farmacia'),
+
+299 (6, 
+u
+'6: Internet'),
+
+300 (7, 
+u
+'7: SÃ­, sinƒspecificar'),
+
+301 (8, 
+u
+'8: Red social gratis'),
+
+304 
+	gSANGRADO_INTENTO_ABORTO
+ = [
+
+305 (2, 
+u
+'2: Niƒfectos secundarios‚i sangrado'),
+
+306 (3, 
+u
+'3: Efectos secundarios sin sangrado'),
+
+307 (4, 
+u
+'4: Sangrado menos que una menstruaciÃ³n'),
+
+308 (5, 
+u
+'5: Sangrado igual‡ una menstruaciÃ³n'),
+
+309 (6, 
+u
+'6: Sangrado mÃ¡s que una menstruaciÃ³n'),
+
+310 (7, 
+u
+'7: Sangrado y saco gestacional (no usarƒste cÃ³digo‡ntes de†as 9 semanas)'),
+
+311 (8, 
+u
+'8: Hemorragia'),
+
+314 
+	gMOTIVO_DERIVACION
+ = [
+
+315 (99, 
+u
+'99: Dato…erdido'),
+
+316 (2, 
+u
+'2: Aborto incompleto'),
+
+317 (3, 
+u
+'3: MÃ¡s de 15 semanas'),
+
+318 (4, 
+u
+'4: Menor deƒdad'),
+
+319 (5, 
+u
+'5: EcografÃ­a…ara confirmar†as semanas'),
+
+320 (6, 
+u
+'6: EcografÃ­a…osaborto'),
+
+321 (7, 
+u
+'7: ViolaciÃ³n'),
+
+322 (8, 
+u
+'8: Signos de infecciÃ³n'),
+
+323 (9, 
+u
+'9: Signos de hemorragia'),
+
+324 (10, 
+u
+'10: Dolores '),
+
+325 (11, 
+u
+'11: No…uede usar misoprostol'),
+
+326 (12, 
+u
+'12: Prefiere ir‡ un mÃ©dico‡ntes de‡bortar'),
+
+327 (13, 
+u
+'13: FallÃ³ y quiere saber„iesgos de continuar conƒlƒmbarazo'),
+
+328 (14, 
+u
+'14: Abortoƒxitoso de segundorimestre (internaciÃ³n,ƒtc.)'),
+
+329 (15, 
+u
+'15: Cuestiones de comunicaciÃ³n (es sorda,‚o hablaƒl idioma,ƒtc.)'),
+
+	@data.pyc
+
+2 ÚÄ
+	gOc
+        1   @   Ü  ?@   [\]^_`{|}~€‚ƒ„…†0  ‡ˆ‰Š‹Œ‘’“”•–—  ˜™š›  œŸ   ¡¢£¤¥¦§¨©  ª«¬­®¯°±²³´µ¶·  ¸¹º»¼½¾  ¿À  ÁÂÃÄÅÆÇÈ   ÉÊËÌÍÎÏĞÑ 
+
+3  ÒÓÔÕÖ×ØÙÚ   ÛÜİ   Şßàáâãäåæçèéêë   ìíîïğñòóôõö÷øù  úûüışÿ     
+
+4      
+
+5  !  "#$%&'()*+,  -./0123456
+
+6   789:;<=>  ?@    >(U       AIRESi       
+
+7          
+
+8                   
+
+9     RIOSi      "      &       PAMPAi*       RIOJAi.      2      6      :        NEGROi>             JUANiF       LUISiJ   
+
+10     CRUZiN       FEiR       DEL ESTEROiV       DEL FUEGOi^             …”didoic      /Ai   
+
+11    Ã­ai                                                  
+
+12                      Boÿi                         Ca¡roi        Pom³yai      Ã±ezi          Av–ÏÃdai       Chaÿbucoi        Chasi       P©riciosu           Mad”oi                       Cri¡ob®˜        NicŞÃ¡si!        T–mou    S¬sf›ldi#       $        C»¥oi%       d– P¬queu     DevÙoi'       G’”® M™»i(       Lugªoi)   
+
+13     Lurou     O¹uz¬i+       Puey¼edÃ³ni,   
+
+14     R—li-       RŸchu–ou    Sª R™ai/        SŞd©ii0        Urquizau   99: NØcÜ»¥Údeu!   02: AbÜtØex™osØcÚƒcog¿fÃ­auI   03: AbÜtØex™osØpÜquviØ– sacØge¡aciÚ® (·¿ 9 o mÃ¡ £mªas)u   04: AbÜtØex™osØcÚaùou(   05: SªgrÃ³ y qu›» cÚfœm¬ƒÈabÜtou   06: Duda ´abÜtØpuÁu®esuN   07: Duda po§bÜtØpuÁu®e (cuÃ¡Áa tßÎ™as, mÏ sigØpÚ›ndo,ƒtc.)uD   08: NØv’d’ misİro¡ŞƒÀÏ f¬macŸ…Üquâ€œnØlØŒabajªâ€uE   09: NØË v’d’ misİro¡ŞƒÀÏ f¬macŸ sš dobË orË„eûuN   10: NØcÚsiguiÃ³…”ØbuscÃ³ƒÀm’o d10 f¬macŸ (sÃ³lØ·¿ sš„eû)u;   11: AbÜtØšcom¶‘ØcÚƒcog¿fÃ­¨Õ¬¨15 dÃ­a ØmÃ¡s)u   12: Signo d®¬mau@   13: NØabÜtÃ³ (Ï qulØcÚfœmÃ³ cÚƒco,aùØØnØ§ngrÃ³)u(   14: Busÿ„eû (nØbuscÃ³ misİro¡Ş)uV   15: NØcÚsiguiÃ³ dosi com¶‘¨(sÃ³lØ·¿†a quÎamªƒ¥ecÃ­fiÿm’‹…Üƒ¡o)u+   16: busÿ infÜmaciÃ³Ày¨š‹ÁÃ³‡bÜ¸u*   17: busÿ infÜmaciÃ³ÀnØš‹ÁÃ³‡bÜri       0: SÃ­, sšƒ¥ecifiÿ¸Ö¨qunØ§ngrÃ³ oƒ¡Ã¡ d9 o mÃ¡ £mªa y‚ØviØ– saco)i      1: NØu   2: SÃ­, cÚƒcog¿fÃ­au   3: SÃ­, cÚaùou   99: D©Ø³rdidou    02: Oršau
+
+15    03: 
+Sªg»u
+   04: 
+Ecog¿f
+Ã­
+au
+    05: 
+Taùou
+   02: 
+IÁ’tos
+ 
+çÎidosuK
+   03: 
+No
+ 
+cÚ£gu
+Ã­
+a
+ 
+misİro¡Ş
+ 
+pÜ
+ 
+çÉa
+ 
+de
+ 
+	$di¥Úibidad
+ (
+no
+ 
+£
+ 
+lo
+ 
+v’d’
+)
+u5
+   04: 
+No
+ 
+cÚ£gu
+Ã­
+a
+ 
+misİro¡Ş
+ 
+pÜ
+ 
+mÙivos
+ 
+ecÚ
+Ã³
+micosu
+&   05: 
+CÚfœm
+Ã³ 
+de¥u
+Ã©
+s
+ 
+de
+ 
+Ï
+ 
+£mªa
+ 13u   06: 
+Cambi
+Ã³ d
+id—u
+   07: 
+M®fÜmaciÚes
+ 
+ãËsu
+)   08: NØ
+pudo
+ 
+acûd”
+‡ 
+šfÜmaci
+Ã³
+n
+ 
+£gu¿u
+*   09: 
+C»y
+Ã³ 
+que
+‚Ø
+pod
+Ã­¨
+qued¬
+ 
+emb¬azadas
+   99: 
+D©o
+ 
+³rdidou
+
+
+16    01: 
+No
+ 
+fueu5
+   02: 
+Fue
+ 
+y
+ 
+£
+ 
+sšti
+Ã³ 
+štimidada
+ 
+·¿
+ 
+habÏr
+ 
+de
+ 
+abÜtou
+   03: 
+Se
+ 
+Ãg
+Ã³ 
+a
+ 
+d¬
+ 
+šfÜmaci
+Ã³
+nu
+"   04: LdiØšfÜmaciÃ³ÀšcÜ»ùau4   05: LdiØšfÜmaciÃ³ÀcÜ»ù¨Ój: HÈArg”ich)uQ   06: LdiØšfÜmaciÃ³ÀšcÜ»ù¨+„eû (+ NÂº dÏ†Ã­Ã¨Ønoğšdi¡što)uO   07: LdiØšfÜmaciÃ³ÀcÜ»ù¨+„eû (+ NÂº dÏ†Ã­Ã¨Ønoğšdi¡što)u   08: D”ivÃ³‡ uÀquœÃºrgicou   09: D”ivÃ³‡ cÚ£j”Ã­as   10: LdiØsŞØÏ„eûsZ   11: SÃgÃ³‡ haû¾Ï„eû (cuªdØÏ muj” fu® mÃ©dicØex¶Ã­c™am’‹…¬¨eso)s   12: Prİagªd¨´Ã³vidas   13: SÃ³lØ£guim›ÁØpo§bÜtou   02: A‹nciÃ³À´im¬Ÿ…Ãºbliÿu   03: A‹nciÃ³Àho¥™®…Ãºblicou   04: A‹nciÃ³À´im¬Ÿ…rivadau   05: A‹nciÃ³ÀşÃ­niÿ…rivadau"   06: 
+A‹nci
+Ã³
+n
+ 
+´im¬Ÿ
+ 
+ob¿
+ 
+socŸlu
+   07: 
+Cl
+Ã­
+niÿ
+ ob¿ socŸlu   Ã­u      01: NØt›Ã com·Ã±Ã­au    02: Amigxu
+
+17    03: 
+P¬ejau
+   04: 
+M
+Ã©
+dicx
+/
+F¬mac
+Ã©
+uticxu
+   05: 
+Sš
+ 
+e¥ecifiÿru
+    06: 
+FamŸu
+   08: 
+OŒxu
+   01: 
+No
+ 
+hay
+ 
+abÜto
+ 
+ª‹riÜu
+   02: 
+Misİro¡ŞuI
+   03: 
+OŒos
+ 
+	`mediÿm’tos
+ (
+m‘rÙex©o
+ â€“ 
+šyecci
+Ã³
+n
+ â€“ 
+ox™ocša
+ â€“ 
+‘c
+)
+u
+   04: 
+Quœ
+Ãº
+rgicou
+   05: 
+T
+Ã©, 
+yuyos
+ 
+o
+ 
+³»ju
+    06: 
+SÚdau
+   07: Sšƒ¥ecifiÿru   08: 
+AbÜto
+ 
+e¥Út
+Ã¡
+Ãou
+    1: NØ
+u§u
+   2: 
+S
+Ã­, 
+sš
+ƒ¥ecifiÿru    3: 
+HÜmÚ®esu
+   4: QuœÃº
+rgicosu
+   5: 
+DIUu
+   6: 
+P»£rv©ivou
+   7: 
+Ab¡š’cŸ
+ 
+³ri
+Ã³
+diÿu
+   8: 
+Co™us
+ 
+š‹¼u±usu
+    …”didou    u   02: Tvu
+
+18    03: 
+DŸriou
+    04: 
+Radiou
+   05: 
+Stick”
+ / 
+VŞª‹
+ / 
+C¬‹lu
+    06: 
+IÁ”Ãtu
+   07: 
+Boÿ
+ 
+a
+ 
+boÿu
+   08: 
+Orgªizaci
+Ã³
+	`nu
+(   09: 
+Ho¥™®
+ / 
+M
+Ã©
+dicx
+ / 
+Equo
+ 
+de
+ 
+S®udu
+    10: 
+Revi¡au
+   11: 
+F¬mac
+Ã©
+uticxu
+   12: 
+OŒxu
+<   13: 
+Algu›n
+ 
+que
+ 
+ya
+ 
+abÜt
+Ã³ 
+cÚ
+ 
+Ï
+ 
+l
+Ã­
+Ãa
+ 
+Ë
+ 
+·s
+Ã³ 
+–
+ 
+n
+Ãº
+m”ou
+   14: 
+SeùÜ
+ 
+eduÿtivou
+    1: 
+No
+ 
+fueu4
+   2: 
+Fue
+ 
+y
+ 
+£
+ 
+sšti
+Ã³ 
+štimidada
+ 
+·¿
+ 
+habÏr
+ d
+abÜtou
+   3: 
+Se
+ 
+Ãg
+Ã³‡ 
+d¬
+ 
+šfÜmaci
+Ã³
+nu
+!   4: 
+Le
+ 
+dio
+ infÜmaciÃ³À
+šcÜ»ùau3
+   5: LdiØšfÜmaciÃ³À
+	`cÜ»ùa
+ (
+ej
+: 
+Hl
+ 
+Arg”ich
+)
+uP
+   6: LdiØšfÜmaciÃ³À
+šcÜ»ùa
+ + 
+	`»û
+ (+ 
+N
+Âº dÏ†Ã­Ã¨
+o
+ 
+no
+ğ
+šdi¡što
+)
+uN
+   7: LdiØšfÜmaciÃ³À
+cÜ»ùa
+ +„eû (+ NÂº dÏ†Ã­Ã¨Ønoğšdi¡što)
+u
+   8: 
+D”iv
+Ã³‡ 
+un
+ 
+quœ
+Ãº
+rgicou
+   9: D”ivÃ³‡ 
+cÚ£j”
+Ã­
+au
+   10: LdiØ
+sŞo
+†¨
+»ûuZ
+   11: SÃgÃ³‡ 
+haû¾e
+†¨»û (
+cuªdo
+†¨
+muj”
+ 
+fue
+ 
+®
+ 
+m
+Ã©
+dico
+ 
+ex¶
+Ã­
+c™am’‹
+…¬¨
+eso
+)u   12: 
+Prİagªda
+ 
+´
+Ã³
+vidau
+   13: 
+S
+Ã³
+lo
+ 
+£guim›Áo
+ 
+po§bÜtou
+   2: 
+A‹nci
+Ã³À
+´im¬Ÿ
+ 
+p
+Ãº
+bliÿu
+   3: A‹nciÃ³À
+ho¥™®
+…Ãº
+blicou
+   4: A‹nciÃ³À´im¬Ÿ 
+´ivadau
+   5: A‹nciÃ³À
+ş
+Ã­
+niÿ
+…rivadau!   6: A‹nciÃ³À´im¬Ÿ 
+ob¿
+ 
+socŸlu
+   7: 
+Cl
+Ã­niÿ ob¿ 
+socŸÉ
+         1: NØt›Ã com·Ã±Ã­au   2: Amigxu    3: P¬ejau   4: MÃ©dicx/F¬macÃ©uticxu   5: Sšƒ¥ecifiÿru
+
+19    6: 
+FamŸu
+   8: 
+OŒxu
+   1: 
+No
+ 
+hay
+ 
+abÜto
+ 
+ª‹riÜu
+   2: 
+Misİro¡ŞuH
+   3: 
+OŒos
+ 
+	`mediÿm’tos
+ (
+m‘rÙex©o
+ â€“ 
+šyecci
+Ã³
+n
+ â€“ 
+ox™ocša
+ â€“ 
+‘c
+)
+u
+   4: 
+Quœ
+Ãº
+rgicou
+   5: 
+T
+Ã©, 
+yuyos
+ 
+o
+ 
+³»ju
+   6: 
+SÚdau
+   7: 
+Sš
+ 
+e¥ecifiÿru
+   8: 
+AbÜto
+ 
+e¥Út
+Ã¡
+Ãou
+   2: 
+Tvu
+    3: 
+DŸriou
+   4: 
+Radiou
+   5: 
+Stick”
+ / 
+VŞª‹
+ / 
+C¬‹lu
+    6: 
+IÁ”Ãtu
+   7: 
+Boÿ
+ 
+a
+ 
+boÿu
+   8: 
+Orgªizaci
+Ã³
+nu
+'   9: Hospital / MÃ©dicx / Equipo de Saludu"   1: NoenÃ­a informaciÃ³nƒrrÃ³neau
+
+20    2: 
+M
+Ã©
+dicxu
+
+
+21    3: 
+FŞËtou
+   4: 
+Boÿ
+ 
+a
+ 
+boÿu
+    5: 
+IÁ”Ãt
+ 
+u
+   6: 
+F¬mac
+Ã©
+uticxs
+ u   8: 
+OrgªizaciÚesu2
+   9: 
+OŒos
+ 
+d–
+ 
+equos
+ 
+de
+ 
+	$§lud
+ (
+’ãrm”x
+, 
+ts
+, 
+‘c
+)
+u
+   10: 
+SeùÜ
+ 
+eduÿtivou
+%   2: 
+Misİro¡Ş
+ 
+dosis
+ 
+cÜ»ùa
+ 
+	`vagš®u
+(   3: Misİro¡Ş dosi cÜ»ù¨
+sublšgu®u
+"   4: Misoprostol cantidad incorrectau#   5: Misoprostol intervalo incorrectouw   6: Misoprostol vÃ­as mezcladas/incorrectas (se usa sÃ³lo…ara cuando cambia†a vÃ­aƒn†a mitad de un…roceso correcto)uG   7: Misoprostol dosis incorrecta (este se usa…ara 2vaginal+2sublingual)u   8: InyecciÃ³nu   9: MÃ©todos caserosu    10: Sondau    11: Otrosu3   2: Farmacia con„eceta con descuento de obra socialu3   3: Farmacia con„eceta sin descuento de obra socialu   4: Farmacia sin„ecetau   5: Fuera de†a farmaciau   7: SÃ­, sinƒspecificaru   8: Red social gratisu%   2: Niƒfectos secundarios‚i sangradou#   3: Efectos secundarios sin sangradou'   4: Sangrado menos que una menstruaciÃ³nu%   5: Sangrado igual‡ una menstruaciÃ³nu&   6: Sangrado mÃ¡s que una menstruaciÃ³nuL   7: Sangrado y saco gestacional (no usarƒste cÃ³digo‡ntes de†as 9 semanas)u   8: Hemorragiau   2: Aborto incompletou   3: MÃ¡s de 15 semanasu   4: Menor deƒdadu(   5: EcografÃ­a…ara confirmar†as semanasu   6: EcografÃ­a…osabortou   7: ViolaciÃ³nu   8: Signos de infecciÃ³nu   9: Signos de hemorragiau   10: Dolores u   11: No…uede usar misoprostolu-   12: Prefiere ir‡ un mÃ©dico‡ntes de‡bortaru>   13: FallÃ³ y quiere saber„iesgos de continuar conƒlƒmbarazou<   14: Abortoƒxitoso de segundorimestre (internaciÃ³n,ƒtc.)uD   15: Cuestiones de comunicaciÃ³n (es sorda,‚o hablaƒl idioma,ƒtc.)N(       AIRESi   (       
+
+22    (         (         (         (         (   
+
+23     RIOSi   (      "   (      &   (       PAMPAi*   (       RIOJAi.   (      2   (      6   (       :   (        NEGROi>   (   
+
+24       (       JUANiF   (       LUISiJ   (   
+
+25     CRUZiN   (       FEiR   (       DEL ESTEROiV   (       DEL FUEGOi^   (          (       …”didoic   (         /A(      
+
+26    Ã­a(         (          (         (         (         (          (           (   
+
+27       (       
+
+28    (          (          (          Boÿ(         (          (          (           Ca¡ro(           Pom³ya(         Ã±ez(         (          Av–ÏÃda(          Chaÿbuco(           Chas(          P©ricios(         (           Mad”o(         (         (         (           Cri¡ob®(            NicŞÃ¡s(   !        T–mo(   "       S¬sf›ld(   #       (   $       C»¥o(   %       d– P¬que(   &       DevÙo(   '       G’”® M™»(   (       Lugªo(   )   
+
+29     Luro(   *        O¹uz¬(   +       Puey¼edÃ³n(   ,   
+
+30     R—l(   -       RŸchu–o(   .       Sª R™a(   /        SŞd©i(   0        Urquiza(         99: NØcÜ»¥Úde(      !   02: AbÜtØex™osØcÚƒcog¿fÃ­a(         03: AbÜtØex™osØpÜquviØ– sacØge¡aciÚ® (·¿ 9 o mÃ¡ £mªas)(         04: AbÜtØex™osØcÚaùo(      (   05: SªgrÃ³ y qu›» cÚfœm¬ƒÈabÜto(         06: Duda ´abÜtØpuÁu®es(         07: Duda po§bÜtØpuÁu®e (cuÃ¡Áa tßÎ™as, mÏ sigØpÚ›ndo,ƒtc.)(         08: NØv’d’ misİro¡ŞƒÀÏ f¬macŸ…Üquâ€œnØlØŒabajªâ€(          09: NØË v’d’ misİro¡ŞƒÀÏ f¬macŸ sš dobË orË„eû(   
+
+31       10: NØcÚsiguiÃ³…”ØbuscÃ³ƒÀm’o d10 f¬macŸ (sÃ³lØ·¿ sš„eû)(       ;   11: AbÜtØšcom¶‘ØcÚƒcog¿fÃ­¨Õ¬¨15 dÃ­a ØmÃ¡s)(          12: Signo d®¬ma(       @   13: NØabÜtÃ³ (Ï qulØcÚfœmÃ³ cÚƒco,aùØØnØ§ngrÃ³)(      (   14: Busÿ„eû (nØbuscÃ³ misİro¡Ş)(         15: NØcÚsiguiÃ³ dosi com¶‘¨(sÃ³lØ·¿†a quÎamªƒ¥ecÃ­fiÿm’‹…Üƒ¡o)(      +   16: busÿ infÜmaciÃ³Ày¨š‹ÁÃ³‡bÜ¸(      *   17: busÿ infÜmaciÃ³ÀnØš‹ÁÃ³‡bÜr(          0: SÃ­, sšƒ¥ecifiÿ¸Ö¨qunØ§ngrÃ³ oƒ¡Ã¡ d9 o mÃ¡ £mªa y‚ØviØ– saco)(         1: NØ(         2: SÃ­, cÚƒcog¿fÃ­a(         3: SÃ­, cÚaùo(         99: D©Ø³rdido(          02: Orša(      
+
+32    03: 
+	`Sªg»
+(         04: Ecog¿fÃ­a(          05: Taùo(         99: D©Ø³rdido(         02: IÁ’to çÎidos(         03: NØcÚ£guÃ­¨misİro¡Ş…Ü f® ddi¥Úibidad (nØ£†Øv’d’)(      5   04: NØcÚ£guÃ­¨misİro¡Ş…Ü mÙivo ecÚÃ³micos(      &   05: CÚfœmÃ³ de¥uÃ© dÏ semª¨13(         06: CambiÃ³ did—(         07: M®fÜmaciÚe ãËs(      )   08: NØpudØacûd”‡ infÜmaciÃ³À£gu¿(       *   09: C»yÃ³ qunØpodÃ­¨qued¬ƒmb¬azada(         99: D©Ø³rdido(      
+
+33    01: 
+No
+ 
+	`fue
+(      5   02: Fuy ssštiÃ³ iÁimidad¨·¿ habÏ¸dabÜto(         03: SÃgÃ³‡ d¬ infÜmaciÃ³n(      "   04: LdiØšfÜmaciÃ³ÀšcÜ»ùa(      4   05: LdiØšfÜmaciÃ³ÀcÜ»ù¨Ój: HÈArg”ich)(         06: LdiØšfÜmaciÃ³ÀšcÜ»ù¨+„eû (+ NÂº dÏ†Ã­Ã¨Ønoğšdi¡što)(         07: LdiØšfÜmaciÃ³ÀcÜ»ù¨+„eû (+ NÂº dÏ†Ã­Ã¨Ønoğšdi¡što)(         08: D”ivÃ³‡ uÀquœÃºrgico(          09: D”ivÃ³‡ cÚ£j”Ã­a(   
+
+34       10: LdiØsŞØÏ„eû(          11: SÃgÃ³‡ haû¾Ï„eû (cuªdØÏ muj” fu® mÃ©dicØex¶Ã­c™am’‹…¬¨eso)(          12: Prİagªd¨´Ã³vida(          13: SÃ³lØ£guim›ÁØpo§bÜto(         99: D©Ø³rdido(         02: A‹nciÃ³À´im¬Ÿ…Ãºbliÿ(         03: A‹nciÃ³Àho¥™®…Ãºblico(         04: A‹nciÃ³À´im¬Ÿ…rivada(         05: A‹nciÃ³ÀşÃ­niÿ…rivada(      "   06: A‹nciÃ³À´im¬Ÿ ob¿ socŸl(         07: ClÃ­niÿ ob¿ socŸl(          Ã­(         (         99: D©Ø³rdido(         01: NØt›Ã com·Ã±Ã­a(          02: Amigx(      
+
+35    03: 
+	`P¬eja
+(         04: MÃ©dicx/F¬macÃ©uticx(         05: Sšƒ¥ecifiÿr(          06: FamŸ(         08: OŒx(         99: D©Ø³rdido(         01: NØhay‡bÜtØª‹riÜ(         02: Misİro¡Ş(         03: OŒo mediÿm’to (m‘rÙex©Øâ€“ inyecciÃ³Àâ€“ ox™ocš¨â€“ƒtc)(         04: QuœÃºrgico(         05: TÃ©, yuyo Ø³»j(          06: SÚda(         07: Sšƒ¥ecifiÿr(         08: AbÜtØe¥ÚtÃ¡Ão(         99: D©Ø³rdido(          1: NØu§(         2: SÃ­, sšƒ¥ecifiÿr(          3: HÜmÚ®es(         4: QuœÃºrgicos(         5: DIU(         6: P»£rv©ivo(         7: Ab¡š’cŸ…”iÃ³diÿ(         8: Co™u š‹¼u±us(          …”dido(          (          Ã­(         99: D©Ø³rdido(         02: Tv(      
+
+36    03: 
+	`DŸrio
+(          04: Radio(         05: Stick” / VŞª‹ / C¬‹l(          06: IÁ”Ãt(         07: Boÿ‡ boÿ(         08: OrgªizaciÃ³n(       (   09: Ho¥™® / MÃ©dicx / EquØdS®ud(   
+
+37        10: Revi¡a(          11: F¬macÃ©uticx(          12: OŒx(       <   13: Algu›Àquy¨abÜtÃ³ cÚ†¨lÃ­Ã¨Ë…asÃ³ƒÈnÃºm”o(         14: SeùÜƒduÿtivo(         99: D©Ø³rdido(          1: NØfue(      4   2: Fuy ssštiÃ³ iÁimidad¨·¿ habÏ¸dabÜto(         3: SÃgÃ³‡ d¬ infÜmaciÃ³n(      !   4: LdiØšfÜmaciÃ³ÀšcÜ»ùa(      3   5: LdiØšfÜmaciÃ³ÀcÜ»ù¨Ój: HÈArg”ich)(         6: LdiØšfÜmaciÃ³ÀšcÜ»ù¨+„eû (+ NÂº dÏ†Ã­Ã¨Ønoğšdi¡što)(         7: LdiØšfÜmaciÃ³ÀcÜ»ù¨+„eû (+ NÂº dÏ†Ã­Ã¨Ønoğšdi¡što)(         8: D”ivÃ³‡ uÀquœÃºrgico(          9: D”ivÃ³‡ cÚ£j”Ã­a(   
+
+38       10: LdiØsŞØÏ„eû(          11: SÃgÃ³‡ haû¾Ï„eû (cuªdØÏ muj” fu® mÃ©dicØex¶Ã­c™am’‹…¬¨eso)(          12: Prİagªd¨´Ã³vida(          13: SÃ³lØ£guim›ÁØpo§bÜto(         99: D©Ø³rdido(         2: A‹nciÃ³À´im¬Ÿ…Ãºbliÿ(         3: A‹nciÃ³Àho¥™®…Ãºblico(         4: A‹nciÃ³À´im¬Ÿ…rivada(         5: A‹nciÃ³ÀşÃ­niÿ…rivada(      !   6: A‹nciÃ³À´im¬Ÿ ob¿ socŸl(         7: ClÃ­niÿ ob¿ socŸl(           (         (         99: D©Ø³rdido(         1: NØt›Ã com·Ã±Ã­a(         2: Amigx(          3: P¬eja(         4: MÃ©dicx/F¬macÃ©uticx(         5: Sšƒ¥ecifiÿr(      
+
+39    6: 
+	`FamŸ
+(         8: OŒx(         99: D©Ø³rdido(         1: NØhay‡bÜtØª‹riÜ(         2: Misİro¡Ş(         3: OŒo mediÿm’to (m‘rÙex©Øâ€“ inyecciÃ³Àâ€“ ox™ocš¨â€“ƒtc)(         4: QuœÃºrgico(         5: TÃ©, yuyo Ø³»j(         6: SÚda(         7: Sšƒ¥ecifiÿr(         8: AbÜtØe¥ÚtÃ¡Ão(         99: D©Ø³rdido(         2: Tv(          3: DŸrio(         4: Radio(         5: Stick” / VŞª‹ / C¬‹l(          6: IÁ”Ãt(         7: Boÿ‡ boÿ(         8: OrgªizaciÃ³n(       '   9: Ho¥™® / MÃ©dicx / EquØdS®ud(   
+
+40        10: Revi¡a(          11: F¬macÃ©uticx(          12: OŒx(       <   13: Algu›Àquy¨abÜtÃ³ cÚ†¨lÃ­Ã¨Ë…asÃ³ƒÈnÃºm”o(         14: SeùÜƒduÿtivo(         99: D©Ø³rdido(      "   1: NØ‹nÃ­¨šfÜmaciÃ³À”rÃ³Ãa(      
+
+41    2: 
+M
+Ã©
+	`dicx
+(      
+
+42    3: 
+	`FŞËto
+(         4: Boÿ‡ boÿ(          5: IÁ”Ãˆ(         6: F¬macÃ©uticx (         7: Sšƒ¥ecifiÿr(         8: OrgªizaciÚes(       2   9: OŒo d–ƒquo d§lud (’ãrm”x,s,ƒtc)(   
+
+43       10: SeùÜƒduÿtivo(      %   2: Misİro¡Ş dosi cÜ»ù¨vagš®(      (   3: Misİro¡Ş dosi cÜ»ù¨sublšgu®(      "   4: Misİro¡Ş cªtidad incÜ»ùa(      #   5: Misİro¡Ş iÁ”v®ØšcÜ»ùo(         6: Misİro¡Ş vÃ­a mezşadas/šcÜ»ùa (£ u§ sÃ³lØ·¿ cuªdØÿmbŸ†¨vÃ­¨’†¨m™ad duÀ´oûsØcÜ»ùo)(         7: Misİro¡Ş dosi šcÜ»ù¨Ó¡£ u§…¬¨2vagš®+2sublšgu®)(         8: InyecciÃ³n(          9: MÃ©todo ÿ£ros(   
+
+44        10: SÚda(           11: OŒos(         99: D©Ø³rdido(      3   2: F¬macŸ cÚ„eû cÚ descu’tØdob¿ socŸl(      3   3: F¬macŸ cÚ„eû sš descu’tØdob¿ socŸl(         4: F¬macŸ sš„eû(         5: Fu”¨dÏ f¬macŸ(          6: IÁ”Ãt(         7: SÃ­, sšƒ¥ecifiÿr(         8: Red socŸÈg¿tis(      %   2: N˜eãùo £cund¬io n˜§ng¿do(      #   3: Eãùo £cund¬io sš sªg¿do(      '   4: Sªg¿dØm’o quuÇ m’¡ruaciÃ³n(      %   5: Sªg¿dØigu®‡ uÇ m’¡ruaciÃ³n(      &   6: Sªg¿dØmÃ¡ quuÇ m’¡ruaciÃ³n(         7: Sªg¿dØy sacØge¡aciÚ® (nØu§¸e¡cÃ³digØª‹ dÏ 9 semªas)(         8: HemÜ¿gŸ(         99: D©Ø³rdido(         2: AbÜtØšcom¶‘o(         3: MÃ¡ d15 semªas(         4: M’Ü dedad(      (   5: Ecog¿fÃ­¨·¿ cÚfœm¬†a £mªas(         6: Ecog¿fÃ­¨po§bÜto(         7: ViŞaciÃ³n(         8: Signo dšãcciÃ³n(          9: Signo dhemÜ¿gŸ(   
+
+45        10: DŞÜe (          11: NØpuedu§¸misİro¡Ş(       -   12: P»f›» i¸¨uÀmÃ©dicØª‹ dabÜr(       >   13: F®lÃ³ y qu›» sab”„›sgo dcÚtšu¬ cÚƒÈemb¬azo(      <   14: AbÜtØex™osØd£gundØŒime¡» (š‹ºaciÃ³n,ƒtc.)(         15: Cue¡iÚe dcomuniÿciÃ³ÀÓ sÜda,‚ØhabÏƒÈidioma,ƒtc.)(   
+
+46          
+
+47       _COMPROBACIONt   _MAS_DE_10_SEMANASt   _MEDICAt   _DE_SERVICIOˆ   _SOCIALt      _ANTERIORt   _ANTICONCEPTIVOt      _SE_ENTEROˆ   _AL_MEDICOt   _COMO_SE_ENTEROt   _INFORMACION_INCORRECTAt   _INTENTO_DE_ABORTOt   _INTENTO_ABORTOt   _INTENTO_ABORTOt   _DERIVACION(    (    (    4   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/d©a.pyt   <moduË>   *  
+
+	@deploy.py
+
+1 
+impÜt
+ 
+os
+
+
+2 
+impÜt
+ 
+š¥eù
+
+
+3 
+äom
+ 
+cŞÜama
+ 
+impÜt
+ 
+š™
+
+
+4 
+äom
+ 
+cŞÜama
+ 
+impÜt
+ 
+	gFÜe
+, 
+	gBack
+, 
+StyË
+
+
+6 
+impÜt
+ 
+­p
+
+
+7 
+impÜt
+ 
+mod–s
+
+
+8 
+äom
+ 
+cÚfig
+ 
+impÜt
+ 
+DATABASE
+
+
+10 
+def
+ 
+	$ü—r_bÏs
+():
+
+11 
+	$š™
+(
+autÜe£t
+=
+True
+)
+
+13 
+auth
+ = 
+­p
+.auth
+
+14 
+os
+.
+·th
+.
+	`exi¡s
+(
+DATABASE
+['name']):
+
+15 
+´št
+ 
+FÜe
+.
+GREEN
+ + 'C»ªdØ–‡rchivØ' + 
+DATABASE
+['name']
+
+16 
+os
+.
+	`»move
+(
+DATABASE
+['name'])
+
+18 #C»¬ 
+bÏs
+
+
+19 
+auth
+.
+U£r
+.
+	$ü—‹_bË
+(
+ç_s’y
+=
+True
+)
+
+21 
+def
+ 
+	$es_un_mod–o
+(
+şa£
+):
+
+22  
+š¥eù
+.
+	$isşass
+(
+c
+è
+ªd
+ 
+	$issubşass
+(
+c
+, 
+mod–s
+.
+db
+.
+Mod–
+)
+
+24 
+nomb»
+, 
+şa£
+ 
+š
+ [(
+n
+, 
+c
+èn, c iÀ
+š¥eù
+.
+	$g‘memb”s
+(
+mod–s
+è
+	`es_un_mod–o
+(
+c
+)]:
+
+25 
+şa£
+.
+	$ü—‹_bË
+(
+ç_s’y
+=
+True
+)
+
+26 
+´št
+ 
+FÜe
+.
+GREEN
+ + 'C»ªdØbÏ…¬¨' + 
+nomb»
+
+
+28 #C»¬ 
+usu¬io
+ 
+admš
+
+
+29 
+admš
+ = 
+auth
+.
+	`U£r
+(
+u£ºame
+='admš',‡dmš=
+True
+, 
+aùive
+=True)
+
+30 
+admš
+.
+	`£t_·sswÜd
+('admin')
+
+31 
+admš
+.
+	$§ve
+()
+
+32 
+´št
+ 
+FÜe
+.
+GREEN
+ + "Creando usuario‡dmin"
+
+34 
+	$ÿrg¬_´ovšcŸs
+()
+
+37 
+def
+ 
+	$ÿrg¬_´ovšcŸs
+():
+
+38 
+äom
+ 
+d©a
+ 
+impÜt
+ 
+PROVINCIAS
+
+
+40 
+´št
+ 
+FÜe
+.
+GREEN
+ + "Cargando†a informacion de…rovincias"
+
+41 
+´ovšcŸ
+, 
+codigo
+ 
+š
+ 
+PROVINCIAS
+:
+
+42 
+p
+ = 
+mod–s
+.
+	$ProvšcŸ
+(
+nomb»
+=
+´ovšcŸ
+, 
+codigo
+=codigo)
+
+43 
+p
+.
+	$§ve
+()
+
+45 
+__Çme__
+ == '__main__':
+
+46 
+	`ü—r_bÏs
+()
+
+	@deploy.pyc
+
+2 
+	gm
+œ
+	gnOc
+           @   ˜                                              
+
+3  
+
+4   „     „        ”   ƒ     (   ÿÿÿÿN(      (            (                   -      ƒ   }       ƒ         
+
+5    ƒ   |        ƒ ‡    †  }        ƒ ]$ \ } ‰  | ˆ  ƒ ‰ | ˆ   ^ ‰ ], \ } } |     ƒ     | ± |           ƒ } |   ƒ |  ƒ     
+
+6   ƒ    Ğ             ƒÈ¬chivØˆ   _s’yc            "      ˆ  ƒ !  ˆ     ƒ (   (         
+
+7             (      (      (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/d•loy.pyˆ   _un_mod–o          abÏ…¬¨t             usu¬iØadmš(                                            _bËR   
+
+8            _·sswÜdt      _´ovšcŸs(                     (    (      6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/d•loy.pyˆ   _bÏs
+
+9        
+
+10                      }     6 |  ]. \ } }    |  | ƒ } |  ƒ  #   (   ÿÿÿÿ(   
+
+11    %   †¨šfÜmaciÚ d´ovšcŸsR#      (      %                     (   %       &      (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/d•loy.pyR!   %   
+
+12        __maš__(                                      $   !      __Çme__(    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/d•loy.pyt   <moduË>      
+
+	@dump.rdb
+
+1 
+	gREDIS0002
+ş ı)@Ä
+	gO
+ 5ûË
+	gry
+-
+	gsk
+-
+	gm‘a
+-9a6f243c-279c-4197-
+	gb59a
+-83fc4d2fbe8b@
+G
+(
+dp1
+
+
+2 
+S
+'status'
+
+3 
+p2
+
+
+4 
+S
+'SUCCESS'
+
+5 
+p3
+
+
+6 
+sS
+'traceback'
+
+7 
+p4
+
+
+8 
+NsS
+'result'
+
+9 
+p5
+
+
+10 
+I109
+
+
+11 
+s
+.ıÃ2Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-
+cdf9873d
+-691c-4a9a-
+adf6
+-49188fb4c88f@
+G
+(
+dp1
+
+
+12 
+S
+'status'
+
+13 
+p2
+
+
+14 
+S
+'SUCCESS'
+
+15 
+p3
+
+
+16 
+sS
+'traceback'
+
+17 
+p4
+
+
+18 
+NsS
+'result'
+
+19 
+p5
+
+
+20 
+I108
+
+
+21 
+s
+.ıÍ<Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-779e9621-8d2e-4533-9001-7bb39b999868@
+G
+(
+dp1
+
+
+22 
+S
+'status'
+
+23 
+p2
+
+
+24 
+S
+'SUCCESS'
+
+25 
+p3
+
+
+26 
+sS
+'traceback'
+
+27 
+p4
+
+
+28 
+NsS
+'result'
+
+29 
+p5
+
+
+30 
+I109
+
+
+31 
+s
+.ı
+Y
+@Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-18fcff69-0«8-4a4e-9392-161f7ãcã1f@
+G
+(
+dp1
+
+
+32 
+S
+'status'
+
+33 
+p2
+
+
+34 
+S
+'SUCCESS'
+
+35 
+p3
+
+
+36 
+sS
+'traceback'
+
+37 
+p4
+
+
+38 
+NsS
+'result'
+
+39 
+p5
+
+
+40 
+I109
+
+
+41 
+s
+.ıÉ1Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-
+a8f599—
+-40c4-464c-9—6-
+c0e736¯fb82
+@
+G
+(
+dp1
+
+
+42 
+S
+'status'
+
+43 
+p2
+
+
+44 
+S
+'SUCCESS'
+
+45 
+p3
+
+
+46 
+sS
+'traceback'
+
+47 
+p4
+
+
+48 
+NsS
+'result'
+
+49 
+p5
+
+
+50 
+I108
+
+
+51 
+s
+.ıû=Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-
+d420086a
+-6fc3-4f60-9736-
+d3118e34f20a
+@
+G
+(
+dp1
+
+
+52 
+S
+'status'
+
+53 
+p2
+
+
+54 
+S
+'SUCCESS'
+
+55 
+p3
+
+
+56 
+sS
+'traceback'
+
+57 
+p4
+
+
+58 
+NsS
+'result'
+
+59 
+p5
+
+
+60 
+I109
+
+
+61 
+s
+.ıÙ
+W
+Å
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-24924cd2-813d-4«d-99df-
+e8adefd5e6c0
+@
+G
+(
+dp1
+
+
+62 
+S
+'status'
+
+63 
+p2
+
+
+64 
+S
+'SUCCESS'
+
+65 
+p3
+
+
+66 
+sS
+'traceback'
+
+67 
+p4
+
+
+68 
+NsS
+'result'
+
+69 
+p5
+
+
+70 
+I109
+
+
+71 
+s
+.ı»
+W
+Å
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-8c2a3ç7-51be-4304-93bf-
+c9b065fd563c
+Ã
+A
+©
+B
+‹(
+dp1
+
+
+72 
+S
+'status'
+
+73 
+p2
+  3
+
+74 
+sS
+'traceback  4  Àmost„ecent call†ast):\n\n F"/Users/hugoruscitti/.virtua/f 37/lib/python2.7/site-p {/celery/execute/`˜.py",†ine 181, in `_t V@†= ¤ (*args, **kw@  )à¯à¬à244`€}áà Kà11€h 5_registro€qàFp58`ØÀoA/ IOError:ƒ@\n" 5B-6
+
+75 
+ûxû±iÚs
+
+
+77 
+p7
+
+
+78 (
+S
+'`3 #8
+
+79 
+9
+
+
+80 
+Rp10
+
+
+81 
+s
+.ı
+DW
+Å
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-193e0e6c-
+dd6f
+-4bcc-9«c-09656dd9b79bÃ
+A
+Û
+B
+Ş(
+dp1
+
+
+82 
+S
+'status'
+
+83 
+p2
+  3
+
+84 
+sS
+'traceback  4  Àmost„ecent call†ast):\n\n F"/Users/hugoruscitti/.virtua/f 37/lib/python2.7/site-p {/celery/execute/`˜.py",†ine 181, in `_t V@†= ¤ (*args, **kw@  )à¯à¬à244`€} yjsonify({\'resultado\':   .€  }à1 wà”115`” Ã_registro€.À (àF{59à€qIOError("e@ "`x : `\n"o 5B€6
+
+85 
+ûxû±iÚs
+
+
+87 
+p7
+
+
+88 (
+S
+'`3 #8
+
+89 
+9
+
+
+90 
+Rp10
+
+
+91 
+s
+.ı{
+W
+Å
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-
+cc36a15d
+-7f1b-4b30-
+a79e
+-9627a34b68de@
+G
+(
+dp1
+
+
+92 
+S
+'status'
+
+93 
+p2
+
+
+94 
+S
+'SUCCESS'
+
+95 
+p3
+
+
+96 
+sS
+'traceback'
+
+97 
+p4
+
+
+98 
+NsS
+'result'
+
+99 
+p5
+
+
+100 
+I109
+
+
+101 
+s
+.ı‘3Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-
+a8cd49e9
+-46d0-4918-8704-
+f73cbcf6ec36
+@
+G
+(
+dp1
+
+
+102 
+S
+'status'
+
+103 
+p2
+
+
+104 
+S
+'SUCCESS'
+
+105 
+p3
+
+
+106 
+sS
+'traceback'
+
+107 
+p4
+
+
+108 
+NsS
+'result'
+
+109 
+p5
+
+
+110 
+I108
+
+
+111 
+s
+.ıˆ Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-8651753b-
+db19
+-4c62-
+a558
+-
+bf6f50702cã
+@
+G
+(
+dp1
+
+
+112 
+S
+'status'
+
+113 
+p2
+
+
+114 
+S
+'SUCCESS'
+
+115 
+p3
+
+
+116 
+sS
+'traceback'
+
+117 
+p4
+
+
+118 
+NsS
+'result'
+
+119 
+p5
+
+
+120 
+I108
+
+
+121 
+s
+.
+_kombu
+.
+bšdšg
+.
+ûËryd
+.
+pidbox
+.loÿl.ûËryd.pidbox.loÿl.ûËryd.pidboxım6ÄO 5ûËry-sk-m‘a-4f1b691f-de87-4e75-«40-669c3f2540b1@G(dp1
+
+122 
+S
+'status'
+
+123 
+p2
+
+
+124 
+S
+'SUCCESS'
+
+125 
+p3
+
+
+126 
+sS
+'traceback'
+
+127 
+p4
+
+
+128 
+NsS
+'result'
+
+129 
+p5
+
+
+130 
+I109
+
+
+131 
+s
+.ıà
+V
+Å
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-2b55b516-7e16-46ab-
+b803
+-5affd361e65aÃ
+A
+È
+B
+Ó(
+dp1
+
+
+132 
+S
+'status'
+
+133 
+p2
+  3
+
+134 
+sS
+'traceback  4  Àmost„ecent call†ast):\n\n F"/Users/hugoruscitti/.virtua/f 37/lib/python2.7/site-p {/celery/execute/`˜.py",†ine 181, in `_t V@†= ¤ (*args, **kw@  )à¯à¬à244`€} . G_registro( à1‚à^á 1€‰ ^à€’à Œ (àF{58aÀz€qIOError("e@ "`x : `\n"d 5Bu!6
+
+135 
+ûxû±iÚs
+
+
+137 
+p7
+
+
+138 (
+S
+'`3 #8
+
+139 
+9
+
+
+140 
+Rp10
+
+
+141 
+s
+.ı÷8Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-6382d59b-
+f560
+-4f75-99be-829ãc4c2bf2@
+G
+(
+dp1
+
+
+142 
+S
+'status'
+
+143 
+p2
+
+
+144 
+S
+'SUCCESS'
+
+145 
+p3
+
+
+146 
+sS
+'traceback'
+
+147 
+p4
+
+
+148 
+NsS
+'result'
+
+149 
+p5
+
+
+150 
+I108
+
+
+151 
+s
+.ı
+U
+<Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-10d69af2-
+c5bf
+-4a2b-852b-7e7c3ba366d8@
+G
+(
+dp1
+
+
+152 
+S
+'status'
+
+153 
+p2
+
+
+154 
+S
+'SUCCESS'
+
+155 
+p3
+
+
+156 
+sS
+'traceback'
+
+157 
+p4
+
+
+158 
+NsS
+'result'
+
+159 
+p5
+
+
+160 
+I109
+
+
+161 
+s
+.
+_kombu
+.
+bšdšg
+.
+ûËry
+ı]:Ä
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-18681304-5690-4cd9-945e-072c32476b86@
+G
+(
+dp1
+
+
+162 
+S
+'status'
+
+163 
+p2
+
+
+164 
+S
+'SUCCESS'
+
+165 
+p3
+
+
+166 
+sS
+'traceback'
+
+167 
+p4
+
+
+168 
+NsS
+'result'
+
+169 
+p5
+
+
+170 
+I109
+
+
+171 
+s
+.ı2XÅ
+O
+ 5ûË
+ry
+-
+sk
+-
+m‘a
+-
+cb93d84c
+-68û-43cc-
+af84
+-
+bf94da7d87ab
+@
+G
+(
+dp1
+
+
+172 
+S
+'status'
+
+173 
+p2
+
+
+174 
+S
+'SUCCESS'
+
+175 
+p3
+
+
+176 
+sS
+'traceback'
+
+177 
+p4
+
+
+178 
+NsS
+'result'
+
+179 
+p5
+
+
+180 
+I109
+
+
+181 
+s
+.ÿ
+
+	@forms.py
+
+1 #-*- 
+’codšg
+: 
+utf
+-8 -*-
+
+2 
+äom
+ 
+	gæaskext
+.
+wtf
+ 
+impÜt
+ *
+
+3 
+impÜt
+ 
+mod–s
+
+
+4 
+äom
+ 
+	gwtå“w“
+.
+f›lds
+ 
+impÜt
+ 
+Mod–S–eùF›ld
+
+
+5 
+impÜt
+ 
+d©a
+
+
+7 
+şass
+ 
+	$S•¬adÜ
+(
+TextF›ld
+):
+
+9 
+def
+ 
+	$__š™__
+(
+£lf
+, *
+k
+, **
+kv
+):
+
+10 
+£lf
+.
+t™ulo
+ = 
+kv
+.
+	`pİ
+('titulo')
+
+11 
+TextF›ld
+.
+	$__š™__
+(
+£lf
+, *
+k
+, **
+kv
+)
+
+13 
+def
+ 
+	$__ÿÎ__
+(
+£lf
+):
+
+14  "<h5>%s</h5>" %(
+£lf
+.
+t™ulo
+)
+
+16 
+şass
+ 
+	$Ag»g¬
+(
+TextF›ld
+):
+
+18 
+def
+ 
+	$__š™__
+(
+£lf
+, *
+k
+, **
+kv
+):
+
+19 
+TextF›ld
+.
+	$__š™__
+(
+£lf
+, *
+k
+, **
+kv
+)
+
+21 
+def
+ 
+	$__ÿÎ__
+(
+£lf
+):
+
+22  "<bu‰Ú id='%s' cÏss='ag»g¬ bŠ'y³='subm™'>+</bu‰Ú>" %(
+£lf
+.
+id
+)
+
+24 
+şass
+ 
+	$AbÜtoAÁ”iÜ
+(
+FÜm
+):
+
+25 
+abÜto_ª‹riÜ
+ = 
+	`S–eùF›ld
+(
+u
+"AbÜtØª‹riÜ", 
+choiûs
+=
+d©a
+.
+ABORTO_ANTERIOR
+, 
+cÛrû
+=)
+
+26 
+ob£rvaciÚes
+ = 
+	`TextF›ld
+(
+u
+"Observaciones")
+
+28 
+def
+ 
+	$__š™__
+(
+£lf
+, *
+¬gs
+, **
+kw¬gs
+):
+
+29 
+kw¬gs
+['c¤f_’abËd'] = 
+F®£
+
+
+30 
+	`su³r
+(
+AbÜtoAÁ”iÜ
+, 
+£lf
+).
+	$__š™__
+(*
+¬gs
+, **
+kw¬gs
+)
+
+32 
+şass
+ 
+	$InfÜmaciÚIncÜ»ùa
+(
+FÜm
+):
+
+33 
+medio
+ = 
+	`S–eùF›ld
+(
+u
+"Medio", 
+choiûs
+=
+d©a
+.
+MEDIO_INFORMACION_INCORRECTA
+, 
+cÛrû
+=)
+
+34 
+d‘®Ë
+ = 
+	`TextF›ld
+(
+u
+"Detalle")
+
+36 
+def
+ 
+	$__š™__
+(
+£lf
+, *
+¬gs
+, **
+kw¬gs
+):
+
+37 
+kw¬gs
+['c¤f_’abËd'] = 
+F®£
+
+
+38 
+	`su³r
+(
+InfÜmaciÚIncÜ»ùa
+, 
+£lf
+).
+	$__š™__
+(*
+¬gs
+, **
+kw¬gs
+)
+
+40 
+şass
+ 
+	$IÁ’toDeAbÜto
+(
+FÜm
+):
+
+41 
+m‘odo
+ = 
+	`S–eùF›ld
+(
+u
+"M‘odo", 
+choiûs
+=
+d©a
+.
+METODO_INTENTO_DE_ABORTO
+, 
+cÛrû
+=)
+
+42 
+haû_cuªtos_dŸs
+ = 
+	`TextF›ld
+(
+u
+"Â¿Hace cuantos dÃ­as?")
+
+43 
+miso
+ = 
+	`S–eùF›ld
+(
+u
+"Misİro¡Ş", 
+choiûs
+=
+d©a
+.
+MOTIVO_MAS_DE_10_SEMANAS
+, 
+cÛrû
+=)
+
+44 
+ÿÁidad_de_·¡Ïs
+ = 
+	`TextF›ld
+(
+u
+"Cantidad de…astillas")
+
+45 
+´ecio
+ = 
+	`TextF›ld
+("Edad gestacional")
+
+46 
+co¡o_si_no_es_miso
+ = 
+	`TextF›ld
+(
+u
+"Costootal si‚oƒs misoprostol")
+
+47 
+§ng¿do
+ = 
+	`S–eùF›ld
+(
+u
+"Sªg¿do", 
+choiûs
+=
+d©a
+.
+SANGRADO_INTENTO_ABORTO
+, 
+cÛrû
+=)
+
+48 
+§ng¿do_aùu®
+ = 
+	`S–eùF›ld
+(
+u
+"Sªg¿dØaùu®", 
+choiûs
+=
+d©a
+.
+SANGRADO_INTENTO_ABORTO
+, 
+cÛrû
+=)
+
+49 
+signos_de_šãcciÚ
+ = 
+	`BoŞ—nF›ld
+(
+u
+"Signos de infecciÃ³n")
+
+51 
+def
+ 
+	$__š™__
+(
+£lf
+, *
+¬gs
+, **
+kw¬gs
+):
+
+52 
+kw¬gs
+['c¤f_’abËd'] = 
+F®£
+
+
+53 
+	`su³r
+(
+IÁ’toDeAbÜto
+, 
+£lf
+).
+	$__š™__
+(*
+¬gs
+, **
+kw¬gs
+)
+
+55 
+şass
+ 
+	$D©osBa£FÜm
+(
+FÜm
+):
+
+56 
+nomb»
+ = 
+	`TextF›ld
+("Nombre")
+
+57 
+edad
+ = 
+	`Decim®F›ld
+("Edad")
+
+58 
+‹ËfÚo
+ = 
+	`TextF›ld
+("Telefono")
+
+59 
+ÇciÚ®idad
+ = 
+	`TextF›ld
+("Nacionalidad")
+
+61 
+£·¿dÜ
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+=
+u
+"DirecciÃ³n")
+
+62 
+´ovšcŸ
+ = 
+	`Mod–S–eùF›ld
+("ProvšcŸ", 
+mod–
+=
+mod–s
+.
+ProvšcŸ
+)
+
+63 
+loÿlidad
+ = 
+	`TextF›ld
+("Localidad")
+
+64 
+b¬rio
+ = 
+	`S–eùF›ld
+("B¬rio", 
+choiûs
+=
+d©a
+.
+BARRIOS
+, 
+cÛrû
+=)
+
+66 
+şass
+ 
+	$LÏmadaFÜm
+(
+FÜm
+):
+
+67 
+s1
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+="Semanas Gestacionales")
+
+69 
+mÙivo
+ = 
+	`S–eùF›ld
+("MÙivo", 
+choiûs
+=
+d©a
+.
+MOTIVO
+, 
+cÛrû
+=)
+
+70 
+»cÚfœmo_emb¬azo
+ = 
+	`S–eùF›ld
+(
+u
+"RecÚfœmÃ³ƒmb¬azo", 
+choiûs
+=
+d©a
+.
+RECONFIRMO
+, 
+cÛrû
+=)
+
+71 
+fum
+ = 
+	`D©eF›ld
+("FUM", 
+fÜm©
+='%d/%m/%Y')
+
+72 
+edad_ge¡aciÚ®
+ = 
+	`IÁeg”F›ld
+("Edad gestacional")
+
+73 
+£mªa_’‹ro
+ = 
+	`IÁeg”F›ld
+(
+u
+"En quÃ© semana seƒnterÃ³")
+
+74 
+mÙivo_mas_de_10_£mªas
+ = 
+	`S–eùF›ld
+(
+u
+"MÃ¡s de 10 semanas",
+
+75 
+choiûs
+=
+d©a
+.
+MOTIVO_MAS_DE_10_SEMANAS
+, 
+cÛrû
+=)
+
+76 
+ÿÁidad_de_hijos
+ = 
+	$IÁeg”F›ld
+()
+
+78 
+d©osba£_id
+ = 
+	`Hidd’F›ld
+("")
+
+80 #CAMPOS 
+NUEVOS
+
+
+81 
+s2
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+=
+u
+"AtenciÃ³n mÃ©dica")
+
+82 
+fue_®_medico
+ = 
+	`S–eùF›ld
+(
+u
+"FuÃ©‡ÈmÃ©dico", 
+choiûs
+=
+d©a
+.
+FUE_AL_MEDICO
+, 
+cÛrû
+=)
+
+83 
+äa£s_bu’as_m®as_´aùiÿs
+ = 
+	`TextF›ld
+(
+u
+"Frases buenas, malas…rÃ¡cticas")
+
+84 
+to_de_£rvicio
+ = 
+	`S–eùF›ld
+(
+u
+"TØd£rvicio", 
+choiûs
+=
+d©a
+.
+TIPO_DE_SERVICIO
+, 
+cÛrû
+=)
+
+85 
+ob¿_socŸl
+ = 
+	`S–eùF›ld
+(
+u
+"Ob¿ socŸl", 
+choiûs
+=
+d©a
+.
+OBRA_SOCIAL
+, 
+cÛrû
+=)
+
+86 
+com·nŸ
+ = 
+	`S–eùF›ld
+(
+u
+"Com·Ã±Ÿ", 
+choiûs
+=
+d©a
+.
+COMPANIA
+, 
+cÛrû
+=)
+
+88 
+mac
+ = 
+	`S–eùF›ld
+(
+u
+"MÃ©todØªticÚû±ivo", 
+choiûs
+=
+d©a
+.
+METODO_ANTICONCEPTIVO
+, 
+cÛrû
+=)
+
+89 
+ahe
+ = 
+	`S–eùF›ld
+(
+u
+"AHE", 
+choiûs
+=
+d©a
+.
+AHE
+, 
+cÛrû
+=)
+
+91 
+s3
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+=
+u
+"Â¿CÃ³mo seƒnterÃ³ de†a†inea?")
+
+93 #FALTA 
+CORREGIR
+ 
+CHOICES
+
+
+94 
+’‹ro_medio
+ = 
+	`S–eùF›ld
+(
+u
+"Medio", 
+choiûs
+=
+d©a
+.
+MEDIO_COMO_SE_ENTERO
+, 
+cÛrû
+=)
+
+95 
+t›Ã_mªu®
+ = 
+	`BoŞ—nF›ld
+(
+u
+"Â¿Tieneƒl manual?")
+
+98 
+s4
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+=
+u
+"Abortos‡nteriores")
+
+99 
+abÜto_ª‹riÜ
+ = 
+	`F›ldLi¡
+(
+	`FÜmF›ld
+(
+AbÜtoAÁ”iÜ
+), 
+mš_’Œ›s
+=1)
+
+100 
+subm™
+ = 
+	`Ag»g¬
+("", 
+id
+='agregar_aborto_anterior')
+
+102 
+s5
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+=
+u
+"InformaciÃ³n incorrecta")
+
+103 
+šfÜmaciÚ_šcÜ»ùa
+ = 
+	`F›ldLi¡
+(
+	`FÜmF›ld
+(
+InfÜmaciÚIncÜ»ùa
+), 
+mš_’Œ›s
+=1)
+
+104 
+subm™2
+ = 
+	`Ag»g¬
+("", 
+id
+='agregar_informacion_incorrecta')
+
+106 
+s6
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+=
+u
+"Intentos de‡borto")
+
+107 
+š‹Áo_de_abÜto
+ = 
+	`F›ldLi¡
+(
+	`FÜmF›ld
+(
+IÁ’toDeAbÜto
+), 
+mš_’Œ›s
+=1)
+
+108 
+subm™3
+ = 
+	`Ag»g¬
+("", 
+id
+='agregar_intento_de_aborto')
+
+110 
+s7
+ = 
+	`S•¬adÜ
+("", 
+t™ulo
+=
+u
+"DerivaciÃ³n")
+
+111 
+d”ivaciÚ
+ = 
+	`TextF›ld
+(
+u
+"DerivaciÃ³n")
+
+112 
+mÙivo_d”ivaciÚ
+ = 
+	`S–eùF›ld
+(
+u
+"MÙivØdÏ d”ivaciÃ³n", 
+choiûs
+=
+d©a
+.
+MOTIVO_DERIVACION
+, 
+cÛrû
+=)
+
+113 
+ob£rvaciÚes
+ = 
+	`TextF›ld
+(
+u
+"Observaciones")
+
+	@forms.pyc
+
+2 ®Ä
+	gOc
+           @   Ğ                            „  ƒ       „  ƒ        „  ƒ    
+
+3      „  ƒ  
+
+4        „  ƒ        „  ƒ        „  ƒ     (   ÿÿÿÿ(      *N(                                „    „   (               )   |    ƒ |  _   |  | |    (      (                __š™__(            (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR                           |    (       <h5>%s</h5>(      (      (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyt   __ÿÎ__        (      __Çme__t
+
+5    
+__moduË__R
+   
+
+6    (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR                                  „    „   (                     |  | |    (   (         (             (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR                           |    (   <   <bu‰Ú id='%s' cÏss='ag»g¬ bŠ'y³='subm™'>+</bu‰Ú>(      (      (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR
+
+7           (              
+
+8    (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR                           8              ƒ   ƒ   „    (      ‡Á”iÜt                      '     |  <t  |  ƒ  | |     (      _’abËd(               (            (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR          
+
+10                      _ANTERIORt      _ª‹riÜR          (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR                          8              ƒ   ƒ   „    (                           '     |  <t  |  ƒ  | |     (      (               (            (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR   $       
+
+12                     _INFORMACION_INCORRECTAR               (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR                          ¹              ƒ   ƒ          ƒ
+
+13    ƒ     ƒ     ƒ          ƒ         ƒ  
+
+14  ƒ    „   Ğ               Â¿Haû cuªto dÃ­as?u        d·¡Ïss    ge¡aciÚ®u    Ù® s˜nØe misİro¡Şu      ‡ùu®u    dšãcciÃ³nc            '     |  <t  |  ƒ  | |     (      (         !      (            (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR   3       
+
+15 (                    _INTENTO_DE_ABORTOR            _cuªtos_dŸ¡   _MAS_DE_10_SEMANASt      _de_·¡Ï¡      _si_no_es_misÙ   _INTENTO_ABORTOt      _aùu®ˆ      _de_šãcciÚR   (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR!   (                       †         ƒ    ƒ    ƒ    ƒ      ƒ 
+
+16        ƒ    ƒ   
+
+17         ƒ Ğ                       
+
+18    Ã³Á                    (                                            5                          (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyR/   7                       œ          ƒ        ƒ         ƒ
+
+19        ƒ   
+
+20  ƒ      ƒ          ƒ   ƒ      ƒ        ƒ        ƒ   ƒ         ƒ        ƒ        ƒ         ƒ!     "   ƒ#      ƒ$     %   ƒ& '  ƒ (      ƒ) * + , ƒ   ƒ- .     ƒ/      ƒ0 * + 1 ƒ   ƒ2 .     ƒ3      ƒ4 * + 5 ƒ   ƒ6 .      ƒ7     ! ƒ8  ! ƒ 9  "   :   ƒ;  # ƒ < ($   4          Ge¡aciÚ®e¡            Ã³ƒmb¬azÙ         %d/%m/%Ys    ge¡aciÚ®u    quÃ© semª¨£ƒÁ”Ã³u   Ã¡ d10 semªasu   Ã³ÀmÃ©diÿu   Ã©‡ÈmÃ©dicou    bu’as, m®a ´Ã¡ùiÿsu    d£rviciou     socŸlu    Ã±Ÿu   Ã©todØªticÚû±ivou      Â¿CÃ³mØ£ƒÁ”Ã³ dÏ†š—?u      Â¿T›ÃƒÈmªu®?u   ‡Á”iÜe¡    _’Œ›si         _abÜto_ª‹riÜu   Ã³ÀšcÜ»ù©   _šfÜmaciÚ_šcÜ»ùau    dabÜtÙ   _š‹Áo_de_abÜtou    Ã³nu    dÏ d”ivaciÃ³nu    (=                 1R               
+
+21       _emb¬azÙ              _ge¡aciÚ®ˆ   _’‹roR%      _mas_de_10_£mªa¡   _de_hijo¡        _idt   2ˆ   _AL_MEDICOˆ   _®_medicoR      _bu’as_m®as_´aùiÿ¡   _DE_SERVICIOt   _de_£rviciÙ    _SOCIALˆ   _socŸÉ         _ANTICONCEPTIVOt            3t   _COMO_SE_ENTEROˆ   _medioR-       _mªu®t   4ˆ                       5R      _šcÜ»ù©   2t   6R!      _de_abÜtÙ   3t   7t
+
+22       _DERIVACIONt   _d”ivaciÚR   (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyRD         (       .wtfR?      .f›ldsR                         !   /      (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/fÜms.pyt   <moduË>      
+
+	@importador.py
+
+1 
+impÜt
+ 
+xÌd
+
+
+2 
+impÜt
+ 
+mod–s
+
+
+3 
+impÜt
+ 
+d©‘ime
+
+
+4 
+impÜt
+ 
+time
+
+
+6 
+şass
+ 
+	gImpÜdÜ
+:
+
+8 
+def
+ 
+	$__š™__
+(
+£lf
+, 
+¬chivo_a_´oû§r
+, 
+demÜa
+=0):
+
+9 
+Œy
+:
+
+10 
+£lf
+.
+docum’to
+ = 
+xÌd
+.
+	$İ’_wÜkbook
+(
+¬chivo_a_´oû§r
+)
+
+11 
+exû±
+ 
+xÌd
+.
+biffh
+.
+XLRDE¼Ü
+:
+
+12 
+¿i£
+ 
+	`Exû±iÚ
+("Solo se‡dmiten‡rchivos xls con formatoƒxcel 2000/XP/2003")
+
+14 #Obt›ÃÀ
+Ï
+ 
+hÜa
+ 
+´šc®
+ 
+d–
+ 
+docum’to
+.
+
+15 
+£lf
+.
+hoja
+ = s–f.
+docum’to
+.
+	$sh“t_by_šdex
+(0)
+
+16 #Defš
+Ï
+ 
+´im”
+ 
+fa
+ 
+a
+ 
+´oû§r
+. 
+Las
+ 
+´im”as
+ 
+fas
+ 
+sÚ
+ 
+ÿbeû¿s
+.
+
+17 
+£lf
+.
+num”o_de_fa
+ = 3
+
+18 
+£lf
+.
+tÙ®
+ = s–f.
+	`_cÚr_fas
+(è- s–f.
+num”o_de_fa
+
+
+19 
+£lf
+.
+ãcha_ª‹riÜ
+ = 
+NÚe
+
+
+20 
+£lf
+.
+demÜa
+ = demora
+
+22 
+def
+ 
+	$_cÚr_fas
+(
+£lf
+):
+
+23 
+i
+ = 0
+
+25 
+True
+:
+
+26 
+fa
+ = 
+£lf
+.
+hoja
+.
+	$row_v®ues
+(
+i
+)
+
+27 
+nÙ
+ 
+fa
+[0]:
+
+28  
+i
+
+
+29 
+i
+ += 1
+
+31 
+def
+ 
+	$´oû§r
+(
+£lf
+):
+
+32 
+fa
+ = 
+£lf
+.
+hoja
+.
+	$row_v®ues
+(
+£lf
+.
+num”o_de_fa
+)
+
+34 
+d©os_ba£
+ = 
+mod–s
+.
+	$D©osBa£
+()
+
+35 
+d©os_ba£
+.
+num”o_de_ficha
+ = 
+£lf
+.
+	$num”o
+(
+fa
+[0])
+
+37 #EÀ
+ÿso
+ 
+de
+ 
+que
+ 
+no
+ 
+exi¡a
+ 
+Ï
+ 
+desüciÚ
+ dÏ 
+ãcha
+, 
+£
+ 
+asume
+ que
+
+38 #Ï 
+ãcha
+ 
+es
+ 
+Ï
+ 
+misma
+ 
+de
+†¨
+Îamada
+ 
+ª‹riÜ
+.
+
+39 
+fa
+[2]:
+
+40 
+d©os_ba£
+.
+ãcha
+ = 
+£lf
+.
+	$ãcha
+(
+fa
+[2])
+
+41 
+£lf
+.
+ãcha_ª‹riÜ
+ = 
+d©os_ba£
+.
+ãcha
+
+
+43 
+d©os_ba£
+.
+ãcha
+ = 
+£lf
+.
+ãcha_ª‹riÜ
+
+
+45 
+d©os_ba£
+.
+‹ËfÚo
+ = 
+£lf
+.
+	$num”o
+(
+fa
+[3])
+
+46 
+d©os_ba£
+.
+nomb»
+ = 
+fa
+[4]
+
+47 
+d©os_ba£
+.
+edad
+ = 
+£lf
+.
+	$num”o
+(
+fa
+[5])
+
+48 
+d©os_ba£
+.
+loÿlidad
+ = 
+£lf
+.
+	$ÿd’a_ascii
+(
+fa
+[6])
+
+50 
+codigo_´ovšcŸ
+ = 
+£lf
+.
+	$num”o
+(
+fa
+[7], 99)
+
+51 
+d©os_ba£
+.
+´ovšcŸ_id
+ = 
+mod–s
+.
+ProvšcŸ
+.
+	`g‘
+(
+codigo
+=
+codigo_´ovšcŸ
+).
+id
+
+
+53 
+d©os_ba£
+.
+b¬rio
+ = 
+	$¡r
+(
+fa
+[8])
+
+54 
+d©os_ba£
+.
+ÇciÚ®idad
+ = 
+	$¡r
+(
+fa
+[9])
+
+56 
+d©os_ba£
+.
+	$§ve
+()
+
+57 
+´št
+ "D©o Ba£:", 
+d©os_ba£
+.
+id
+
+
+61 #R•»£Á¨
+–
+ 
+šdiû
+ 
+šicŸl
+ 
+’
+ 
+dÚde
+ 
+com›nza
+ 
+Ï
+ 
+Îamada
+.
+
+62 
+d–s_Îamadas
+ = [10, #´im” 
+Îamada
+
+
+63 96, #£gundØ
+Îamada
+
+
+67 
+d–
+ 
+š
+ 
+d–s_Îamadas
+:
+
+68 
+Îamada
+ = 
+mod–s
+.
+	$LÏmada
+()
+
+69 
+Îamada
+.
+d©osba£_id
+ = 
+d©os_ba£
+.
+id
+
+
+71 #EÀ
+ÿso
+ 
+de
+ 
+que
+ 
+no
+ 
+exi¡a
+ 
+Ï
+ 
+desüciÚ
+ dÏ 
+ãcha
+, 
+£
+ 
+asume
+ que
+
+72 #Ï 
+ãcha
+ 
+es
+ 
+Ï
+ 
+misma
+ 
+de
+†¨
+Îamada
+ 
+ª‹riÜ
+.
+
+73 
+fa
+[2]:
+
+74 
+Îamada
+.
+ãcha
+ = 
+£lf
+.
+	$ãcha
+(
+fa
+[2])
+
+76 
+Îamada
+.
+ãcha
+ = 
+£lf
+.
+ãcha_ª‹riÜ
+
+
+79 
+Îamada
+.
+mÙivo
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 0])
+
+80 
+Îamada
+.
+»cÚfœmo_emb¬azo
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 1], 0)
+
+81 
+Îamada
+.
+m‘odo_com´obaciÚ
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 2])
+
+83 #TODO: 
+Haûr
+ 
+que
+ 
+–
+ 
+ÿmpo
+ 
+FUM
+ 
+pueda
+ 
+£r
+ 
+nuÎ
+ 
+si
+ 
+no
+ 
+£
+ 
+e¥ecifiÿ
+.
+
+84 
+Îamada
+.
+fum
+ = 
+£lf
+.
+	`ãcha
+(
+fa
+[
+d–
+ + 3], =
+d©‘ime
+.d©‘ime.
+	$now
+())
+
+85 
+Îamada
+.
+edad_ge¡aciÚ®
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++4])
+
+86 
+Îamada
+.
+mÙivo_mas_de_10_£mªas
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++5])
+
+87 
+Îamada
+.
+£mªa_’‹ro
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++6])
+
+88 
+Îamada
+.
+ÿÁidad_de_hijos
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++7])
+
+90 
+Îamada
+.
+fue_®_medico
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++8])
+
+91 
+Îamada
+.
+äa£s_bu’as_m®as_´aùiÿs
+ = 
+£lf
+.
+	`ÿd’a_ascii
+(
+fa
+[
+d–
++10])
+
+93 
+Îamada
+.
+to_de_£rvicio
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++11])
+
+94 
+Îamada
+.
+ob¿_socŸl
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++12])
+
+95 
+Îamada
+.
+com·nŸ
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++13])
+
+97 
+Îamada
+.
+mac
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 22])
+
+98 
+Îamada
+.
+ahe
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 23])
+
+100 
+Îamada
+.
+’‹ro_medio
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++24])
+
+101 
+Îamada
+.
+t›Ã_mªu®
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
++31])
+
+105 
+´št
+ 
+d–
+ + 81
+
+106 
+Îamada
+.
+d”ivaciÚ
+ = 
+£lf
+.
+	`ÿd’a
+(
+fa
+[
+d–
+ + 81])
+
+107 
+Îamada
+.
+mÙivo_d”ivaciÚ
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 82], 99)
+
+109 
+Îamada
+.
+	$§ve
+()
+
+110 
+´št
+ "\tLÏmada", 
+Îamada
+.
+id
+
+
+112 
+fa
+[
+d–
+ + 14]:
+
+113 
+ab1
+ = 
+mod–s
+.
+	$AbÜtoAÁ”iÜ
+()
+
+114 
+ab1
+.
+Îamada
+ =†lamada
+
+115 
+ab1
+.
+medio
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 14])
+
+116 
+ab1
+.
+ob£rvaciÚes
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 15])
+
+117 
+ab1
+.
+	$§ve
+()
+
+118 
+´št
+ "\t\tAbÜtØª‹riÜ:", 
+ab1
+.
+id
+
+
+120 
+fa
+[
+d–
+ + 16]:
+
+121 
+ab2
+ = 
+mod–s
+.
+	$AbÜtoAÁ”iÜ
+()
+
+122 
+ab2
+.
+Îamada
+ =†lamada
+
+123 
+ab2
+.
+medio
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 16])
+
+124 
+ab2
+.
+ob£rvaciÚes
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 17])
+
+125 
+ab2
+.
+	$§ve
+()
+
+126 
+´št
+ "\t\tAbÜtØª‹riÜ:", 
+ab2
+.
+id
+
+
+128 
+fa
+[
+d–
+ + 18]:
+
+129 
+ab3
+ = 
+mod–s
+.
+	$AbÜtoAÁ”iÜ
+()
+
+130 
+ab3
+.
+Îamada
+ =†lamada
+
+131 
+ab3
+.
+medio
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 18])
+
+132 
+ab3
+.
+ob£rvaciÚes
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 19])
+
+133 
+ab3
+.
+	$§ve
+()
+
+134 
+´št
+ "\t\tAbÜtØª‹riÜ:", 
+ab3
+.
+id
+
+
+136 
+fa
+[
+d–
+ + 20]:
+
+137 
+ab4
+ = 
+mod–s
+.
+	$AbÜtoAÁ”iÜ
+()
+
+138 
+ab4
+.
+Îamada
+ =†lamada
+
+139 
+ab4
+.
+medio
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 20])
+
+140 
+ab4
+.
+ob£rvaciÚes
+ = 
+£lf
+.
+	`num”o
+(
+fa
+[
+d–
+ + 21])
+
+141 
+ab4
+.
+	$§ve
+()
+
+142 
+´št
+ "\t\tAbÜtØª‹riÜ:", 
+ab4
+.
+id
+
+
+144 
+fa
+[
+d–
+ + 27]:
+
+145 
+£lf
+.
+	`ü—r_šfÜmaciÚ_šcÜ»ùa
+(
+Îamada
+, 
+fa
+, 
+d–
+ + 27)
+
+147 
+fa
+[
+d–
+ + 28]:
+
+148 
+£lf
+.
+	`ü—r_šfÜmaciÚ_šcÜ»ùa
+(
+Îamada
+, 
+fa
+, 
+d–
+ + 29)
+
+150 
+fa
+[
+d–
+ + 36]:
+
+151 
+£lf
+.
+	`ü—r_š‹Áo_de_abÜto
+(
+Îamada
+, 
+fa
+, 
+d–
++36)
+
+153 
+fa
+[
+d–
+ + 47]:
+
+154 
+£lf
+.
+	`ü—r_š‹Áo_de_abÜto
+(
+Îamada
+, 
+fa
+, 
+d–
++47)
+
+156 
+fa
+[
+d–
+ + 58]:
+
+157 
+£lf
+.
+	`ü—r_š‹Áo_de_abÜto
+(
+Îamada
+, 
+fa
+, 
+d–
++58)
+
+159 
+fa
+[
+d–
+ + 69]:
+
+160 
+£lf
+.
+	`ü—r_š‹Áo_de_abÜto
+(
+Îamada
+, 
+fa
+, 
+d–
++69)
+
+162 
+Îamada
+.
+d”ivaciÚ
+ = 
+fa
+[
+d–
+ + 81]
+
+163 
+Îamada
+.
+mÙivo_d”ivaciÚ
+ = 
+fa
+[
+d–
+ + 81]
+
+165 
+Îamada
+.
+ob£rvaciÚes
+ = 
+£lf
+.
+	$ÿd’a_ascii
+(
+fa
+[234])
+
+166 
+Îamada
+.
+	$§ve
+()
+
+168 
+£lf
+.
+num”o_de_fa
+ += 1
+
+170 
+def
+ 
+	$ü—r_šfÜmaciÚ_šcÜ»ùa
+(
+£lf
+, 
+Îamada
+, 
+fa
+, 
+šicŸl
+):
+
+171 
+šfo1
+ = 
+mod–s
+.
+	$InfÜmaciÚIncÜ»ùa
+()
+
+172 
+šfo1
+.
+Îamada
+ =†lamada
+
+173 
+šfo1
+.
+medio
+ = 
+fa
+[
+šicŸl
+]
+
+174 
+šfo1
+.
+d‘®Ë
+ = 
+fa
+[
+šicŸl
+ + 1]
+
+175 
+šfo1
+.
+	$§ve
+()
+
+176 
+´št
+ "\t\t\tInfÜmaciÚ incÜ»ùa", 
+šfo1
+.
+id
+
+
+178 
+def
+ 
+	$ü—r_š‹Áo_de_abÜto
+(
+£lf
+, 
+Îamada
+, 
+fa
+, 
+šdiû
+):
+
+179 
+r
+ = 
+mod–s
+.
+	$IÁ’toDeAbÜto
+()
+
+180 
+r
+.
+Îamada
+ =†lamada
+
+181 
+r
+.
+m‘odo
+ = 
+fa
+[
+šdiû
+ + 1]
+
+182 
+r
+.
+haû_cuªtos_dŸs
+ = 
+fa
+[
+šdiû
+ + 2]
+
+183 
+r
+.
+miso
+ = 
+fa
+[
+šdiû
+ + 3]
+
+184 
+r
+.
+´ecio
+ = 
+fa
+[
+šdiû
+ + 4]
+
+185 
+r
+.
+ÿÁidad_de_·¡Ïs
+ = 
+fa
+[
+šdiû
+ + 5]
+
+187 
+r
+.
+co¡o_si_no_es_miso
+ = 
+fa
+[
+šdiû
+ + 7]
+
+188 
+r
+.
+§ng¿do
+ = 
+fa
+[
+šdiû
+ + 8]
+
+189 
+r
+.
+§ng¿do_aùu®
+ = 
+fa
+[
+šdiû
+ + 9]
+
+190 
+r
+.
+signos_de_šãcciÚ
+ = 
+fa
+[
+šdiû
+ + 10]
+
+192 
+r
+.
+	$§ve
+()
+
+193 
+´št
+ "\t\t\tIÁ’toDeAbÜto", 
+r
+.
+id
+
+
+195 
+def
+ 
+	$´oû§r_»gi¡ro
+(
+£lf
+, 
+´og»so
+):
+
+196 
+Œy
+:
+
+197 
+£lf
+.
+	$´oû§r
+()
+
+198 
+´og»so
+.
+cÜ»ùos
+ += 1
+
+199 
+exû±
+ 
+Exû±iÚ
+ 
+as
+ 
+e
+:
+
+200 
+´og»so
+.
+šcÜ»ùos
+ += 1
+
+202 
+£lf
+.
+demÜa
+:
+
+203 
+time
+.
+	$¦“p
+(
+£lf
+.
+demÜa
+)
+
+205 
+def
+ 
+	$num”o
+(
+£lf
+, 
+v®Ü
+, =0):
+
+207 
+Œy
+:
+
+208  
+	`¡r
+((
+v®Ü
+))
+
+209 
+exû±
+ 
+V®ueE¼Ü
+ 
+as
+ 
+e
+:
+
+212 
+def
+ 
+	$ÿd’a
+(
+£lf
+, 
+v®Ü
+):
+
+213  
+	$¡r
+(
+v®Ü
+)
+
+215 
+def
+ 
+	$ÿd’a_ascii
+(
+£lf
+, 
+v®Ü
+):
+
+216  
+	`¡r
+(
+	$»´
+(
+v®Ü
+))
+
+218 
+def
+ 
+	$ÿd’a_utf
+(
+£lf
+, 
+v®Ü
+):
+
+219  
+v®Ü
+
+
+221 
+def
+ 
+	$ãcha
+(
+£lf
+, 
+v®Ü
+, 
+d©emode
+=0, =
+NÚe
+):
+
+223 #d©emode: 0 1900-
+ba£d
+, 1 1904-based
+
+224 
+Œy
+:
+
+225  (
+d©‘ime
+.
+	`d©‘ime
+(1899, 12, 30è+ d©‘ime.
+	`timed–
+(
+days
+=
+v®Ü
+ + 1462 * 
+d©emode
+))
+
+226 
+exû±
+ 
+Ty³E¼Ü
+ 
+as
+ 
+e
+:
+
+227  
+is
+ 
+nÙ
+ 
+NÚe
+:
+
+230 
+¿i£
+ 
+e
+
+
+232 
+__Çme__
+ == '__main__':
+
+233 
+impÜt
+ 
+d•loy
+
+
+234 
+d•loy
+.
+	$ü—r_bÏs
+()
+
+235 
+impÜdÜ
+ = 
+	`ImpÜdÜ
+('test/data/ENERO_original.xls')
+
+236 
+´št
+ 
+impÜdÜ
+.
+tÙ®
+
+
+238 
+x
+ 
+š
+ 
+	$¿nge
+(
+impÜdÜ
+.
+tÙ®
+):
+
+239 
+impÜdÜ
+.
+	`´oû§r
+()
+
+	@importador.pyc
+
+2 ßÄ
+	gOc
+           @   ¤                            „  ƒ               ƒ    ƒ     $ 
+
+3     ƒ ]      ƒ  ‰    (   ÿÿÿÿNt
+
+4                           „   „    „    „      „   „    „    „      
+
+5    „   Ğ                   †       | ƒ |  _ #     
+
+6  ;   ƒ ‚  |     ƒ |  _  |  _ |    ƒ  |   |  _
+
+7    |  _  | |  _    (   ;    sadm™’‡rchivo xl cÚ fÜm©ØexûÈ2000/XP/2003i       (          _wÜkbookˆ                 _by_šdext      _de_f©    _cÚr_fa¡         _ª‹riÜt   (         _a_´oû§rR   (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyt   __š™__                       } 4   < |    | ƒ } |  / | |  7}     (          (         
+
+8    _v®ues(            (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyR
+
+9            
+
+10               |     |   ƒ }   ƒ  } |   |  ƒ | _ |   |   |  ƒ | _ |  |  _   |   | _ |   |  ƒ | _  |  | _
+
+11  |   |  ƒ | _  |    |  ƒ | _  |   |   ƒ }      | ƒ  | _  | 
+
+12  ƒ | 
+_
+  |   ƒ | _ |  ƒ   |     ƒ ‚  }   ƒ  } |  | _ |  {|   |  ƒ | _   |   | _ |   | |  ƒ | _ |   | |   ƒ | _ |   | |  ƒ | _ |   | |      ƒ  ƒ| _ |   | |  ƒ | _ |   | |  ƒ | _  |   | |  ƒ | _! |   | |  ƒ | _" |   | | 
+
+13  ƒ | 
+_
+# |    | |  ƒ | _$ |   | |  ƒ | _% |   | |  ƒ | _& |   | |  ƒ | _' |   | |  ƒ | _( |   | |  ƒ | _) |  * |  ƒ | _+ |   |   ƒ | _, |   |  ƒ | _- |  ƒ  |    7_   (                                          Ba£:t   
+
+14                            è   é   ê   (.                          _de_fich©                    _asci™                  _idt                       _idt      _emb¬azÙ   _com´obaciÚt            _ge¡aciÚ®t   _mas_de_10_£mªa¡    _’‹rÙ   _de_hijo¡    _®_medicÙ   _bu’as_m®as_´aùiÿ¡   _de_£rviciÙ    _socŸÉ       _mediÙ    _mªu®t   
+
+15       _d”ivaciÚˆ   (         
+
+16    _ba£t   _´ovšcŸt      (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyt          
+
+20                 |    ƒ  |   7_ "  
+
+21   } |   7_  |   ^   |   ƒ     (      (                          (            (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyt   _»gi¡roq       
+
+22             /       | ƒ ƒ   
+
+23  * } |  (   7    uÀv®Ü dtØÿd’¨’ uÀnum”Øba£ 10.N(   '      
+
+24    (               (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyR   {                   
+
+25      | ƒ (   (   '   (         (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyR?   ‚                         | ƒ ƒ (   (   '      (         (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyR!   …                      | (   (    (         (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyt
+
+26    _utfˆ                   _   /        ƒ     |  | ƒ )  
+
+27   } |     | | ‚   (   /    uÀÿmpØdtØÿd’¨’ uÇ fecha.ik            ¶  (   1               (                  (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyR   ‹        /Ğ      __Çme__t
+
+28    
+__moduË__R
+   
+
+29             ?   !             (    (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyR          
+
+30    __maš__s   /d©a/ENERO_Üigš®.xls(    Ğ         1                    _bÏ¡
+
+31                 (    (    (    :   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/impÜdÜ.pyt   <moduË>       
+
+	@manage.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 
+äom
+ 
+__futu»__
+ 
+impÜt
+ 
+absŞu‹_impÜt
+
+
+3 
+äom
+ 
+	gæask
+.
+	gext
+.
+süt
+ 
+impÜt
+ 
+Mªag”
+
+
+4 
+äom
+ 
+	gæask
+.
+	gext
+.
+ûËry
+ 
+impÜt
+ 
+š¡®l_commªds
+ 
+as
+ 
+š¡®l_ûËry_commªds
+
+
+6 
+äom
+ 
+­p
+ 
+impÜt
+‡pp
+
+8 
+	gmªag”
+ = 
+	$Mªag”
+(
+­p
+)
+
+9 
+	$š¡®l_ûËry_commªds
+(
+mªag”
+)
+
+11 
+__Çme__
+ == "__main__":
+
+12 
+mªag”
+.
+	`run
+()
+
+	@models.py
+
+1 #-*- 
+’codšg
+: 
+utf
+-8 -*-
+
+2 
+impÜt
+ 
+d©‘ime
+
+
+3 
+äom
+ 
+³ew“
+ 
+impÜt
+ *
+
+4 
+äom
+ 
+­p
+ 
+impÜt
+ 
+db
+
+
+6 
+şass
+ 
+	$Mod–o
+(
+db
+.
+Mod–
+):
+
+9 
+E¡e
+ 
+m
+Ã©
+todo
+ 
+va
+ 
+a
+ 
+Œ©¬
+ 
+de
+ 
+u§r
+ 
+Ï
+ 
+š‹çz
+ 
+d–
+ 
+mod–o
+ 
+·¿
+
+
+10 
+asocŸr
+ 
+los
+ 
+ÿmpos
+. 
+As
+Ã­ 
+que
+ 
+si
+ 
+tu
+ 
+fÜmuÏrio
+ 
+es
+ 
+com¶ejo
+
+
+11 
+y
+ 
+t›Ã
+ 
+que
+ 
+Œ©¬
+ 
+los
+ 
+d©os
+ 
+ª‹s
+ 
+de
+ 
+´oû§¾os
+, 
+podr
+Ã­
+a
+
+
+12 
+utiz¬
+ 
+´İ”t›s
+.
+
+15 
+def
+ 
+	$ÿrg¬
+(
+£lf
+, 
+fÜm
+):
+
+16 
+d©os
+ = 
+fÜm
+.
+d©a
+
+
+18 
+şave
+, 
+v®Ü
+è
+š
+ 
+d©os
+.
+	$™ems
+():
+
+19 
+	$£‰r
+(
+£lf
+, 
+şave
+, 
+v®Ü
+)
+
+21 
+£lf
+.
+	$§ve
+()
+
+22 
+£lf
+.
+	$gu¬d¬_»ÏciÚes
+()
+
+24 
+def
+ 
+	$ÿÁidad_Îamadas
+(
+£lf
+):
+
+25  
+£lf
+.
+Îamadas
+.
+	$couÁ
+()
+
+27 
+def
+ 
+	$gu¬d¬_»ÏciÚes
+(
+£lf
+):
+
+28 
+·ss
+
+
+31 
+şass
+ 
+	$ProvšcŸ
+(
+db
+.
+Mod–
+):
+
+32 
+codigo
+ = 
+	$IÁeg”F›ld
+()
+
+33 
+nomb»
+ = 
+	$Ch¬F›ld
+()
+
+35 
+def
+ 
+	$__unicode__
+(
+£lf
+):
+
+36  "% (%s)" %(
+£lf
+.
+nomb»
+, s–f.
+codigo
+)
+
+38 @
+¡©icm‘hod
+
+
+39 
+def
+ 
+	$ob‹Ãr_pÜ_codigo
+(
+£lf
+, 
+codigo
+):
+
+40 
+impÜt
+ 
+pdb
+
+
+41 
+pdb
+.
+	$£t_Œaû
+()
+
+42 
+·ss
+
+
+44 
+şass
+ 
+	$D©osBa£
+(
+Mod–o
+):
+
+45 
+num”o_de_ficha
+ = 
+	$IÁeg”F›ld
+()
+
+46 
+ãcha
+ = 
+	$D©eTimeF›ld
+(=
+d©‘ime
+.d©‘ime.
+now
+)
+
+47 
+‹ËfÚo
+ = 
+	$Ch¬F›ld
+()
+
+48 
+nomb»
+ = 
+	$Ch¬F›ld
+()
+
+49 
+edad
+ = 
+	$IÁeg”F›ld
+(
+nuÎ
+=
+True
+)
+
+50 
+´ovšcŸ
+ = 
+	`FÜeignKeyF›ld
+(
+ProvšcŸ
+, 
+»Ï‹d_Çme
+='datos_base')
+
+51 
+b¬rio
+ = 
+	$IÁeg”F›ld
+()
+
+52 
+ÇciÚ®idad
+ = 
+	$Ch¬F›ld
+()
+
+53 
+loÿlidad
+ = 
+	$Ch¬F›ld
+()
+
+55 
+def
+ 
+	$__unicode__
+(
+£lf
+):
+
+56  
+£lf
+.
+nomb»
+
+
+58 
+şass
+ 
+	$LÏmada
+(
+Mod–o
+):
+
+59 
+d©osba£
+ = 
+	`FÜeignKeyF›ld
+(
+D©osBa£
+, 
+»Ï‹d_Çme
+='llamadas')
+
+60 
+ãcha
+ = 
+	$D©eTimeF›ld
+(=
+d©‘ime
+.d©‘ime.
+now
+)
+
+61 
+mÙivo
+ = 
+	$IÁeg”F›ld
+()
+
+62 
+»cÚfœmo_emb¬azo
+ = 
+	$IÁeg”F›ld
+()
+
+63 
+m‘odo_com´obaciÚ
+ = 
+	$IÁeg”F›ld
+()
+
+64 
+fum
+ = 
+	$D©eTimeF›ld
+()
+
+65 
+edad_ge¡aciÚ®
+ = 
+	$IÁeg”F›ld
+()
+
+66 
+mÙivo_mas_de_10_£mªas
+ = 
+	$IÁeg”F›ld
+()
+
+67 
+£mªa_’‹ro
+ = 
+	$IÁeg”F›ld
+()
+
+68 
+ÿÁidad_de_hijos
+ = 
+	$IÁeg”F›ld
+()
+
+70 
+fue_®_medico
+ = 
+	$IÁeg”F›ld
+()
+
+71 
+äa£s_bu’as_m®as_´aùiÿs
+ = 
+	$Ch¬F›ld
+()
+
+73 
+to_de_£rvicio
+ = 
+	$IÁeg”F›ld
+()
+
+74 
+ob¿_socŸl
+ = 
+	$IÁeg”F›ld
+()
+
+75 
+com·nŸ
+ = 
+	$IÁeg”F›ld
+()
+
+77 
+’‹ro_medio
+ = 
+	$IÁeg”F›ld
+()
+
+78 
+t›Ã_mªu®
+ = 
+	$BoŞ—nF›ld
+()
+
+80 
+d”ivaciÚ
+ = 
+	$Ch¬F›ld
+()
+
+81 
+mÙivo_d”ivaciÚ
+ = 
+	$IÁeg”F›ld
+()
+
+82 
+ob£rvaciÚes
+ = 
+	$Ch¬F›ld
+()
+
+84 
+mac
+ = 
+	$IÁeg”F›ld
+()
+
+85 
+ahe
+ = 
+	$IÁeg”F›ld
+()
+
+87 
+def
+ 
+	$£t_d©osba£_id
+(
+£lf
+, 
+v®Ü
+):
+
+88 
+£lf
+.
+d©osba£
+ = 
+D©osBa£
+.
+	$g‘
+(
+id
+=
+v®Ü
+)
+
+90 
+d©osba£_id
+ = 
+	$´İ”ty
+(
+f£t
+=
+£t_d©osba£_id
+)
+
+92 
+def
+ 
+	$§ve
+(
+£lf
+):
+
+93 #R•¬¨
+–
+ 
+bug
+ 
+d–
+ 
+mªejo
+ 
+de
+ 
+ãchas
+.
+
+94 
+	`ty³
+(
+£lf
+.
+fum
+è=ğ
+d©‘ime
+.
+d©e
+:
+
+95 
+£lf
+.
+fum
+ = 
+d©‘ime
+.
+	$d©‘ime
+(
+£lf
+.
+fum
+.
+y—r
+, s–f.fum.
+mÚth
+, s–f.fum.
+day
+)
+
+97 
+Mod–o
+.
+	$§ve
+(
+£lf
+)
+
+99 
+def
+ 
+	$gu¬d¬_»ÏciÚes
+(
+£lf
+):
+
+100 
+x
+ 
+š
+ 
+£lf
+.
+li¡a_abÜto_ª‹riÜ
+ + s–f.
+li¡a_š‹Áo_de_abÜto
+ + s–f.
+li¡a_šfÜmaciÚ_šcÜ»ùa
+:
+
+101 
+x
+.
+Îamada
+ = 
+£lf
+
+
+102 
+x
+.
+	$§ve
+()
+
+104 
+def
+ 
+	$£t_abÜto_ª‹riÜ
+(
+£lf
+, 
+v®ue
+):
+
+105 
+£lf
+.
+li¡a_abÜto_ª‹riÜ
+ = []
+
+106 
+™em
+ 
+š
+ 
+v®ue
+:
+
+107 
+abÜto_ª‹riÜ
+ = 
+	$AbÜtoAÁ”iÜ
+()
+
+108 
+abÜto_ª‹riÜ
+.
+ob£rvaciÚes
+ = 
+™em
+['observaciones']
+
+109 
+abÜto_ª‹riÜ
+.abÜto_ª‹riÜ = 
+™em
+['aborto_anterior']
+
+110 
+£lf
+.
+li¡a_abÜto_ª‹riÜ
+.
+	$­³nd
+(
+abÜto_ª‹riÜ
+)
+
+112 
+def
+ 
+	$£t_š‹Áo_de_abÜto
+(
+£lf
+, 
+v®ue
+):
+
+113 
+£lf
+.
+li¡a_š‹Áo_de_abÜto
+ = []
+
+115 
+™em
+ 
+š
+ 
+v®ue
+:
+
+116 
+Ÿ
+ = 
+	$IÁ’toDeAbÜto
+()
+
+117 
+Ÿ
+.
+m‘odo
+ = 
+™em
+['metodo']
+
+118 
+Ÿ
+.
+haû_cuªtos_dŸs
+ = 
+™em
+['hace_cuantos_dias']
+
+119 
+Ÿ
+.
+miso
+ = 
+™em
+['miso']
+
+120 
+Ÿ
+.
+ÿÁidad_de_·¡Ïs
+ = 
+™em
+['cantidad_de_pastillas']
+
+121 
+Ÿ
+.
+´ecio
+ = 
+™em
+['precio']
+
+122 
+Ÿ
+.
+co¡o_si_no_es_miso
+ = 
+™em
+['costo_si_no_es_miso']
+
+123 
+Ÿ
+.
+§ng¿do
+ = 
+™em
+['sangrado']
+
+124 
+Ÿ
+.
+§ng¿do_aùu®
+ = 
+™em
+['sangrado_actual']
+
+125 
+Ÿ
+.
+signos_de_šãcciÚ
+ = 
+™em
+['signos_de_infeccion']
+
+127 
+£lf
+.
+li¡a_š‹Áo_de_abÜto
+.
+	$­³nd
+(
+Ÿ
+)
+
+129 
+def
+ 
+	$£t_šfÜmaciÚ_šcÜ»ùa
+(
+£lf
+, 
+v®ue
+):
+
+130 
+£lf
+.
+li¡a_šfÜmaciÚ_šcÜ»ùa
+ = []
+
+132 
+™em
+ 
+š
+ 
+v®ue
+:
+
+133 
+ii
+ = 
+	$InfÜmaciÚIncÜ»ùa
+()
+
+134 
+ii
+.
+medio
+ = 
+™em
+['medio']
+
+135 
+ii
+.
+d‘®Ë
+ = 
+™em
+['detalle']
+
+136 
+£lf
+.
+li¡a_šfÜmaciÚ_šcÜ»ùa
+.
+	$­³nd
+(
+ii
+)
+
+138 
+abÜto_ª‹riÜ
+ = 
+	$´İ”ty
+(
+f£t
+=
+£t_abÜto_ª‹riÜ
+)
+
+139 
+š‹Áo_de_abÜto
+ = 
+	$´İ”ty
+(
+f£t
+=
+£t_š‹Áo_de_abÜto
+)
+
+140 
+šfÜmaciÚ_šcÜ»ùa
+ = 
+	$´İ”ty
+(
+f£t
+=
+£t_šfÜmaciÚ_šcÜ»ùa
+)
+
+142 
+def
+ 
+	$__unicode__
+(
+£lf
+):
+
+143  "LÏmad¨d% ÓÈ%s)" %(
+£lf
+.
+d©osba£
+.
+nomb»
+, s–f.
+ãcha
+)
+
+146 
+şass
+ 
+	$AbÜtoAÁ”iÜ
+(
+Mod–o
+):
+
+147 
+Îamada
+ = 
+	`FÜeignKeyF›ld
+(
+LÏmada
+, 
+»Ï‹d_Çme
+='lista_aborto_anterior')
+
+148 
+abÜto_ª‹riÜ
+ = 
+	$IÁeg”F›ld
+()
+
+149 
+ob£rvaciÚes
+ = 
+	$Ch¬F›ld
+()
+
+151 
+şass
+ 
+	$InfÜmaciÚIncÜ»ùa
+(
+Mod–o
+):
+
+152 
+Îamada
+ = 
+	`FÜeignKeyF›ld
+(
+LÏmada
+, 
+»Ï‹d_Çme
+='lista_informacion_incorrecta')
+
+153 
+medio
+ = 
+	$IÁeg”F›ld
+()
+
+154 
+d‘®Ë
+ = 
+	$Ch¬F›ld
+()
+
+156 
+şass
+ 
+	$IÁ’toDeAbÜto
+(
+Mod–o
+):
+
+157 
+Îamada
+ = 
+	`FÜeignKeyF›ld
+(
+LÏmada
+, 
+»Ï‹d_Çme
+='lista_intento_de_aborto')
+
+158 
+m‘odo
+ = 
+	$IÁeg”F›ld
+()
+
+159 
+haû_cuªtos_dŸs
+ = 
+	$IÁeg”F›ld
+()
+
+160 
+miso
+ = 
+	$IÁeg”F›ld
+()
+
+161 
+ÿÁidad_de_·¡Ïs
+ = 
+	$IÁeg”F›ld
+()
+
+162 
+´ecio
+ = 
+	$IÁeg”F›ld
+()
+
+163 
+co¡o_si_no_es_miso
+ = 
+	$IÁeg”F›ld
+()
+
+164 
+§ng¿do
+ = 
+	$IÁeg”F›ld
+()
+
+165 
+§ng¿do_aùu®
+ = 
+	$IÁeg”F›ld
+()
+
+166 
+signos_de_šãcciÚ
+ = 
+	`BoŞ—nF›ld
+()
+
+	@models.pyc
+
+2 ÷Ä
+	gOc
+           @   Ê                         „  ƒ        „  ƒ        „  ƒ   
+
+3      „  ƒ         „  ƒ        „  ƒ  
+
+4      „  ƒ     (   ÿÿÿÿN(      *(                       )          „    „    „   (      uÀmod–Øqu£…uedÿrg¬ desduÀfÜmuÏrio.
+
+6 
+E¡e
+ 
+m
+Ã©
+todo
+ 
+va
+ 
+a
+ 
+Œ©¬
+ 
+de
+ 
+u§r
+ 
+Ï
+ 
+š‹çz
+ 
+d–
+ 
+mod–o
+ 
+·¿
+
+
+7 
+asocŸr
+ 
+los
+ 
+ÿmpos
+. 
+As
+Ã­ 
+que
+ 
+si
+ 
+tu
+ 
+fÜmuÏrio
+ 
+es
+ 
+com¶ejo
+
+
+8 
+y
+ 
+t›Ã
+ 
+que
+ 
+Œ©¬
+ 
+los
+ 
+d©os
+ 
+ª‹s
+ 
+de
+ 
+´oû§¾os
+, 
+podr
+Ã­
+a
+
+
+9 
+utiz¬
+ 
+´İ”t›s
+.
+
+10 
+c
+               |   } * |  ƒ  ] \ } }  |  | | ƒ  |   ƒ  |   ƒ    (   (                  _»ÏciÚes(                  (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt      
+
+12                 |     ƒ  (   (         (      (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt   _Îamadas                        (   (    (      (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR          (      __Çme__t
+
+13    
+__moduË__t
+   
+__doc__R
+          (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR                           2       ƒ    ƒ     „     „  ƒ  (                   |    |    (      % (%s)(         (      (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyˆ   __unicode__#                           } |  ƒ    (   ÿÿÿÿ(          _Œaû(            (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt   _pÜ_codigo&       
+
+14 Ğ                                 (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR                           }       ƒ         ƒ   ƒ     ƒ  
+
+15      ƒ       ƒ  ƒ    ƒ    ƒ    „   (             _Çm‘
+
+16    _ba£c               |    (   (      (      (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR   7       (               _de_fich©                                                    (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR   ,                       ^          ƒ      ƒ    ƒ  
+
+17    ƒ      ƒ     ƒ      ƒ     ƒ     ƒ     ƒ     ƒ    ƒ     ƒ     ƒ     ƒ     ƒ    ƒ    ƒ     ƒ    ƒ     ƒ     ƒ    „    !    ƒ "  „  #  „  $  „  %  „  &   „  ' !  % ƒ ( !  & ƒ ) !  ' ƒ * 
+
+18  „  + Ğ   !                            | ƒ |  _   (      (             (          (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt   _d©osba£_idW                           |   ƒ       |    |    |    ƒ |  _     |  ƒ   (   Ğ         %                     (      (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR   \       -            9   2 |    |   |   ] } |  | _ |  ƒ     (   (      _abÜto_ª‹riÜt   _š‹Áo_de_abÜtÙ   _šfÜmaciÚ_šcÜ»ù©      (         (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR                           |  _   | ]9 }  ƒ  } |  | _ |  | _ |     | ƒ    (          _ª‹riÜ(   <               (               (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt   _abÜto_ª‹riÜh                    ¬     |  _  œ | ]” }  ƒ  } |  | _ |  | _ |  | _ |  | _ |  | _ |  | _ |  | _ |  | _  |   | _
+
+19  |      | ƒ    (
+
+20          _cuªtos_dŸ¡      _de_·¡Ï¡      _si_no_es_misÙ      _aùu®t   _de_šãcciÚĞ   =                                    (               (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt   _š‹Áo_de_abÜtİ                        |  _   | ]9 }  ƒ  } |  | _ |  | _ |     | ƒ    (         (   >               (               (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt   _šfÜmaciÚ_šcÜ»ùa                        |     |    (       d% ÓÈ%s)(   3      '   (      (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR          (,         +      3   $   %   &   '            _emb¬azÙ   _com´obaciÚR7      _ge¡aciÚ®t   _mas_de_10_£mªa¡    _’‹rÙ   _de_hijo¡    _®_medicoR      _bu’as_m®as_´aùiÿ¡   _de_£rviciÙ    _socŸÉ       _mediÙ        _mªu®t
+
+21       _d”ivaciÚRA         4          _idR                     _de_abÜtÙ   _šcÜ»ùaR   (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyR0   :                       ,           ƒ  ƒ    ƒ   (   !   <   Ğ         +   0   ?               (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyRC   ’                       ,           ƒ  ƒ    ƒ   (   !   >   Ğ         +   0   ?               (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyRV   —                                  ƒ  ƒ    ƒ    ƒ    ƒ     ƒ  
+
+22   ƒ     ƒ     ƒ     ƒ   (   !   =   (         +   0   ?                                    (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyRQ   œ      Ğ   %                        0            (    (    (    6   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/mod–s.pyt   <moduË>      
+
+23 
+
+	@redis.conf
+
+1 
+	gBROKER_URL
+ = "redis://localhost:6379/0"
+
+2 
+»dis
+:
+
+3 
+CELERY_RESULT_BACKEND
+ = "redis://localhost:6379/0"
+
+	@requirements.txt
+
+1 
+	gFÏsk
+==0.8
+
+2 
+FÏsk
+-
+C–”y
+==2.4.2
+
+3 
+FÏsk
+-
+Süt
+==0.3.3
+
+4 
+FÏsk
+-
+U¶ßds
+==0.1.3
+
+5 
+FÏsk
+-
+WTF
+==0.5.2
+
+6 
+Jšja2
+==2.6
+
+7 
+WTFÜms
+==0.6.3
+
+8 
+W”kzeug
+==0.8.2
+
+9 
+amq¶ib
+==1.0.2
+
+10 
+ªyjsÚ
+==0.3.1
+
+11 
+¬g·r£
+==1.2.1
+
+12 
+ûËry
+==2.5.3
+
+13 
+ûËry
+-
+w™h
+-
+»dis
+==2.5
+
+14 
+cŞÜama
+==0.2.4
+
+15 
+æask
+-
+³ew“
+==0.4.1
+
+16 
+gunicÜn
+==0.13.4
+
+17 
+gunicÜn
+-
+cÚsŞe
+==0.1.12
+
+18 
+kombu
+==2.1.6
+
+19 
+lxml
+==2.3.3
+
+20 
+³ew“
+==0.8.0
+
+21 
+pyqu”y
+==1.1.1
+
+22 
+pythÚ
+-
+d©eut
+==1.5
+
+23 
+»dis
+==2.4.11
+
+24 
+£roù™Ë
+==1.1.5
+
+25 
+¥hšx
+-
+me
+==0.1.2
+
+26 
+wsgœef
+==0.1.2
+
+27 
+wtf
+-
+³ew“
+==0.1.2
+
+28 
+xÌd
+==0.7.7
+
+	@tags
+
+1 
+FÏsk
+ 
+	g­p
+.
+	gpy
+ /^­°ğFÏsk(
+__Çme__
+)
+$
+/
+
+2 
+Mªag”
+ 
+mªage
+.
+py
+ /^
+mªag”
+ = Mªag”(
+­p
+)
+$
+/
+
+3 
+æash
+ 
+­p
+.
+py
+ /^ flash("Se ha cancelado†a importacion de„egis/
+
+4 
+mod–s
+.
+py
+ /^ 
+şave
+, 
+v®Ü
+è
+š
+ 
+d©os
+.
+	$™ems
+():
+$
+/
+
+5 
+š™
+ 
+d•loy
+.
+py
+ /^ 
+	`š™
+(
+autÜe£t
+=
+True
+)
+$
+/
+
+6 
+jsÚify
+ 
+­p
+.
+py
+ /^  
+	`jsÚify
+(
+»suÉado
+.
+šfo
+)
+$
+/
+
+7 
+lšk_to
+ 
+­p
+.
+py
+ /^ 
+Çme
+ = 
+	`lšk_to
+(
+d©osba£
+.
+nomb»
+, 'ver_datosbas/
+
+8 
+İ’_wÜkbook
+ 
+impÜdÜ
+.
+py
+ /^ 
+£lf
+.
+docum’to
+ = 
+xÌd
+.
+	`İ’_wÜkbook
+(
+¬
+/
+
+9 
+pİ
+ 
+fÜms
+.
+py
+ /^ 
+£lf
+.
+t™ulo
+ = 
+kv
+.
+	`pİ
+('t™ulo')
+$
+/
+
+10 
+rou‹
+ 
+­p
+.
+py
+ /^@­p.
+	`rou‹
+('\/logš', 
+m‘hods
+=['po¡', 'g‘'])
+$
+/
+
+11 
+sÜt
+ 
+‹¡_qu”y
+.
+py
+ /^
+edades
+.
+	`sÜt
+()
+$
+/
+
+12 
+‹¡_ş›Á
+ 
+‹¡
+.
+py
+ /^ 
+£lf
+.
+­p
+ =‡µ.­p.
+	`‹¡_ş›Á
+()
+$
+/
+
+	@test.py
+
+1 
+impÜt
+ 
+un™‹¡
+
+
+2 
+impÜt
+ 
+os
+
+
+3 
+impÜt
+ 
+­p
+
+
+4 
+impÜt
+ 
+un™‹¡
+
+
+5 
+impÜt
+ 
+‹mpfe
+
+
+6 
+impÜt
+ 
+cÚfig
+
+
+7 
+impÜt
+ 
+d•loy
+
+
+9 
+äom
+ 
+pyqu”y
+ 
+impÜt
+ 
+PyQu”y
+ 
+as
+ 
+pq
+
+
+12 
+şass
+ 
+	$Te¡Acûso
+(
+un™‹¡
+.
+Te¡Ca£
+):
+
+14 
+def
+ 
+	$£tUp
+(
+£lf
+):
+
+15 
+£lf
+.
+­p
+ =‡µ.­p.
+	$‹¡_ş›Á
+()
+
+17 
+def
+ 
+	$‹¬Down
+(
+£lf
+):
+
+18 
+·ss
+
+
+20 
+def
+ 
+	$‹¡_ex™e_´im”_İciÚ_’_–_m’u
+(
+£lf
+):
+
+21 
+rv
+ = 
+£lf
+.
+­p
+.
+	`g‘
+('/')
+
+22 
+d
+ = 
+	$pq
+(
+rv
+.
+d©a
+)
+
+23 
+as£¹
+ 'Pršc®' 
+š
+ 
+	`d
+(".b li:fœ¡").
+	$html
+()
+
+25 
+def
+ 
+	$‹¡_puede_ü—r_Îamada
+(
+£lf
+):
+
+26 
+rv
+ = 
+£lf
+.
+­p
+.
+	`g‘
+('/llamada/crear')
+
+27 
+d
+ = 
+	$pq
+(
+rv
+.
+d©a
+)
+
+28 
+as£¹
+ 'C¬g¬ uÇ†Ïmada' 
+š
+ 
+rv
+.
+d©a
+
+
+30 
+def
+ 
+	$‹¡_puede_li¡¬_Îamadas
+(
+£lf
+):
+
+31 
+rv
+ = 
+£lf
+.
+­p
+.
+	`g‘
+('/llamada')
+
+32 
+as£¹
+ 'LÏmada' 
+š
+ 
+rv
+.
+d©a
+
+
+34 
+def
+ 
+	$‹¡_ü—r_d©os_ba£_³rm™e_–egœ_´ovšcŸ
+(
+£lf
+):
+
+35 
+rv
+ = 
+£lf
+.
+­p
+.
+	`g‘
+('/llamada/crear')
+
+36 
+d
+ = 
+	$pq
+(
+rv
+.
+d©a
+)
+
+38 
+as£¹
+ 'BUENOS AIRES' 
+š
+ 
+	`d
+('#´ovšcŸ').
+	$html
+()
+
+40 
+def
+ 
+	$‹¡_ü—r_d©os_ba£_³rm™e_–egœ_b¬rio
+(
+£lf
+):
+
+41 
+rv
+ = 
+£lf
+.
+­p
+.
+	`g‘
+('/llamada/crear')
+
+42 
+d
+ = 
+	$pq
+(
+rv
+.
+d©a
+)
+
+44 
+as£¹
+ 'R‘œo' 
+š
+ 
+	`d
+('#b¬rio').
+	$html
+()
+
+46 
+şass
+ 
+	$Te¡Mod–o
+(
+un™‹¡
+.
+Te¡Ca£
+):
+
+48 
+def
+ 
+	$£tUp
+(
+£lf
+):
+
+49 
+äom
+ 
+mod–s
+ 
+impÜt
+ 
+D©osBa£
+, 
+ProvšcŸ
+
+
+50 
+D©osBa£
+.
+	$drİ_bË
+()
+
+51 
+D©osBa£
+.
+	$ü—‹_bË
+()
+
+53 
+def
+ 
+	$‹¡_gu¬d¬_d©os_ba£
+(
+£lf
+):
+
+54 
+äom
+ 
+mod–s
+ 
+impÜt
+ 
+D©osBa£
+, 
+ProvšcŸ
+
+
+56 
+d©os
+ = 
+	`D©osBa£
+(
+nomb»
+='ejemplo')
+
+57 
+d©os
+.
+´ovšcŸ
+ = 
+ProvšcŸ
+.
+	$g‘
+(
+id
+=10)
+
+58 
+d©os
+.
+	$§ve
+()
+
+59 
+as£¹
+ 
+d©os
+.
+id
+
+
+60 
+as£¹
+ 
+D©osBa£
+.
+	`£Ëù
+().
+	`wh”e
+(
+nomb»
+="ejem¶o").
+	$couÁ
+()
+
+62 
+def
+ 
+	$‹¡_e¡ª_Ïs_´ovšcŸs
+(
+£lf
+):
+
+63 
+äom
+ 
+mod–s
+ 
+impÜt
+ 
+ProvšcŸ
+
+
+65 
+as£¹
+ 
+ProvšcŸ
+.
+	`£Ëù
+().
+	`wh”e
+(
+nomb»
+='BUENOS AIRES').
+	$couÁ
+()
+
+67 
+def
+ 
+	$‹¡_cÚr_Îamadas_pÜ_´ovšcŸs
+(
+£lf
+):
+
+68 
+äom
+ 
+mod–s
+ 
+impÜt
+ 
+ProvšcŸ
+, 
+D©osBa£
+
+
+70 
+p
+ 
+š
+ 
+ProvšcŸ
+.
+	$£Ëù
+():
+
+71 
+as£¹
+ 
+p
+.
+Îamadas
+.
+	`couÁ
+() == 0
+
+73 
+d©os
+ = 
+	`D©osBa£
+(
+nomb»
+='ejemplo')
+
+74 
+d©os
+.
+´ovšcŸ
+ = 
+ProvšcŸ
+.
+	$g‘
+(
+id
+=10)
+
+75 
+d©os
+.
+	$§ve
+()
+
+77 
+p1
+ = 
+ProvšcŸ
+.
+	$g‘
+(
+id
+=10)
+
+78 
+as£¹
+ 
+p1
+.
+Îamadas
+.
+	`couÁ
+() == 1
+
+84 
+__Çme__
+ == '__main__':
+
+85 
+d•loy
+.
+	$ü—r_bÏs
+()
+
+86 
+un™‹¡
+.
+	`maš
+()
+
+	@test_query.py
+
+1 
+impÜt
+ 
+mod–s
+
+
+3 
+x
+ 
+š
+ 
+	gmod–s
+.
+	gD©osBa£
+.
+£Ëù
+().
+group_by
+('provincia_id'):
+
+4 
+·ss
+ #´šˆ
+x
+
+
+6 #´šˆ
+¡r
+([[
+x
+.
+nomb»
+, x.
+d©os_ba£
+.
+couÁ
+()] x 
+š
+ 
+mod–s
+.
+ProvšcŸ
+.
+£Ëù
+()])
+
+8 #Edade 
+de
+ 
+Ïs
+ 
+³rsÚas
+ 
+que
+ 
+me
+ 
+Îamª
+.
+
+9 
+	gedades
+ = [
+p
+.
+edad
+ °
+š
+ 
+mod–s
+.
+D©osBa£
+.
+£Ëù
+().
+group_by
+('edad')]
+
+10 
+edades
+.
+	$sÜt
+()
+
+11 
+´št
+ 
+edades
+
+
+13 
+edad
+ 
+š
+ 
+edades
+:
+
+14 
+´št
+ 
+edad
+, 
+mod–s
+.
+D©osBa£
+.
+	`£Ëù
+().
+	`wh”e
+Ódadódad).
+	`couÁ
+()
+
+	@todo.txt
+
+1 [ ] 
+En
+ 
+–
+ 
+exûl
+ 
+hay
+ 
+dos
+ 
+d©os
+ 
+MAC
+ 
+y
+ 
+	gAHE
+, 
+uno
+ 
+es
+ƒÈ
+m‘odo
+
+
+2 
+ªticÚû±ivo
+ 
+	gutizado
+, 
+–
+ 
+Ùro
+ 
+no
+ 
+	g£
+... 
+T’go
+ 
+que
+
+
+3 
+cÜrobÜ¬
+ 
+que
+ 
+e¡o
+ 
+	ge¡
+Ã¡ 
+’
+ 
+	g®g
+Ãº
+n
+ 
+	gÏdo
+, 
+me
+ 
+·»û
+
+
+4 
+que
+ 
+no
+ 
+	ge¡
+Ã¡ 
+’
+ 
+–
+ 
+mod–o
+ 
+ni
+ƒÀ
+los
+ 
+	$fÜmuÏrios
+ (
+y
+
+
+5 
+pÜ
+ 
+supue¡o
+ 
+mpoco
+ 
+’
+ 
+–
+ 
+impÜdÜ
+...)
+
+7 
+Los
+ 
+choiûs
+ 
+si
+ 
+e¡
+Ã¡
+n
+.
+
+	@utils.py
+
+2 
+şass
+ 
+	gProg»so
+:
+
+5 
+def
+ 
+	$__š™__
+(
+£lf
+, 
+tÙ®
+):
+
+6 
+£lf
+.
+cÜ»ùos
+ = 0
+
+7 
+£lf
+.
+šcÜ»ùos
+ = 0
+
+8 
+£lf
+.
+tÙ®
+ =otal
+
+10 
+def
+ 
+	$como_dicciÚ¬io
+(
+£lf
+):
+
+11  {"´oû§dos": 
+£lf
+.
+	`´oû§dos
+(),
+
+12 "cÜ»ùos": 
+£lf
+.
+cÜ»ùos
+,
+
+13 "šcÜ»ùos": 
+£lf
+.
+šcÜ»ùos
+,
+
+14 "tÙ®": 
+£lf
+.
+tÙ®
+}
+
+16 
+def
+ 
+	$´oû§dos
+(
+£lf
+):
+
+17  
+£lf
+.
+cÜ»ùos
+ + s–f.
+šcÜ»ùos
+
+
+	@utils.pyc
+
+2 ¸Ä
+	gOc
+           @          „  ƒ     (                    )          „    „    „   (   .   ƒÈ´og»sØduÇ¬— dûËry.c                |  _   |  _ | |  _   (       (              (         (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/uts.pyt   __š™__                   /    |    ƒ   6|    6|    6|    6S(   
+
+3             (               (      (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/uts.pyt   _dicciÚ¬io
+
+4        
+
+6                |    |   (   (         (      (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/uts.pyR          (      __Çme__t
+
+7    
+__moduË__t
+   
+__doc__R
+         (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/uts.pyR          (    (       (    (    (    5   /U£rs/hugÜusc™ti/´oyeùos/æask·¡Ïs/uts.pyt   <moduË>       
+
+	@
+1
+.
+1
+/usr/include
+25
+256
+README.rst
+app.py
+app.pyc
+config.py
+config.pyc
+data.py
+data.pyc
+deploy.py
+deploy.pyc
+dump.rdb
+forms.py
+forms.pyc
+importador.py
+importador.pyc
+manage.py
+models.py
+models.pyc
+redis.conf
+requirements.txt
+tags
+test.py
+test_query.py
+todo.txt
+utils.py
+utils.pyc

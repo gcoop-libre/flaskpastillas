@@ -6,13 +6,17 @@ todas las bibliotecas para flask.
 
 ::
 
+    mkdir flaskpastillas
+    cd flaskpastillas
     mkvirtualenv flaskpastillas
     workon flaskpastillas
     pip install -r requirements.txt
 
 
-Es una *muy* buena idea usar ipython adentro del virtualenv. Este link explica
-cómo hacerlo:
+Es una *muy* buena idea usar ipython adentro del virtualenv. Sobretodo
+si estás depurando cosas o investigando.
+
+Este link explica cómo hacerlo:
 
 - http://www.ahmedsoliman.com/2011/09/27/use-virtualenv-with-ipython-0-11/
 
@@ -24,6 +28,27 @@ lanzar del servidor de prueba::
 
     workon flaskpastillas
     python app.py
+
+
+Iniciar Redis y Celery
+----------------------
+
+El sistema de importación de registros en el sistema se realizó
+usando Celery, así que si quieres usar esa funcionalidad hay
+unos pasos mas...
+
+Primero es conveniente iniciar Redis (backend de datos/comunicación), y
+luego iniciar Celery desde el entorno virtual de python.
+
+Abre un terminal y ejecuta el servidor de redis::
+
+    redis-server
+
+Luego, desde otro terminal podrías ingresar en el entorno
+virtual y lanzar Celery::
+
+    workon flaskpastillas
+    python manage.py celeryd
 
 
 Ejecutar la aplicación en modo producción
@@ -43,3 +68,4 @@ Por ejemplo::
     
     ~/.virtualenvs/flaskpastillas/bin/gunicorn app:app -b 0.0.0.0:8000
     ~/.virtualenvs/flaskpastillas/bin/gunicorn-console
+

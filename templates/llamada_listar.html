@@ -1,45 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
-<script>
-$(document).ready(function() {
-    /* Muestra una animación para indicar cual es la ultima datosbase ingresada. */
-    if (/resaltar/.test(window.location.href)) {
-        $("tr").eq(1).css('background-color', 'yellow')
-        $("tr").eq(1).animate({ backgroundColor: "#FFF"}, 2000);
-    }
-});
-</script>
+
+{{ javascript('datatable.js')|safe }}
 
 <h1>Llamadas</h1>
 
-<a href='{{ url_for('llamada_crear') }}' class='btn primary'>Cargar una llamada nueva</a>
+<a href='{{ url_for('llamada_crear') }}' class='btn success'>Cargar una llamada nueva</a> 
 
-<p>
-<p>
-Listando los datos de base.
-
-<p>
-<table class="bordered-table">
-<tr>
-    <th>Nombre</th>
-    <th>Llamadas</th>
-    <th>Edad</th>
-    <th>Teléfono</th>
-    <th>Fecha</th>
-    <th class='centrar'>Acciones</th>
-</tr>
-
-
-{% for datosbase in lista_datosbase %}
-<tr>
-    <td>{{ link_to(datosbase.nombre, 'ver_datosbase', id=datosbase.id)|safe }}</td>
-    <td>{{ datosbase.cantidad_llamadas() }}</td>
-    <td>{{ datosbase.edad }}</td>
-    <td>{{ datosbase.telefono }}</td>
-    <td>{{ datosbase.fecha|dateformat('%d/%m/%Y') }}</td>
-    <td class='centrar'><a href='{{ url_for('agregar_llamada', id=datosbase.id) }}'>Agregar</a></td>
-</tr>
-{% endfor %}
-</table>
+{% include "_tabla_llamadas.html" %}
 
 {% endblock %}

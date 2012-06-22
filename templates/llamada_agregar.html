@@ -1,9 +1,62 @@
 {% extends 'base.html' %}
 {% block content %}
 <script>
+
+function buscar_mayor_id(lista_de_elementos)
+{
+    var mayor = 0;
+
+    $.each(lista_de_elementos, function(index, value) { 
+        var id = $(value).attr('id');
+        var numero = parseInt(id.match(/-(\d+)/)[1]);
+
+        if (numero > mayor)
+            mayor = numero;
+    });
+
+    return mayor;
+}
+
+function clone_field_list(selector) {
+    var new_element = $(selector).clone(true);
+
+    //var buscar_mayor_id($(selector).parent().find('input'));
+    //var elem_id = anterior_id;
+    //var elem_num = parseInt(elem_id.replace(/.*-(\d{1,4})-.*/m, '$1')) + 1;
+    var elem_num = buscar_mayor_id($(selector).parent().find('input')) + 1;
+
+    new_element.find(':input').each(function() {
+        var id = $(this).attr('id').replace('-0-', '-' + elem_num + '-');
+        console.log(id);
+        $(this).attr({'name': id, 'id': id}).val('').removeAttr('checked');
+    });
+    new_element.find('label').each(function() {
+        var new_for = $(this).attr('for').replace('-0-', '-' + elem_num + '-');
+        $(this).attr('for', new_for);
+    });
+
+    new_element.hide();
+    new_element.fadeIn();
+
+    nuevo_selector = selector.replace('li:first', 'li:last');
+    $(nuevo_selector).after(new_element);
+}
+
+function convertir_en_agregar(selector, selector_bloque_a_clonar)
+{
+    $(selector).click(function () {
+        clone_field_list(selector_bloque_a_clonar + ' li:first');
+        return false;
+    });
+}
+
 $(document).ready(function(){
-    $("#nombre_persona").focus();
+    convertir_en_agregar('button[id="agregar_aborto_anterior"]', '#aborto_anterior');
+    convertir_en_agregar('button[id="agregar_intento_de_aborto"]', '#intento_de_aborto');
+    convertir_en_agregar('button[id="agregar_informacion_incorrecta"]', '#informacion_incorrecta');
+
 });
+
 </script>
 
 <ul class="breadcrumb">
@@ -34,10 +87,6 @@ $(document).ready(function(){
     {% endif %}
  {% endfor %}
 
-
- {% for im in form.im_accounts %}
-    {{ im.protocol.label }}: {{ im.protocol }}
- {% endfor %}
 
         <div class="input">
  <button type='submit' class='btn success'>Guardar</button>

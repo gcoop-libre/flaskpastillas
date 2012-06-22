@@ -1,14 +1,21 @@
 <!doctype html>
 <html>
 <head>
-    <title>Test site</title>
+    <title>flask pastillas</title>
+
     <link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css" >
     <link href="/static/custom.css" rel="stylesheet" type="text/css" >
     <link href="/static/datepicker.css" rel="stylesheet" type="text/css" >
+    <link href="/static/css/jquery.dataTables.css" rel="stylesheet" type="text/css" >
+
     <script src="/static/js/jquery-1.7.1.min.js"></script>
     <script src="/static/js/jquery-ui.min.js"></script>
     <script src="/static/js/bootstrap-datepicker.js"></script>
+    <script src="/static/js/jquery.dataTables.min.js"></script>
     <script src="/static/js/custom.js"></script>
+    <script src="/static/js/bootstrap-twipsy.js"></script>
+    <script src="/static/js/bootstrap-popover.js"></script>
+
 
     {% block header %}{% endblock %}
 </head>
@@ -18,17 +25,25 @@
 
 <div class='container'>
 
+{% block superior %}
 
     <div style='float: right'><a class='btn' href='/salir'>Salir</a></div>
     {% block menu %}
         <ul class="tabs">
-            <li><a href="/">Principal</a></li>
             <li><a href="/llamada">Llamadas</a></li>
             <li><a href="/estadisticas">Estadísticas</a></li>
+
+            {% if g.user.username == "admin" %}
+                <li><a href='/importar'>Asistente importación</a></li>
+                <li><a href='/admin'>Administrar</a></li>
+            {% endif %}
+
         </ul>
     {% endblock %}
 
-<div class='row'>
+{% endblock %}
+
+<div class='row'
 
 <div class='span16'>
       {% for category, message in get_flashed_messages(with_categories=true) %}
@@ -44,7 +59,7 @@
 </div>
 
 <div class='row'>
-    <div id="footer">Desarrollado por gcoop</div>
+    <div id="footer"></div>
 </div>
 
 </div> <!-- cierra container -->
