@@ -22,6 +22,7 @@ from utils import Progreso
 
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
+app.config.from_envvar('PASTILLAS_CONFIG_PATH')
 
 
 db = Database(app)
