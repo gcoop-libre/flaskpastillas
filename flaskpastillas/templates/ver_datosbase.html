@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<ul class="breadcrumb">
+    <li>{{ link_to("Listado", 'llamada_listar')|safe }} / </li>
+    <li class="active"><a href="#">Detalle</a></li>
+</ul>
+
+
+<h1>Detalles de datos basicos</h1>
+
+
+<table style='width: 50%'>
+  <tr>
+    <th>Nombre</th>
+    <td>{{datosbase.nombre}}</td>
+  </tr>
+
+  <tr>
+    <th>Número de ficha</th>
+    <td>{{datosbase.numero_de_ficha}}</td>
+  </tr>
+
+  <tr>
+    <th>Fecha</th>
+    <td>{{datosbase.fecha}}</td>
+  </tr>
+
+  <tr>
+    <th>Teléfono</th>
+    <td>{{datosbase.telefono}}</td>
+  </tr>
+
+  <tr>
+    <th>Edad</th>
+    <td>{{datosbase.edad}}</td>
+  </tr>
+
+  <tr>
+    <th>Provincia</th>
+    <td>{{datosbase.provincia.nombre}}</td>
+  </tr>
+
+  <tr>
+    <th>Barrio</th>
+    <td>{{datosbase.barrio}}</td>
+  </tr>
+
+  <tr>
+    <th>Nacionalidad</th>
+    <td>{{datosbase.nacionalidad}}</td>
+  </tr>
+
+  <tr>
+    <th>Localidad</th>
+    <td>{{datosbase.localidad | safe}}</td>
+  </tr>
+</table>
+
+<h2>Llamadas:</h2>
+
+{% for (indice, llamada) in llamadas %}
+    <h3>Llamada: {{indice+1}} </h3>
+
+<table style='width: 50%'>
+    <tr>
+        <th>Fecha</th>
+        <td>{{llamada.fecha}}</td>
+    <tr>
+
+    <tr>
+        <th>Motivo</th>
+        <td>{{llamada.motivo}}</td>
+    <tr>
+
+    <tr>
+        <th>Reconfirmó embarazo</th>
+        <td>{{llamada.reconfirmo_embarazo}}</td>
+    <tr>
+
+    <tr>
+        <th>Método de comprobación</th>
+        <td>{{llamada.metodo_comprobacion}}</td>
+    <tr>
+
+    <tr>
+        <th>FUM</th>
+        <td>{{llamada.fum}}</td>
+    <tr>
+
+    <tr>
+        <th>Edad gestacional</th>
+        <td>{{llamada.edad_gestacional}}</td>
+    <tr>
+
+    <tr>
+        <th>Semana en la que se enteró</th>
+        <td>{{llamada.semana_entero}}</td>
+    <tr>
+
+    <tr>
+        <th>Motivo mas de 10 semanas</th>
+        <td>{{llamada.motivo_mas_de_10_semanas}}</td>
+    <tr>
+
+    <tr>
+        <th>Cantidad de hijos</th>
+        <td>{{llamada.cantidad_de_hijos}}</td>
+    <tr>
+</table>
+{% endfor %}
+
+
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+<script>
+$(document).ready(function(){
+    $("#nombre_persona").focus();
+});
+</script>
+
+<ul class="breadcrumb">
+    <li>{{ link_to("Listado", 'llamada_listar')|safe }} / </li>
+    <li class="active"><a href="#">Cargando datos basicos</a></li>
+</ul>
+
+<h1>Cargar una llamada</h1>
+
+<form method="POST" action='/llamada/crear'>
+
+<fieldset>
+ {% for campo in form %}
+    {% if campo.name != 'csrf' %} 
+        {% if campo.name in form.errors %}
+             <div class="clearfix error">
+        {% else %}
+             <div class="clearfix">
+        {% endif %}
+                <label>{{ campo.label }}</label>
+                <div class="input">
+                    {{ campo }}
+                    {# Si no tiene error el help-line queda vacío y no es visible #}
+                    <span class="help-inline"> {{ "<br/>".join(form.errors[campo.name]) }} </span>
+                </div>
+            </div>      <!-- end clearfix div -->
+    {% endif %}
+ {% endfor %}
+
+
+        <div class="input">
+ <button type='submit' class='btn success'>Siguiente</button>
+</div>
+
+</fieldset>
+</form>
+
+
+{% endblock %}

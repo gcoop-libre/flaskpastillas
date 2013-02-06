@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    {{ javascript('highcharts.js') | safe }}
+{% endblock %}
+
+{% block content %}
+
+<h1>Estadísticas</h1>
+
+{{ pie(values=tienen_manual, title='¿Tienen el manual?') | safe }}
+{{ pie(values=provincias, title='¿De que provincias?') | safe }}
+
+{% endblock %}

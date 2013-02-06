@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{{ javascript('datatable.js')|safe }}
+
+<h1>Llamadas</h1>
+
+<a href='{{ url_for('llamada_crear') }}' class='btn success'>Cargar una llamada nueva</a> 
+
+{% include "_tabla_llamadas.html" %}
+
+{% endblock %}

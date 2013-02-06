@@ -1,0 +1,330 @@
+# -*- encoding: utf-8 -*-
+
+# $grep  '[0-9])$' Libro\ de\ residencias.txt | uniq
+PROVINCIAS = [('BUENOS AIRES', 6),
+              ('CATAMARCA', 10),
+              ('CORDOBA', 14),
+              ('CORRIENTES', 18),
+              ('CHACO', 22),
+              ('CHUBUT', 26),
+              ('ENTRE RIOS', 30),
+              ('FORMOSA', 34),
+              ('JUJUY', 38),
+              ('LA PAMPA', 42),
+              ('LA RIOJA', 46),
+              ('MENDOZA', 50),
+              ('MISIONES', 54),
+              ('NEUQUEN', 58),
+              ('RIO NEGRO', 62),
+              ('SALTA', 66),
+              ('SAN JUAN', 70),
+              ('SAN LUIS', 74),
+              ('SANTA CRUZ', 78),
+              ('SANTA FE', 82),
+              ('SANTIAGO DEL ESTERO', 86),
+              ('TIERRA DEL FUEGO', 94),
+              ('TUCUMAN', 90),
+              ('Dato perdido', 99),
+              ]
+
+BARRIOS = [(99, u'N/A'),
+           (2, u'Agronomía'),
+           (3, u'Almagro'),
+           (4, u'Balvanera'),
+           (5, u'Barracas'),
+           (6, u'Belgrano'),
+           (7, u'Boedo'),
+           (8, u'Caballito'),
+           (9, u'Chacarita'),
+           (10, u'Coghlan'),
+           (11, u'Colegiales'),
+           (12, u'Flores'),
+           (13, u'Floresta'),
+           (14, u'La Boca'),
+           (15, u'Liniers'),
+           (16, u'Mataderos'),
+           (17, u'Monserrat'),
+           (18, u'Monte Castro'),
+           (19, u'Nueva Pompeya'),
+           (20, u'Nuñez'),
+           (21, u'Palermo'),
+           (22, u'Parque Avellaneda'),
+           (23, u'Parque Chacabuco'),
+           (24, u'Parque Chas'),
+           (25, u'Parque Patricios'),
+           (26, u'Paternal'),
+           (27, u'Puerto Madero'),
+           (28, u'Recoleta'),
+           (29, u'Retiro'),
+           (30, u'Saavedra'),
+           (31, u'San Cristobal'),
+           (32, u'San Nicolás'),
+           (33, u'San Telmo'),
+           (34, u'Velez Sarsfield'),
+           (35, u'Versalles'),
+           (36, u'Villa Crespo'),
+           (37, u'Villa del Parque'),
+           (38, u'Villa Devoto'),
+           (39, u'Villa General Mitre'),
+           (40, u'Villa Lugano'),
+           (41, u'Villa Luro'),
+           (42, u'Villa Ortuzar'),
+           (43, u'Villa Pueyrredón'),
+           (44, u'Villa Real'),
+           (45, u'Villa Riachuelo'),
+           (46, u'Villa Santa Rita'),
+           (47, u'Villa Soldati'),
+           (48, u'Villa Urquiza')]
+
+MOTIVO = [(99, u"99: No corresponde"),
+          (2,  u"02: Aborto exitoso con ecografía"),
+          (3,  u"03: Aborto exitoso porque vio el saco gestacional (para 9 o más semanas)"),
+          (4,  u"04: Aborto exitoso con tacto"),
+          (5,  u"05: Sangró y quiere confirmar el aborto"),
+          (6,  u"06: Dudas pre aborto puntuales"),
+          (7,  u"07: Dudas posaborto puntuales (cuántas toallitas, me las sigo poniendo, etc.)"),
+          (8,  u"08: No venden misoprostol en la farmacia porque “no lo trabajan”"),
+          (9,  u"09: No le venden misoprostol en la farmacia sin doble o triple receta"),
+          (10, u"10: No consiguió pero buscó en menos de 10 farmacias (sólo para sin receta)"),
+          (11, u"11: Aborto incompleto con ecografía (para 15 días o más)"),
+          (12, u"12: Signos de alarma"),
+          (13, u"13: No abortó (la que lo confirmó con eco, tacto o no sangró)"),
+          (14, u"14: Busca receta (no buscó misoprostol)"),
+          (15, u"15: No consiguió dosis completa (sólo para las que llaman específicamente por esto)"),
+          (16, u"16: busca información ya intentó abortar "),
+          (17, u"17: busca información no intentó abortar")]
+
+
+RECONFIRMO = [(0, u"0: Sí, sin especificar (la que no sangró o está de 9 o más semanas y no vio el saco)"),
+              (1, u"1: No "),
+              (2, u"2: Sí, con ecografía"),
+              (3, u"3: Sí, con tacto")]
+
+METODO_COMPROBACION = [(99, u"99: Dato perdido"),
+                       (2,  u"02: Orina"),
+                       (3,  u"03: Sangre"),
+                       (4,  u"04: Ecografía"),
+                       (5,  u"05: Tacto")]
+
+MOTIVO_MAS_DE_10_SEMANAS = [(99, u"99: Dato perdido"),
+                            (2, u"02: Intentos fallidos"),
+                            (3, u"03: No conseguía misoprostol por falta de disponibilidad (no se lo venden)"),
+                            (4, u"04: No conseguía misoprostol por motivos económicos"),
+                            (5, u"05: Confirmó después de la semana 13"),
+                            (6, u"06: Cambió de idea"),
+                            (7, u"07: Malformaciones fetales"),
+                            (8, u"08: No pudo acceder a información segura"),
+                            (9, u"09: Creyó que no podía quedar embarazada")]
+
+
+ATENCION_MEDICA = [(99,"99: Dato perdido"),
+                   (1, u"01: No fue"),
+                   (2, u"02: Fue y se sintió intimidada para hablar de aborto"),
+                   (3, u"03: Se negó a dar información"),
+                   (4, u"04: Le dio información incorrecta"),
+                   (5, u"05: Le dio información correcta (ej: Htal Argerich)"),
+                   (6, u"06: Le dio información incorrecta + receta (+ Nº de la línea o no= indistinto)"),
+                   (7, u"07: Le dio información correcta + receta (+ Nº de la línea o no= indistinto)"),
+                   (8, u"08: Derivó a un quirúrgico"),
+                   (9, u"09: Derivó a consejería"),
+                   (10,"10: Le dio solo la receta"),
+                   (11,"11: Se negó a hacerle la receta (cuando la mujer fue al médico explícitamente para eso)"),
+                   (12,"12: Propaganda próvida"),
+                   (13,"13: Sólo seguimiento posaborto")]
+
+TIPO_DE_SERVICIO = [(99,"99: Dato perdido"),
+                    (2, u"02: Atención primaria pública"),
+                    (3, u"03: Atención hospital público"),
+                    (4, u"04: Atención primaria privada"),
+                    (5, u"05: Atención clínica privada"),
+                    (6, u"06: Atención primaria obra social"),
+                    (7, u"07: Clínica obra social")]
+
+OBRA_SOCIAL = [(0, u"Sí"),
+               (1, u"No")]
+
+COMPANIA = [(99, u"99: Dato perdido"),
+            (1, u"01: No tiene compañía"),
+            (2, u"02: Amigx"),
+            (3, u"03: Pareja"),
+            (4, u"04: Médicx/Farmacéuticx"),
+            (5, u"05: Sin especificar"),
+            (6, u"06: Familia"),
+            (8, u"08: Otrx")]
+
+ABORTO_ANTERIOR = [(99,"99: Dato perdido"),
+                   (1, u"01: No hay aborto anterior"),
+                   (2, u"02: Misoprostol"),
+                   (3, u"03: Otros medicamentos (metrotexato – inyección – oxitocina – etc)"),
+                   (4, u"04: Quirúrgico"),
+                   (5, u"05: Té, yuyos o perejil"),
+                   (6, u"06: Sonda"),
+                   (7, u"07: Sin especificar"),
+                   (8, u"08: Aborto espontáneo")]
+
+METODO_ANTICONCEPTIVO = [(99,"99: Dato perdido"),
+                         (1, u"1: No usa"),
+                         (2, u"2: Sí, sin especificar"),
+                         (3, u"3: Hormonales"),
+                         (4, u"4: Quirúrgicos"),
+                         (5, u"5: DIU"),
+                         (6, u"6: Preservativo"),
+                         (7, u"7: Abstinencia periódica"),
+                         (8, u"8: Coitus interruptus")]
+
+AHE = [(99,u"Dato perdido"),
+       (1, u"No "),
+       (0, u"Sí")]
+
+COMO_SE_ENTERO = [(99,u"99: Dato perdido"),
+                  (2, u"02: Tv"),
+                  (3, u"03: Diario"),
+                  (4, u"04: Radio"),
+                  (5, u"05: Sticker / Volante / Cartel"),
+                  (6, u"06: Internet"),
+                  (7, u"07: Boca a boca"),
+                  (8, u"08: Organización"),
+                  (9, u"09: Hospital / Médicx / Equipo de Salud"),
+                  (10,u"10: Revista"),
+                  (11,u"11: Farmacéuticx"),
+                  (12,u"12: Otrx"),
+                  (13,u"13: Alguien que ya abortó con la línea le pasó el número"),
+                  (14,u"14: Sector educativo")]
+
+FUE_AL_MEDICO = [
+        (99, u"99: Dato perdido"),
+        (1, u"1: No fue"),
+        (2, u"2: Fue y se sintió intimidada para hablar de aborto"),
+        (3, u"3: Se negó a dar información"),
+        (4, u"4: Le dio información incorrecta"),
+        (5, u"5: Le dio información correcta (ej: Htal Argerich)"),
+        (6, u"6: Le dio información incorrecta + receta (+ Nº de la línea o no= indistinto)"),
+        (7, u"7: Le dio información correcta + receta (+ Nº de la línea o no= indistinto)"),
+        (8, u"8: Derivó a un quirúrgico"),
+        (9, u"9: Derivó a consejería"),
+        (10, u"10: Le dio solo la receta"),
+        (11, u"11: Se negó a hacerle la receta (cuando la mujer fue al médico explícitamente para eso)"),
+        (12, u"12: Propaganda próvida"),
+        (13, u"13: Sólo seguimiento posaborto"),
+]
+
+TIPO_DE_SERVICIO = [
+    (99, u"99: Dato perdido"),
+    (2, u"2: Atención primaria pública"),
+    (3, u"3: Atención hospital público"),
+    (4, u"4: Atención primaria privada"),
+    (5, u"5: Atención clínica privada"),
+    (6, u"6: Atención primaria obra social"),
+    (7, u"7: Clínica obra social"),
+]
+
+OBRA_SOCIAL = [
+    (0, "SI"),
+    (1, "NO"),
+]
+
+COMPANIA = [
+(99, u"99: Dato perdido"),
+(1, u"1: No tiene compañía"),
+(2, u"2: Amigx"),
+(3, u"3: Pareja"),
+(4, u"4: Médicx/Farmacéuticx"),
+(5, u"5: Sin especificar"),
+(6, u"6: Familia"),
+(8, u"8: Otrx"),
+]
+
+ABORTO_ANTERIOR = [
+(99, u'99: Dato perdido'),
+(1, u'1: No hay aborto anterior'),
+(2, u'2: Misoprostol'),
+(3, u'3: Otros medicamentos (metrotexato – inyección – oxitocina – etc)'),
+(4, u'4: Quirúrgico'),
+(5, u'5: Té, yuyos o perejil'),
+(6, u'6: Sonda'),
+(7, u'7: Sin especificar'),
+(8, u'8: Aborto espontáneo'),
+]
+
+MEDIO_COMO_SE_ENTERO = [
+(99, u'99: Dato perdido'),
+(2, u'2: Tv'),
+(3, u'3: Diario'),
+(4, u'4: Radio'),
+(5, u'5: Sticker / Volante / Cartel'),
+(6, u'6: Internet'),
+(7, u'7: Boca a boca'),
+(8, u'8: Organización'),
+(9, u'9: Hospital / Médicx / Equipo de Salud'),
+(10, u'10: Revista'),
+(11, u'11: Farmacéuticx'),
+(12, u'12: Otrx'),
+(13, u'13: Alguien que ya abortó con la línea le pasó el número'),
+(14, u'14: Sector educativo'),
+]
+
+MEDIO_INFORMACION_INCORRECTA = [
+(99, u'99: Dato perdido'),
+(1, u'1: No tenía información errónea'),
+(2, u'2: Médicx'),
+(3, u'3: Folleto'),
+(4, u'4: Boca a boca'),
+(5, u'5: Internet '),
+(6, u'6: Farmacéuticxs '),
+(7, u'7: Sin especificar'),
+(8, u'8: Organizaciones'),
+(9, u'9: Otros del equipos de salud (enfermerx, ts, etc)'),
+(10, u'10: Sector educativo'),
+]
+
+METODO_INTENTO_DE_ABORTO = [
+    (2, u'2: Misoprostol dosis correcta vaginal'),
+    (3, u'3: Misoprostol dosis correcta sublingual'),
+    (4, u'4: Misoprostol cantidad incorrecta'),
+    (5, u'5: Misoprostol intervalo incorrecto'),
+    (6, u'6: Misoprostol vías mezcladas/incorrectas (se usa sólo para cuando cambia la vía en la mitad de un proceso correcto)'),
+    (7, u'7: Misoprostol dosis incorrecta (este se usa para 2vaginal+2sublingual)'),
+    (8, u'8: Inyección'),
+    (9, u'9: Métodos caseros'),
+    (10, u'10: Sonda'),
+    (11, u'11: Otros'),
+]
+
+MISO_INTENTO_ABORTO = [
+    (99, u'99: Dato perdido'),
+    (2, u'2: Farmacia con receta con descuento de obra social'),
+    (3, u'3: Farmacia con receta sin descuento de obra social'),
+    (4, u'4: Farmacia sin receta'),
+    (5, u'5: Fuera de la farmacia'),
+    (6, u'6: Internet'),
+    (7, u'7: Sí, sin especificar'),
+    (8, u'8: Red social gratis'),
+]
+
+SANGRADO_INTENTO_ABORTO = [
+    (2, u'2: Ni efectos secundarios ni sangrado'),
+    (3, u'3: Efectos secundarios sin sangrado'),
+    (4, u'4: Sangrado menos que una menstruación'),
+    (5, u'5: Sangrado igual a una menstruación'),
+    (6, u'6: Sangrado más que una menstruación'),
+    (7, u'7: Sangrado y saco gestacional (no usar este código antes de las 9 semanas)'),
+    (8, u'8: Hemorragia'),
+]
+
+MOTIVO_DERIVACION = [
+    (99, u'99: Dato perdido'),
+    (2, u'2: Aborto incompleto'),
+    (3, u'3: Más de 15 semanas'),
+    (4, u'4: Menor de edad'),
+    (5, u'5: Ecografía para confirmar las semanas'),
+    (6, u'6: Ecografía posaborto'),
+    (7, u'7: Violación'),
+    (8, u'8: Signos de infección'),
+    (9, u'9: Signos de hemorragia'),
+    (10, u'10: Dolores	'),
+    (11, u'11: No puede usar misoprostol'),
+    (12, u'12: Prefiere ir a un médico antes de abortar'),
+    (13, u'13: Falló y quiere saber riesgos de continuar con el embarazo'),
+    (14, u'14: Aborto exitoso de segundo trimestre (internación, etc.)'),
+    (15, u'15: Cuestiones de comunicación (es sorda, no habla el idioma, etc.)'),
+]
