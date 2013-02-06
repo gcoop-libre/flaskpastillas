@@ -27,6 +27,7 @@ Primero hay que entrar en el entorno, y luego
 lanzar del servidor de prueba::
 
     workon flaskpastillas
+    cd flaskpastillas
     python app.py
 
 
@@ -36,6 +37,10 @@ Iniciar Redis y Celery
 El sistema de importación de registros en el sistema se realizó
 usando Celery, así que si quieres usar esa funcionalidad hay
 unos pasos mas...
+
+Estos pasos solamente son necesarios si se quiere iniciar la importación
+masiva desde una planilla excel, no es necesario para el uso normal
+de la aplicación.
 
 Primero es conveniente iniciar Redis (backend de datos/comunicación), y
 luego iniciar Celery desde el entorno virtual de python.
@@ -48,6 +53,7 @@ Luego, desde otro terminal podrías ingresar en el entorno
 virtual y lanzar Celery::
 
     workon flaskpastillas
+    cd flaskpastillas
     python manage.py celeryd
 
 
